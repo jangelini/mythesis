@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.9.2)  4 SEP 2014 10:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.9.2)  4 SEP 2014 12:00
 entering extended mode
  %&-line parsing enabled.
 **thesis
@@ -52,30 +52,27 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 
+(./thesis.bbl [1
 
-Package natbib Warning: Citation `karlijn2014' on page 1 undefined on input lin
-e 6.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2
 
-
-Package natbib Warning: There were undefined citations.
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./thesis.aux) ) 
+]
+(./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 558 strings out of 493848
- 6283 string characters out of 1152824
- 53719 words of memory out of 3000000
- 3914 multiletter control sequences out of 15000+50000
- 3948 words of font info for 15 fonts, out of 3000000 for 9000
+ 573 strings out of 493848
+ 6495 string characters out of 1152824
+ 54719 words of memory out of 3000000
+ 3923 multiletter control sequences out of 15000+50000
+ 4900 words of font info for 18 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 23i,4n,22p,221b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on thesis.pdf (1 page, 26488 bytes).
+ 23i,4n,24p,220b,176s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on thesis.pdf (2 pages, 57162 bytes).
 PDF statistics:
- 14 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
