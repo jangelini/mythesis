@@ -1,5 +1,25 @@
 \begin{thebibliography}{}
 
+\bibitem[Aziz {\em et~al.\/}(2012)Aziz, Treur, y van~der Wal]{Aziz}
+Aziz, A., Treur, J., y van~der Wal, C. (2012).
+\newblock An ambient agent model for support of informal caregivers during
+  stress.
+\newblock En H.~Jiang, W.~Ding, M.~Ali, y X.~Wu, editores, {\em Advanced
+  Research in Applied Artificial Intelligence\/}, Vol. 7345 de {\em Lecture
+  Notes in Computer Science\/}, p\'aginas 501--513. Springer Berlin Heidelberg.
+\newblock ISBN 978-3-642-31086-7.
+
+\bibitem[Bernier y Gerdts(2010)Bernier y Gerdts]{bernier2010autism}
+Bernier, R. y Gerdts, J. (2010).
+\newblock {\em Autism Spectrum Disorders: A Reference Handbook\/}.
+\newblock Contemporary world issues. ABC-CLIO.
+\newblock ISBN 9781598843347.
+
+\bibitem[Chen {\em et~al.\/}(2013)Chen, Ngo, y Park]{Chen2013}
+Chen, Y., Ngo, V., y Park, S.~Y. (2013).
+\newblock Caring for caregivers: Designing for integrality.
+\newblock p\'aginas 91--102.
+
 \bibitem[Denno {\em et~al.\/}(2013)Denno, Gillard, Graham, DiBonaventura,
   Goren, Varon, y Zorowitz]{Denno20131731}
 Denno, M.~S., Gillard, P.~J., Graham, G.~D., DiBonaventura, M.~D., Goren, A.,
@@ -16,5 +36,23 @@ Joling, K.~J., van Marwijk, H.~W., Veldhuijzen, A.~E., van~der Horst, H.~E.,
 \newblock The two-year incidence of depression and anxiety disorders in spousal
   caregivers of persons with dementia: Who is at the greatest risk?
 \newblock {\em The American Journal of Geriatric Psychiatry\/}, (0): --.
+
+\bibitem[Kazdin(2000)Kazdin]{psychologyapa}
+Kazdin, A.~E. (2000).
+\newblock {\em Encyclopedia of Psychology: 8 Volume Set\/}.
+\newblock ISBN 978-1-55798-187-5.
+
+\bibitem[Repetto {\em et~al.\/}(2013)Repetto, Gaggioli, Pallavicini, Cipresso,
+  Raspelli, y Riva]{repetto2013}
+Repetto, C., Gaggioli, A., Pallavicini, F., Cipresso, P., Raspelli, S., y Riva,
+  G. (2013).
+\newblock Virtual reality and mobile phones in the treatment of generalized
+  anxiety disorders: a phase-2 clinical trial.
+\newblock {\em Personal and Ubiquitous Computing\/}, {\bf 17}(2): 253--260.
+
+\bibitem[Robinson(1990)Robinson]{PMID2235645}
+Robinson, L. (1990).
+\newblock Stress and anxiety.
+\newblock {\em The Nursing clinics of North America\/}, {\bf 25}(4): 935—943.
 
 \end{thebibliography}
