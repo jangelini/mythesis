@@ -5,45 +5,45 @@ Database file #1: thesis.bib
 Warning--empty journal in Chen2013
 Warning--there's a number but no volume in Joling2014
 Warning--empty publisher in psychologyapa
-You've used 10 entries,
+You've used 11 entries,
             2733 wiz_defined-function locations,
-            790 strings with 7790 characters,
-and the built_in function-call counts, 5584 in all, are:
-= -- 488
-> -- 410
-< -- 6
-+ -- 124
-- -- 124
-* -- 612
-:= -- 872
-add.period$ -- 35
-call.type$ -- 10
-change.case$ -- 70
-chr.to.int$ -- 10
-cite$ -- 33
-duplicate$ -- 185
-empty$ -- 335
-format.name$ -- 136
-if$ -- 1120
+            796 strings with 7907 characters,
+and the built_in function-call counts, 5966 in all, are:
+= -- 526
+> -- 421
+< -- 7
++ -- 127
+- -- 127
+* -- 648
+:= -- 931
+add.period$ -- 38
+call.type$ -- 11
+change.case$ -- 74
+chr.to.int$ -- 11
+cite$ -- 36
+duplicate$ -- 200
+empty$ -- 368
+format.name$ -- 140
+if$ -- 1199
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 56
-num.names$ -- 42
-pop$ -- 118
+missing$ -- 13
+newline$ -- 61
+num.names$ -- 46
+pop$ -- 122
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 63
 quote$ -- 0
-skip$ -- 169
+skip$ -- 181
 stack$ -- 0
-substring$ -- 217
-swap$ -- 68
+substring$ -- 247
+swap$ -- 71
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 93
 warning$ -- 3
-while$ -- 42
+while$ -- 46
 width$ -- 0
-write$ -- 138
+write$ -- 151
 (There were 3 warnings)
