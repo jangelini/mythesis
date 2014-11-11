@@ -1,6 +1,6 @@
-\contentsline {chapter}{\numberline {I.}Introducci\'on}{2}
-\contentsline {chapter}{\numberline {II.}Fundamentos te\'oricos}{4}
-\contentsline {section}{\numberline {II.1}Qu\'e es la ansiedad?}{4}
-\contentsline {section}{\numberline {II.2}Cuidadores}{4}
-\contentsline {section}{\numberline {II.3}Cargas}{4}
-\contentsline {chapter}{\numberline {III.}Mis notas}{5}
+\contentsline {chapter}{\numberline {I.}Introducci\'on}{2}{chapter.1}
+\contentsline {chapter}{\numberline {II.}Fundamentos te\'oricos}{4}{chapter.2}
+\contentsline {section}{\numberline {II.1}Qu\'e es la ansiedad?}{4}{section.2.1}
+\contentsline {section}{\numberline {II.2}Cuidadores}{4}{section.2.2}
+\contentsline {section}{\numberline {II.3}Tipos de cargas en los cuidadores}{4}{section.2.3}
+\contentsline {chapter}{\numberline {III.}Mis notas}{5}{chapter.3}

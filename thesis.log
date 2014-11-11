@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.11.11)  11 NOV 2014 19:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.11.11)  11 NOV 2014 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -68,17 +68,134 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \c@dal@supervisornum=\count92
 \c@dal@readernum=\count93
 )
-(./tcilatex.tex
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texmf/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texmf/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen111
+\Hy@linkcounter=\count94
+\Hy@pagecounter=\count95
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count96
+
+(/usr/share/texmf/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count97
+
+(/usr/share/texmf/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen112
+\Fld@menulength=\count98
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count99
+\c@Item=\count100
+\c@Hfootnote=\count101
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count102
+\c@bookmark@seq@number=\count103
+
+(/usr/share/texmf/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip45
+)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 8.
+
+Package hyperref Info: Option `colorlinks' set `false' on input line 8.
+(/usr/share/texmf/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
+) (./tcilatex.tex
 TCILATEX Macros for Scientific Word 5.0 <13 Feb 2003>.
 NOTICE: This macro file is NOT proprietary and may be freely copied and distrib
 uted.
-\msipdfoutput=\count94
-\@hour=\count95
-\@minute=\count96
-\GRAPHICSTYPE=\count97
-\@msidraft=\count98
-\dispkind=\count99
-\theight=\dimen111
+\msipdfoutput=\count104
+\@hour=\count105
+\@minute=\count106
+\GRAPHICSTYPE=\count107
+\@msidraft=\count108
+\dispkind=\count109
+\theight=\dimen115
 LaTeX Info: Redefining \rm on input line 645.
 LaTeX Info: Redefining \sf on input line 646.
 LaTeX Info: Redefining \tt on input line 647.
@@ -86,16 +203,16 @@ LaTeX Info: Redefining \bf on input line 648.
 LaTeX Info: Redefining \it on input line 649.
 LaTeX Info: Redefining \sl on input line 650.
 LaTeX Info: Redefining \sc on input line 651.
-\c@theorem=\count100
-\c@axiom=\count101
-\c@remark=\count102
-\c@example=\count103
-\c@exercise=\count104
-\c@definition=\count105
-\c@equationnumber=\count106
+\c@theorem=\count110
+\c@axiom=\count111
+\c@remark=\count112
+\c@example=\count113
+\c@exercise=\count114
+\c@definition=\count115
+\c@equationnumber=\count116
 (/usr/share/texmf/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip45
+\@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf/tex/latex/amsmath/amstext.sty
@@ -104,67 +221,69 @@ Package: amstext 2000/06/29 v2.01
 (/usr/share/texmf/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
-\ex@=\dimen112
+\ex@=\dimen116
 ))
 (/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen113
+\pmbraise@=\dimen117
 )
 (/usr/share/texmf/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count107
+\inf@bad=\count117
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count108
-\leftroot@=\count109
+\uproot@=\count118
+\leftroot@=\count119
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count110
-\DOTSCASE@=\count111
+\classnum@=\count120
+\DOTSCASE@=\count121
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen114
+\big@size=\dimen118
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count112
-\c@MaxMatrixCols=\count113
-\dotsspace@=\muskip10
-\c@parentequation=\count114
-\dspbrk@lvl=\count115
+\macc@depth=\count122
+\c@MaxMatrixCols=\count123
+\dotsspace@=\muskip11
+\c@parentequation=\count124
+\dspbrk@lvl=\count125
 \tag@help=\toks17
-\row@=\count116
-\column@=\count117
-\maxfields@=\count118
+\row@=\count126
+\column@=\count127
+\maxfields@=\count128
 \andhelp@=\toks18
-\eqnshift@=\dimen115
-\alignsep@=\dimen116
-\tagshift@=\dimen117
-\tagwidth@=\dimen118
-\totwidth@=\dimen119
-\lineht@=\dimen120
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
 \@envbody=\toks19
-\multlinegap=\skip46
-\multlinetaggap=\skip47
+\multlinegap=\skip47
+\multlinetaggap=\skip48
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -200,14 +319,37 @@ LaTeX Font Info:    ... okay on input line 8.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[1
+\AtBeginShipoutBox=\box28
+Package hyperref Info: Link coloring OFF on input line 11.
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./thesis.toc)
-\tf@toc=\write3
-\openout3 = `thesis.toc'.
+(/usr/share/texmf/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count129
+)
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
+ (./thesis.out)
+(./thesis.out)
+\@outlinefile=\write3
+\openout3 = `thesis.out'.
 
+ [1
 
-[1
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./thesis.toc)
+\tf@toc=\write4
+\openout4 = `thesis.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19         \newpage
+                      [1
 
 ]
 Cap\'{i}tulo I.
@@ -222,12 +364,12 @@ Cap\'{i}tulo III.
 [5
 
 ] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
  (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
  (./thesis.bbl [7]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -239,27 +381,37 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 )
-[9] (./thesis.aux) )
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+ (./thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: D0738BD847B14F071A78322B8717715C;355.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+ )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 9 (\begingroup)
+### semi simple group (level 1) entered at line 12 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2165 strings out of 493315
- 25761 string characters out of 6145892
- 94082 words of memory out of 5000000
- 5631 multiletter control sequences out of 15000+600000
+ 6109 strings out of 493315
+ 85674 string characters out of 6145892
+ 180819 words of memory out of 5000000
+ 9501 multiletter control sequences out of 15000+600000
  10932 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,7n,24p,933b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,28p,934b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (10 pages, 81953 bytes).
+Output written on thesis.pdf (10 pages, 85017 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
