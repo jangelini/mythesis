@@ -47,6 +47,14 @@ Kazdin, A.~E. (2000).
 \newblock {\em Encyclopedia of Psychology: 8 Volume Set\/}.
 \newblock ISBN 978-1-55798-187-5.
 
+\bibitem[Miranda {\em et~al.\/}(2014)Miranda, Calder\'{o}n, y
+  Favela]{Miranda:2014:ADU:2676690.2676694}
+Miranda, D., Calder\'{o}n, M., y Favela, J. (2014).
+\newblock Anxiety detection using wearable monitoring.
+\newblock En {\em Proceedings of the 5th Mexican Conference on Human-Computer
+  Interaction\/}, MexIHC '14, p\'aginas 34:34--34:41, New York, NY, USA. ACM.
+\newblock ISBN 978-1-4503-3285-9.
+
 \bibitem[Repetto {\em et~al.\/}(2013)Repetto, Gaggioli, Pallavicini, Cipresso,
   Raspelli, y Riva]{repetto2013}
 Repetto, C., Gaggioli, A., Pallavicini, F., Cipresso, P., Raspelli, S., y Riva,
@@ -67,6 +75,13 @@ Rosa, E., Lussignoli, G., Sabbatini, F., Chiappa, A., Cesare, S.~D., Lamanna,
 \newblock Needs of caregivers of the patients with dementia.
 \newblock {\em Archives of Gerontology and Geriatrics\/}, {\bf 51}(1): 54 --
   58.
+
+\bibitem[Sharma y Gedeon(2012)Sharma y Gedeon]{Sharma20121287}
+Sharma, N. y Gedeon, T. (2012).
+\newblock Objective measures, sensors and computational techniques for stress
+  recognition and classification: A survey.
+\newblock {\em Computer Methods and Programs in Biomedicine\/}, {\bf 108}(3):
+  1287 -- 1301.
 
 \bibitem[Wilt {\em et~al.\/}(2011)Wilt, Oehlberg, y Revelle]{Wilt2011987}
 Wilt, J., Oehlberg, K., y Revelle, W. (2011).

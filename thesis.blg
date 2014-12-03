@@ -3,48 +3,52 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: cicese.bst
 Database file #1: thesis.bib
+Repeated entry---line 488 of file thesis.bib
+ : @article{Sharma20121287
+ :                        ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Chen2013
 Warning--there's a number but no volume in Joling2014
 Warning--empty publisher in psychologyapa
-You've used 11 entries,
+You've used 13 entries,
             2733 wiz_defined-function locations,
-            796 strings with 7907 characters,
-and the built_in function-call counts, 5966 in all, are:
-= -- 526
-> -- 421
-< -- 7
-+ -- 127
-- -- 127
-* -- 648
-:= -- 931
-add.period$ -- 38
-call.type$ -- 11
-change.case$ -- 74
-chr.to.int$ -- 11
-cite$ -- 36
-duplicate$ -- 200
-empty$ -- 368
-format.name$ -- 140
-if$ -- 1199
+            811 strings with 8408 characters,
+and the built_in function-call counts, 7170 in all, are:
+= -- 651
+> -- 474
+< -- 9
++ -- 142
+- -- 142
+* -- 765
+:= -- 1097
+add.period$ -- 46
+call.type$ -- 13
+change.case$ -- 87
+chr.to.int$ -- 13
+cite$ -- 42
+duplicate$ -- 249
+empty$ -- 455
+format.name$ -- 159
+if$ -- 1461
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 61
-num.names$ -- 46
-pop$ -- 122
+missing$ -- 15
+newline$ -- 72
+num.names$ -- 54
+pop$ -- 137
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 72
 quote$ -- 0
-skip$ -- 181
+skip$ -- 228
 stack$ -- 0
-substring$ -- 247
-swap$ -- 71
-text.length$ -- 3
+substring$ -- 334
+swap$ -- 95
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 93
+type$ -- 111
 warning$ -- 3
-while$ -- 46
+while$ -- 56
 width$ -- 0
-write$ -- 151
-(There were 3 warnings)
+write$ -- 182
+(There was 1 error message)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.11.11)  11 NOV 2014 12:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.11.27)  2 DEC 2014 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -357,61 +357,69 @@ Cap\'{i}tulo I.
 
 ] [3]
 Cap\'{i}tulo II.
-[4
-
-]
-Cap\'{i}tulo III.
-[5
-
-] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
- (/usr/share/texmf/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
+(/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
- (./thesis.bbl [7]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+ [4
+
+]
+Cap\'{i}tulo III.
+
+Overfull \hbox (16.36256pt too wide) in paragraph at lines 61--61
+[]\OT1/cmr/bx/n/17.28 M^^Setodos para la de-tec-cion de an-siedad tradi-cionale
+s 
+ []
+
+[5
+
+] [6]
+Cap\'{i}tulo IV.
+[7
+
+] [8] (./thesis.bbl [9] [10]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [8
+ [11
 
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D0738BD847B14F071A78322B8717715C;355.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+(rerunfilecheck)             Checksum: CF88E5C59B15E9D9851CEEE0C0033537;879.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 12 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6109 strings out of 493315
- 85674 string characters out of 6145892
- 180819 words of memory out of 5000000
- 9501 multiletter control sequences out of 15000+600000
- 10932 words of font info for 39 fonts, out of 8000000 for 9000
+ 6135 strings out of 493315
+ 86128 string characters out of 6145892
+ 180937 words of memory out of 5000000
+ 9515 multiletter control sequences out of 15000+600000
+ 11239 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  29i,7n,28p,934b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (10 pages, 85017 bytes).
+Output written on thesis.pdf (13 pages, 91123 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 202 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
