@@ -9,5 +9,6 @@
 \contentsline {section}{\numberline {III.4}Discapacidades Mentales}{5}{section.3.4}
 \contentsline {subsection}{\numberline {III.4.1}Demencia}{5}{subsection.3.4.1}
 \contentsline {section}{\numberline {III.5}M\'etodos para la deteccion de ansiedad tradicionales}{5}{section.3.5}
-\contentsline {section}{\numberline {III.6}M\'etodos para la deteccion de ansiedad por medio de computadoras}{6}{section.3.6}
+\contentsline {section}{\numberline {III.6}Estrategias para el afrontamiento (coping strategies) de la ansiedad en cuidadores}{6}{section.3.6}
+\contentsline {section}{\numberline {III.7}M\'etodos para la deteccion de ansiedad por medio de computadoras}{6}{section.3.7}
 \contentsline {chapter}{\numberline {IV.}Mis notas}{7}{chapter.4}
