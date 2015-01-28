@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Association(2008)Association]{tagkey2008110}
+Association, A. (2008).
+\newblock 2008 alzheimer’s disease facts and figures.
+\newblock {\em Alzheimer's and Dementia\/}, {\bf 4}(2): 110 -- 133.
+
 \bibitem[Aziz {\em et~al.\/}(2012)Aziz, Treur, y van~der Wal]{Aziz}
 Aziz, A., Treur, J., y van~der Wal, C. (2012).
 \newblock An ambient agent model for support of informal caregivers during
@@ -19,6 +24,13 @@ Bernier, R. y Gerdts, J. (2010).
 Chen, Y., Ngo, V., y Park, S.~Y. (2013).
 \newblock Caring for caregivers: Designing for integrality.
 \newblock p\'aginas 91--102.
+
+\bibitem[Cooper {\em et~al.\/}(2006)Cooper, Katona, Orrell, y
+  Livingston]{Cooper200615}
+Cooper, C., Katona, C., Orrell, M., y Livingston, G. (2006).
+\newblock Coping strategies and anxiety in caregivers of people with
+  alzheimer's disease: The laser-ad study.
+\newblock {\em Journal of Affective Disorders\/}, {\bf 90}(1): 15 -- 20.
 
 \bibitem[Denno {\em et~al.\/}(2013)Denno, Gillard, Graham, DiBonaventura,
   Goren, Varon, y Zorowitz]{Denno20131731}
@@ -42,6 +54,14 @@ Kazdin, A.~E. (2000).
 \newblock {\em Encyclopedia of Psychology: 8 Volume Set\/}.
 \newblock ISBN 978-1-55798-187-5.
 
+\bibitem[Miranda {\em et~al.\/}(2014)Miranda, Calder\'{o}n, y
+  Favela]{Miranda:2014:ADU:2676690.2676694}
+Miranda, D., Calder\'{o}n, M., y Favela, J. (2014).
+\newblock Anxiety detection using wearable monitoring.
+\newblock En {\em Proceedings of the 5th Mexican Conference on Human-Computer
+  Interaction\/}, MexIHC '14, p\'aginas 34:34--34:41, New York, NY, USA. ACM.
+\newblock ISBN 978-1-4503-3285-9.
+
 \bibitem[Repetto {\em et~al.\/}(2013)Repetto, Gaggioli, Pallavicini, Cipresso,
   Raspelli, y Riva]{repetto2013}
 Repetto, C., Gaggioli, A., Pallavicini, F., Cipresso, P., Raspelli, S., y Riva,
@@ -62,6 +82,22 @@ Rosa, E., Lussignoli, G., Sabbatini, F., Chiappa, A., Cesare, S.~D., Lamanna,
 \newblock Needs of caregivers of the patients with dementia.
 \newblock {\em Archives of Gerontology and Geriatrics\/}, {\bf 51}(1): 54 --
   58.
+
+\bibitem[Sharma y Gedeon(2012)Sharma y Gedeon]{Sharma20121287}
+Sharma, N. y Gedeon, T. (2012).
+\newblock Objective measures, sensors and computational techniques for stress
+  recognition and classification: A survey.
+\newblock {\em Computer Methods and Programs in Biomedicine\/}, {\bf 108}(3):
+  1287 -- 1301.
+
+\bibitem[Tutar {\em et~al.\/}(2013)Tutar, Cankurtaran, Tekin, y
+  Caykoylu]{Tutar2013P484}
+Tutar, H., Cankurtaran, E., Tekin, P., y Caykoylu, A. (2013).
+\newblock The relationship between coping strategies and caregiver burden in
+  caregivers of people with alzheimer's dementia.
+\newblock {\em Alzheimer's and Dementia\/}, {\bf 9}(4, Supplement): P484 --.
+\newblock Alzheimer’s Association International Conference 2013 Alzheimer’s
+  Association International Conference 2013.
 
 \bibitem[Wilt {\em et~al.\/}(2011)Wilt, Oehlberg, y Revelle]{Wilt2011987}
 Wilt, J., Oehlberg, K., y Revelle, W. (2011).
