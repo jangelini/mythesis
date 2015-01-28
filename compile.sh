@@ -4,4 +4,4 @@ pdflatex thesis
 bibtex thesis
 pdflatex thesis
 pdflatex thesis
-okular thesis.pdf
+open thesis.pdf
