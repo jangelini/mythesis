@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.11.27)  29 JAN 2015 15:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.11.27)  2 FEB 2015 15:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -375,19 +375,19 @@ s
 
 [5
 
-] [6]
+] [6] [7]
 Cap\'{i}tulo IV.
-[7
+[8
 
 ]
 Cap\'{i}tulo V.
-[8
+[9
 
-] [9] [10] (./thesis.bbl [11]
+] [10] [11] (./thesis.bbl [12]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [12
+ [13
 
 ]
 Missing character: There is no â in font cmr12!
@@ -399,26 +399,26 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [13])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+ [14])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 330E690DD11CC20BD82C7F55E9A855D8;1114.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+(rerunfilecheck)             Checksum: 90837879307BF4F963328CEE42E27AFF;1193.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 12 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6155 strings out of 493315
- 86425 string characters out of 6145892
+ 6158 strings out of 493315
+ 86456 string characters out of 6145892
  181158 words of memory out of 5000000
- 9527 multiletter control sequences out of 15000+600000
+ 9528 multiletter control sequences out of 15000+600000
  11239 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  29i,7n,28p,934b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -426,10 +426,10 @@ Here is how much of TeX's memory you used:
 sr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (15 pages, 96014 bytes).
+Output written on thesis.pdf (16 pages, 96802 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
