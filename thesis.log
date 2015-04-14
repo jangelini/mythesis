@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  6 APR 2015 16:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  13 APR 2015 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -357,25 +357,25 @@ Cap\'{i}tulo I.
 
 ] [3]
 Cap\'{i}tulo II.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
 (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
  [4
 
 ]
 Cap\'{i}tulo III.
+[5
 
-Overfull \hbox (16.36256pt too wide) in paragraph at lines 61--61
+]
+Overfull \hbox (16.36256pt too wide) in paragraph at lines 70--70
 []\OT1/cmr/bx/n/17.28 M^^Setodos para la de-tec-cion de an-siedad tradi-cionale
 s 
  []
 
-[5
-
-] [6] [7]
+[6] [7]
 Cap\'{i}tulo IV.
 [8
 
@@ -392,44 +392,48 @@ Missing character: There is no ™ in font cmr12!
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
+ [14]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [14])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
  [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 90837879307BF4F963328CEE42E27AFF;1193.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+(rerunfilecheck)             Checksum: EDD1C4E853F31C57C7E14C5C40E6A7D2;998.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 12 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6162 strings out of 493315
- 86525 string characters out of 6145893
- 181226 words of memory out of 5000000
- 9531 multiletter control sequences out of 15000+600000
+ 6164 strings out of 493315
+ 86623 string characters out of 6145893
+ 181346 words of memory out of 5000000
+ 9534 multiletter control sequences out of 15000+600000
  11239 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,7n,28p,934b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,28p,934b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (16 pages, 98276 bytes).
+Output written on thesis.pdf (16 pages, 101279 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

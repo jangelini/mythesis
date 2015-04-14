@@ -10,45 +10,45 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in Chen2013
 Warning--there's a number but no volume in Joling2014
 Warning--empty publisher in psychologyapa
-You've used 17 entries,
+You've used 19 entries,
             2733 wiz_defined-function locations,
-            841 strings with 9526 characters,
-and the built_in function-call counts, 9491 in all, are:
-= -- 864
-> -- 634
-< -- 10
-+ -- 190
-- -- 190
-* -- 1025
-:= -- 1448
-add.period$ -- 61
-call.type$ -- 17
-change.case$ -- 117
-chr.to.int$ -- 17
-cite$ -- 54
-duplicate$ -- 330
-empty$ -- 598
-format.name$ -- 211
-if$ -- 1934
+            858 strings with 9977 characters,
+and the built_in function-call counts, 10475 in all, are:
+= -- 958
+> -- 687
+< -- 11
++ -- 205
+- -- 205
+* -- 1136
+:= -- 1597
+add.period$ -- 69
+call.type$ -- 19
+change.case$ -- 128
+chr.to.int$ -- 19
+cite$ -- 60
+duplicate$ -- 362
+empty$ -- 666
+format.name$ -- 230
+if$ -- 2133
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 94
-num.names$ -- 70
-pop$ -- 178
+missing$ -- 21
+newline$ -- 106
+num.names$ -- 78
+pop$ -- 189
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 105
 quote$ -- 0
-skip$ -- 300
+skip$ -- 329
 stack$ -- 0
-substring$ -- 435
-swap$ -- 127
+substring$ -- 495
+swap$ -- 139
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 147
+type$ -- 165
 warning$ -- 3
-while$ -- 74
+while$ -- 82
 width$ -- 0
-write$ -- 241
+write$ -- 271
 (There was 1 error message)
