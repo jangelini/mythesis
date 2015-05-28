@@ -1,0 +1,15 @@
+\begin{thebibliography}{}
+
+\bibitem[Adleman(1998)Adleman]{Adleman1998}
+Adleman, L.~M. (1998).
+\newblock Computing with {DNA}.
+\newblock {\em Scientific american\/}, {\bf 279}(8): 34--41.
+
+\bibitem[Lakin {\em \mbox{et al.}\/}(2012)Lakin, Youssef, Cardelli, y
+  Phillips]{Lakin2012}
+Lakin, M.~R., Youssef, S., Cardelli, L., y Phillips, A. (2012).
+\newblock Abstractions for {DNA} circuit design.
+\newblock {\em Journal of The Royal Society Interface\/}, {\bf 9}(68):
+  470--486.
+
+\end{thebibliography}
