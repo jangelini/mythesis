@@ -1,0 +1,274 @@
+% La compilacion se debe hacer con la instruccion de PdfLatex
+% para evitar problemas de tamaño de hoja.
+% Todos los archivos de figuras deben estar en formato PDF.
+% Al momento de imprimir el documento, se debe hacer sin escala de pagina.
+\documentclass[letterpaper,12pt]{cicese}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{ marvosym }
+\usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+%%\usepackage[ansinew]{inputenc}   %este paquete es para poner acentos directamente en el codigo de latex. sin barra
+%%\usepackage[T1]{fontenc}
+%\usepackage[spanish,english]{babel}
+%%\usepackage[spanish,mexico,es-lcroman]{babel}
+%paquete para insertar hipervinculos en referencias a capitulos, figuras, etc.
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault} 
+\usepackage[spanish, mexico,es-lcroman]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{mdframed}
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
+\usepackage[linkcolor=blue]{hyperref}
+\usepackage{cicese}
+\usepackage{makeidx}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx} % figuras
+\graphicspath{{figures//}}
+\usepackage{natbib} 
+\usepackage{emptypage} 
+%\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+
+\setlength{\parskip}{12pt plus 1pt minus 1pt}
+
+
+% Paquete para pseudocodigo o algoritmos
+%\usepackage[lined,boxed,boxruled,linesnumbered,spanish]{algorithm2e}
+% Paquete para las graficas
+\usepackage{float}
+% Paquete para las enumeraciones
+\usepackage{enumerate}
+% Paquete para pseudocodigo o algoritmos
+%este es el que venía:
+%\usepackage[lined,boxed,boxruled,linesnumbered,spanish]{algorithm2e}
+
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\input{spanishAlgorithmic} % mi archivo de traducción
+
+\usepackage{titlesec}
+%\titleformat{\chapter}[display]
+%  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{16pt}{\Huge}
+  
+\titleformat{\chapter} % command
+[hang] % shape
+{\normalfont\bfseries\Large} % format
+{\chaptertitlename\ \thechapter .} % label
+{
+16pt
+} % sep
+{
+%    \rule{\textwidth}{1pt}
+%    \vspace{1ex}
+%    \centering
+} % before-code
+[
+\vspace{-2ex}%
+%\rule{\textwidth}{0.3pt}
+] % after-code
+
+%\titlespacing{command}{left spacing}{before spacing}{after spacing}[right]
+\titlespacing\chapter{0pt}{-40.25pt plus 4pt minus 2pt}{12pt plus 2pt minus 2pt}
+\titlespacing\section{0pt}{0pt plus 4pt minus 2pt}{3pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{0pt plus 4pt minus 2pt}{3pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{0pt plus 4pt minus 2pt}{3pt plus 2pt minus 2pt}
+
+  	
+% Paquete para estilizar los captions de tablas e imagenes
+\usepackage[font=footnotesize,format=plain,labelfont=bf,up,textfont=bf,md,up,justification=justified]{caption}
+\captionsetup{labelfont=bf}
+
+% Para cambiar el color de fondo de una celda en una tabla
+\usepackage[table]{xcolor}	
+% Para rotar una tabla
+\usepackage{rotating}
+%\usepackage{subfig}
+\usepackage{subfigure} % subfiguras
+% Asignar espacio personalizado
+\usepackage{setspace}
+% Para hacer tablas de multiples páginas
+\usepackage{longtable}
+% Para utilizar multiples renglones en tablas
+\usepackage{multirow}
+\usepackage{booktabs}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%para agregar teoremas, etc
+
+\newtheorem{theorem}{Teorema}[chapter]
+\newenvironment{proof}{\noindent{\bf Demostraci\'on.}}{\hfill$\blacksquare$} 
+\newtheorem{lemma}{Lema}[chapter]
+\newtheorem{teo}{Teorema}[chapter]
+\newtheorem{obs}{Observaci\'on}[chapter]
+\setcounter{MaxMatrixCols}{10}
+
+\input{tcilatex}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\begin{document}
+
+% Escribe tu nombre, tal y como aparece en los registros
+% de Posgrado. De ser necesario, separa con \- las sílabas
+% de tu nombre
+\autor{Dari\'en Alberto Miranda Boj\'orquez}
+
+% Escribe el título de tu tesis (Si el titulo es mayor de 2 renglones es necesario
+% cambiar el valor de espacio vertical para que conserve las dimensiones del margen.
+% La modificacion se hace en el archivo cicese.sty en la seccion de la portada que
+% ya esta indicado las dimensiones que debe tener para 3 renglones.)
+\titulo{Detecci\'on de ansiedad por medio de c\'omputo vestible}
+
+% Para el resumen, escribe aqui el título en inglés
+\tituloIN{Anxiety detection using wearable computing}
+
+% Aquí va el nombre de tu programa de posgrado
+\posgrado{Ciencias de la Computación}
+\posgradoUP{CIENCIAS DE LA COMPUTACIÓN}
+%con orientaci\'on en \uppercase\expandafter{C\'omputo Biomolecular}
+% Aquí va el nombre de orientacion para el que aplique (sino comentarlo)
+%\orientacion{}
+
+% Escribe aquí el nombre del posgrado en inglés
+\posgradoIN{Computer Science}
+%with orientation in \uppercase\expandafter{Biomolecular Computing}
+% Escribe aquí el nombre de orientacion para el que aplique (sino comentarlo)
+\orientacionIN{}
+
+% El nombre del grado en inglés
+\gradoIN{Master in Sciences}
+
+% Este comando especifica si la tesis es de maestria (usa \mc) o de
+% doctorado (usa \dc)
+\mc
+
+% Fecha (mes y año) de la defensa de tesis, en español y en ingles
+\fechaexamen{Septiembre, 2014}\fechaexamenIN{September, 2014}
+
+% Fecha (dia, mes y año) de la defensa de tesis para la hoja de firmas
+\fechaexamencompleta{Septiembre, 2015}
+
+% Año de la defensa //Este valor a aparecerá en la parte inferior de la primer página de la tesis
+\anioDefensa{2015}
+
+% Nombre de tu director de tesis, si tienes codirector repite el comando
+\director{Dr. Asesor 1}
+%\director{Dr. Asesor 2}
+
+% Nombres de los sinodales, en el orden que aparecerán en la
+% página de firmas
+%%NO UTILIZAR ABREVIATURAS
+\sinodal{Dr. 1}
+\sinodal{Dr. 2}
+\sinodal{Dr. 3}
+%\sinodal{Dr. 4}
+%\sinodal{Dr. 5}
+%\sinodal{Dr. 6}
+
+% Nombre del Director de Estudios de Posgrado
+\dirposgrado{Dr. Jesús Favela Vara}
+% Nombre del Coordinador del Programa de Posgrado
+\cpp{Dra. Ana Isabel Martínez García}
+
+% Escribe aqui el nombre del archivo .tex que contiene el texto del
+% resumen en español. Omite escribir la extensión .tex
+\resumenES{Resumen}
+
+% Palabras clave del resumen en español
+\palabrasclave{stuff 1, stuff 2, stuff 3, and so on.}
+
+% Escribe aqui el nombre del archivo .tex que contiene el texto del
+% resumen en inglés. Omite escribir la extensión .tex
+\resumenIN{Abstract}
+
+% Palabras clave del resumen en inglés
+\keywords{stuff 1, stuff 2, stuff 3, and so on.}
+
+% Nombre del archivo .tex con el texto de la dedicatoria, omite
+% la extensión .tex
+\dedicatoria{Dedicatoria}
+
+% Nombre del archivo .tex con el texto de los agradecimientos, omite
+% la extensión .tex
+\agradecimientos{Agradecimientos}
+
+% Este comando crea todas las páginas preliminares de la tesis
+\preliminares
+
+{\normalsize
+%TCIMACRO{\QSubDoc{Include Capitulo01}{\input{Capitulo01.tex}} }%
+%BeginExpansion
+\input{Capitulo01.tex}
+%EndExpansion
+\newpage }
+
+{\normalsize
+%TCIMACRO{\QSubDoc{Include Capitulo02}{\input{Capitulo02.tex}} }%
+%BeginExpansion
+\input{Capitulo02.tex}
+%EndExpansion
+\newpage }
+
+{\normalsize
+%TCIMACRO{\QSubDoc{Include Capitulo03}{\input{Capitulo03.tex}} }%
+%BeginExpansion
+\input{Capitulo03.tex}
+%EndExpansion
+\newpage }
+
+{\normalsize
+%TCIMACRO{\QSubDoc{Include Capitulo04}{\input{Capitulo04.tex}} }%
+%BeginExpansion
+\input{Capitulo04.tex}
+%EndExpansion
+\newpage }
+
+{\normalsize
+%TCIMACRO{\QSubDoc{Include Capitulo05}{\input{Capitulo05.tex}} }%
+%BeginExpansion
+\input{Capitulo05.tex}
+%EndExpansion
+\newpage }
+
+{\normalsize
+%TCIMACRO{\QSubDoc{Include Capitulo05}{\input{Capitulo05.tex}} }%
+%BeginExpansion
+\input{Capitulo06.tex}
+%EndExpansion
+\newpage }
+
+{\normalsize
+%TCIMACRO{\QSubDoc{Include Capitulo05}{\input{Capitulo05.tex}} }%
+%BeginExpansion
+\input{Capitulo07.tex}
+%EndExpansion
+\newpage }
+
+{\normalsize
+%TCIMACRO{\QSubDoc{Include Capitulo05}{\input{Capitulo05.tex}} }%
+%BeginExpansion
+\input{Capitulo08.tex}
+%EndExpansion
+\newpage }
+
+\linespread{1.0}
+\addcontentsline{toc}{chapter}{\normalsize\expandafter{Lista de referencias}}
+{\normalsize
+\bibliographystyle{cicese}%cicese, ieeetr, plain, unsrt, alpha, abbrv, acm, apalike 
+\nocite{*}
+\bibliography{cicese}
+}
+
+\linespread{1.5}
+{\normalsize
+%TCIMACRO{\QSubDoc{Include Apendice}{\input{ApendiceA.tex}} }%
+%BeginExpansion
+\input{Apendice.tex}
+%EndExpansion
+\newpage }
+
+
+
+\end{document}
