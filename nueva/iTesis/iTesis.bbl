@@ -61,6 +61,15 @@ Bystritsky, A. y Kronemyer, D. (2014).
   518.
 \newblock Stress in Health and Disease.
 
+\bibitem[Castro {\em \mbox{et al.}\/}(2011)Castro, Favela, y
+  Garc\'{\i}a-Pe\~{n}a]{Castro11}
+Castro, L.~A., Favela, J., y Garc\'{\i}a-Pe\~{n}a, C. (2011).
+\newblock Naturalistic enactment to stimulate user experience for the
+  evaluation of a mobile elderly care application.
+\newblock En: {\em Proceedings of the 13th International Conference on Human
+  Computer Interaction with Mobile Devices and Services\/}, New York, NY, USA.
+  ACM, MobileHCI '11, pp. 371--380.
+
 \bibitem[Chen {\em \mbox{et al.}\/}(2013)Chen, Ngo, y Park]{Chen2013}
 Chen, Y., Ngo, V., y Park, S.~Y. (2013).
 \newblock Caring for caregivers: Designing for integrality.
@@ -143,6 +152,12 @@ Joling, K.~J., van Marwijk, H.~W., Veldhuijzen, A.~E., van~der Horst, H.~E.,
   caregivers of persons with dementia: Who is at the greatest risk?
 \newblock {\em The American Journal of Geriatric Psychiatry\/}, (0): --.
 
+\bibitem[JULIAN(2011)JULIAN]{julian11}
+JULIAN, L.~J. (2011).
+\newblock Measures of anxiety.
+\newblock {\em Arthritis care \& research\/}, {\bf 63}(0 11):
+  10.1002/acr.20561.
+
 \bibitem[Kazdin(2000)Kazdin]{psychologyapa}
 Kazdin, A.~E. (2000).
 \newblock {\em Encyclopedia of Psychology: 8 Volume Set\/}.
@@ -176,6 +191,30 @@ Miranda, D., Calder\'{o}n, M., y Favela, J. (2014).
 \newblock Anxiety detection using wearable monitoring.
 \newblock En: {\em Proceedings of the 5th Mexican Conference on Human-Computer
   Interaction\/}, New York, NY, USA. ACM, MexIHC '14, pp. 34:34--34:41.
+
+\bibitem[Navarro {\em \mbox{et al.}\/}(2014)Navarro, Rodriguez, y
+  Favela]{Navarro14}
+Navarro, R., Rodriguez, M., y Favela, J. (2014).
+\newblock Intervention tailoring in augmented cognition systems for elders with
+  dementia.
+\newblock {\em Biomedical and Health Informatics, IEEE Journal of\/}, {\bf
+  18}(1): 361--367.
+
+\bibitem[Ory {\em \mbox{et al.}\/}(1999)Ory, Hoffman, Yee, Tennstedt, y
+  Schulz]{ory99}
+Ory, M.~G., Hoffman, R.~R., Yee, J.~L., Tennstedt, S., y Schulz, R. (1999).
+\newblock Prevalence and impact of caregiving: A detailed comparison between
+  dementia and nondementia caregivers.
+\newblock {\em The Gerontologist\/}, {\bf 39}(2): 177--186.
+
+\bibitem[Prince {\em \mbox{et al.}\/}(????)Prince, Bryce, Albanese, Wimo,
+  Ribeiro, y Ferri]{prince15}
+Prince, M., Bryce, R., Albanese, E., Wimo, A., Ribeiro, W., y Ferri, C.~P.
+  (????).
+\newblock The global prevalence of dementia: A systematic review and
+  metaanalysis.
+\newblock {\em Alzheimer's \& Dementia: The Journal of the Alzheimer's
+  Association\/}, {\bf 9}(1): 63--75.e2.
 
 \bibitem[Ramos {\em \mbox{et al.}\/}(2014)Ramos, Hong, y Dey]{RamosHD14}
 Ramos, J., Hong, J.-H., y Dey, A.~K. (2014).
@@ -227,6 +266,13 @@ S, L. (1991).
 \newblock What is stress.
 \newblock {\em Neurobiology and Neuroendoncrinology\/}, p. 13—21.
 
+\bibitem[Sadowsky y Galvin(2012)Sadowsky y Galvin]{sadowsky12}
+Sadowsky, C.~H. y Galvin, J.~E. (2012).
+\newblock Guidelines for the management of cognitive and behavioral problems in
+  dementia.
+\newblock {\em The Journal of the American Board of Family Medicine\/}, {\bf
+  25}(3): 350--366.
+
 \bibitem[Sebastian(2013)Sebastian]{Sebastian2013556}
 Sebastian, V. (2013).
 \newblock A theoretical approach to stress and self-efficacy.
@@ -246,6 +292,15 @@ Sharma, N. y Gedeon, T. (2012).
 Starner, T., Mann, S., Rhodes, B., Levine, J., Healey, J., Kirsch, D., Picard,
   R.~W., y Pentland, A. (1997).
 \newblock Augmented reality through wearable computing.
+
+\bibitem[Sturm {\em \mbox{et al.}\/}(2013)Sturm, Yokoyama, Seeley, Kramer,
+  Miller, y Rankin]{sturm13}
+Sturm, V.~E., Yokoyama, J.~S., Seeley, W.~W., Kramer, J.~H., Miller, B.~L., y
+  Rankin, K.~P. (2013).
+\newblock Heightened emotional contagion in mild cognitive impairment and
+  alzheimer's disease is associated with temporal lobe degeneration.
+\newblock {\em Proceedings of the National Academy of Sciences\/}, {\bf
+  110}(24): 9944--9949.
 
 \bibitem[Tutar {\em \mbox{et al.}\/}(2013)Tutar, Cankurtaran, Tekin, y
   Caykoylu]{Tutar2013P484}
