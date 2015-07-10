@@ -1,57 +1,53 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: iTesis.aux
 The style file: cicese.bst
 Database file #1: iTesis.bib
-Repeated entry---line 488 of file iTesis.bib
- : @article{Sharma20121287
- :                        ,
-I'm skipping whatever remains of this entry
 Warning--empty journal in Chen2013
 Warning--empty journal in Hamilton1959
 Warning--empty publisher in EcgPractica
 Warning--there's a number but no volume in Joling2014
 Warning--empty publisher in psychologyapa
 Warning--empty year in prince15; set to ????
-You've used 45 entries,
+You've used 44 entries,
             2727 wiz_defined-function locations,
-            1054 strings with 16282 characters,
-and the built_in function-call counts, 25095 in all, are:
-= -- 2331
-> -- 1640
-< -- 33
-+ -- 493
-- -- 493
-* -- 2608
-:= -- 3774
-add.period$ -- 150
-call.type$ -- 45
-change.case$ -- 318
-chr.to.int$ -- 45
-cite$ -- 141
-duplicate$ -- 906
-empty$ -- 1569
-format.name$ -- 550
-if$ -- 5149
+            1048 strings with 16010 characters,
+and the built_in function-call counts, 24836 in all, are:
+= -- 2302
+> -- 1629
+< -- 32
++ -- 490
+- -- 490
+* -- 2591
+:= -- 3727
+add.period$ -- 146
+call.type$ -- 44
+change.case$ -- 314
+chr.to.int$ -- 44
+cite$ -- 138
+duplicate$ -- 896
+empty$ -- 1554
+format.name$ -- 546
+if$ -- 5099
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 45
-newline$ -- 231
-num.names$ -- 183
-pop$ -- 482
+newline$ -- 225
+num.names$ -- 179
+pop$ -- 479
 preamble$ -- 1
-purify$ -- 253
+purify$ -- 250
 quote$ -- 0
-skip$ -- 846
+skip$ -- 836
 stack$ -- 0
-substring$ -- 1207
-swap$ -- 359
+substring$ -- 1204
+swap$ -- 358
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 396
+type$ -- 387
 warning$ -- 6
-while$ -- 206
+while$ -- 203
 width$ -- 0
-write$ -- 618
-(There was 1 error message)
+write$ -- 604
+(There were 6 warnings)
