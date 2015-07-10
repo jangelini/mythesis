@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  28 MAY 2015 16:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  9 JUL 2015 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -96,37 +96,563 @@ File: uni-global.def 2013/05/13 UCS: Unicode global data
 \uc@combtoks=\toks19
 \uc@combtoksb=\toks20
 \uc@temptokena=\toks21
+) (./mdframed.sty
+Package: mdframed 2012/06/02 v1.6b: mdframed
+
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
+(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-! LaTeX Error: File `mdframed.sty' not found.
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texmf/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf/tex/latex/l3kernel/expl3.sty
+(/usr/share/texmf/tex/latex/l3kernel/l3names.sty
+(/usr/share/texmf/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2013/01/08 v4420 L3 Experimental bootstrap code
+)
+Package: l3names 2012/12/07 v4346 L3 Namespace for primitives
+)
+(/usr/share/texmf/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count96
+)
+Package: expl3 2013/03/14 v4469 L3 Experimental code bundle wrapper
 
-Enter file name: 
+(/usr/share/texmf/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2013/01/10 v4428 L3 Basic definitions
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2013/02/03 v4458 L3 Argument expansion
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2013/01/08 v4415 L3 Token lists
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2013/01/12 v4434 L3 Sequences and stacks
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3int.sty
+Package: l3int 2013/01/13 v4444 L3 Integers
+\c_max_int=\count97
+\l_tmpa_int=\count98
+\l_tmpb_int=\count99
+\g_tmpa_int=\count100
+\g_tmpb_int=\count101
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2012/11/04 v4268 L3 Quarks
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2013/02/13 v4459 L3 Control structures
+\g__prg_map_int=\count102
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2013/01/08 v4414 L3 Comma separated lists
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3token.sty
+Package: l3token 2013/01/10 v4428 L3 Experimental token manipulation
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2013/01/09 v4423 L3 Property lists
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2013/01/08 v4412 L3 Messages
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3file.sty
+Package: l3file 2013/01/14 v4446 L3 File and I/O operations
+\l_iow_line_count_int=\count103
+\l__iow_target_count_int=\count104
+\l__iow_current_line_int=\count105
+\l__iow_current_word_int=\count106
+\l__iow_current_indentation_int=\count107
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2013/01/13 v4444 L3 Dimensions and skips
+\c_zero_dim=\dimen112
+\c_max_dim=\dimen113
+\l_tmpa_dim=\dimen114
+\l_tmpb_dim=\dimen115
+\g_tmpa_dim=\dimen116
+\g_tmpb_dim=\dimen117
+\c_zero_skip=\skip43
+\c_max_skip=\skip44
+\l_tmpa_skip=\skip45
+\l_tmpb_skip=\skip46
+\g_tmpa_skip=\skip47
+\g_tmpb_skip=\skip48
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2013/02/24 v4461 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count108
+\l_keys_choice_int=\count109
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2013/01/19 v4449 L3 Floating points
+\c__fp_leading_shift_int=\count110
+\c__fp_middle_shift_int=\count111
+\c__fp_trailing_shift_int=\count112
+\c__fp_big_leading_shift_int=\count113
+\c__fp_big_middle_shift_int=\count114
+\c__fp_big_trailing_shift_int=\count115
+\c__fp_Bigg_leading_shift_int=\count116
+\c__fp_Bigg_middle_shift_int=\count117
+\c__fp_Bigg_trailing_shift_int=\count118
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3box.sty
+Package: l3box 2013/01/08 v4411 L3 Experimental boxes
+\c_empty_box=\box26
+\l_tmpa_box=\box27
+\l_tmpb_box=\box28
+\g_tmpa_box=\box29
+\g_tmpb_box=\box30
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
+\l__coffin_internal_box=\box31
+\l__coffin_internal_dim=\dimen118
+\l__coffin_offset_x_dim=\dimen119
+\l__coffin_offset_y_dim=\dimen120
+\l__coffin_x_dim=\dimen121
+\l__coffin_y_dim=\dimen122
+\l__coffin_x_prime_dim=\dimen123
+\l__coffin_y_prime_dim=\dimen124
+\c_empty_coffin=\box32
+\l__coffin_aligned_coffin=\box33
+\l__coffin_aligned_internal_coffin=\box34
+\l_tmpa_coffin=\box35
+\l_tmpb_coffin=\box36
+\l__coffin_display_coffin=\box37
+\l__coffin_display_coord_coffin=\box38
+\l__coffin_display_pole_coffin=\box39
+\l__coffin_display_offset_dim=\dimen125
+\l__coffin_display_x_dim=\dimen126
+\l__coffin_display_y_dim=\dimen127
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2012/08/03 v4049 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count119
+\g__cctab_stack_int=\count120
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2013/03/14 v4468 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen128
+\l__box_bottom_dim=\dimen129
+\l__box_left_dim=\dimen130
+\l__box_right_dim=\dimen131
+\l__box_top_new_dim=\dimen132
+\l__box_bottom_new_dim=\dimen133
+\l__box_left_new_dim=\dimen134
+\l__box_right_new_dim=\dimen135
+\l__box_internal_box=\box40
+\l__coffin_bounding_shift_dim=\dimen136
+\l__coffin_left_corner_dim=\dimen137
+\l__coffin_right_corner_dim=\dimen138
+\l__coffin_bottom_corner_dim=\dimen139
+\l__coffin_top_corner_dim=\dimen140
+\l__coffin_scaled_total_height_dim=\dimen141
+\l__coffin_scaled_width_dim=\dimen142
+))
+Package: xparse 2013/03/12 v4467 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count121
+\l__xparse_m_args_int=\count122
+\l__xparse_mandatory_args_int=\count123
+\l__xparse_processor_int=\count124
+\l__xparse_v_nesting_int=\count125
+)
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count126
+)
+(/usr/share/texmf/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
 
-! LaTeX Error: File `glossaries.sty' not found.
+(/usr/share/texmf/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(/usr/share/texmf/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)
+(/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+(/usr/share/texmf/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+)
+\c@abspage=\count127
+Package zref Info: New property: abspage on input line 62.
+)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-Enter file name: 
+(/usr/share/texmf/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
 
-! LaTeX Error: Unknown option `acronym' for package `glossaries'.
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count128
+))
+\mdf@templength=\skip49
+\c@mdf@globalstyle@cnt=\count129
+\mdf@skipabove@length=\skip50
+\mdf@skipbelow@length=\skip51
+\mdf@leftmargin@length=\skip52
+\mdf@rightmargin@length=\skip53
+\mdf@innerleftmargin@length=\skip54
+\mdf@innerrightmargin@length=\skip55
+\mdf@innertopmargin@length=\skip56
+\mdf@innerbottommargin@length=\skip57
+\mdf@splittopskip@length=\skip58
+\mdf@splitbottomskip@length=\skip59
+\mdf@outermargin@length=\skip60
+\mdf@innermargin@length=\skip61
+\mdf@linewidth@length=\skip62
+\mdf@innerlinewidth@length=\skip63
+\mdf@middlelinewidth@length=\skip64
+\mdf@outerlinewidth@length=\skip65
+\mdf@roundcorner@length=\skip66
+\mdf@footenotedistance@length=\skip67
+\mdf@userdefinedwidth@length=\skip68
+\mdf@frametitleaboveskip@length=\skip69
+\mdf@frametitlebelowskip@length=\skip70
+\mdf@frametitlerulewidth@length=\skip71
+\mdf@frametitleleftmargin@length=\skip72
+\mdf@frametitlerightmargin@length=\skip73
+\mdf@shadowsize@length=\skip74
+\mdf@extratopheight@length=\skip75
+\mdf@subtitleabovelinewidth@length=\skip76
+\mdf@subtitlebelowlinewidth@length=\skip77
+\mdf@subtitleaboveskip@length=\skip78
+\mdf@subtitlebelowskip@length=\skip79
+\mdf@subtitleinneraboveskip@length=\skip80
+\mdf@subtitleinnerbelowskip@length=\skip81
+\mdf@subsubtitleabovelinewidth@length=\skip82
+\mdf@subsubtitlebelowlinewidth@length=\skip83
+\mdf@subsubtitleaboveskip@length=\skip84
+\mdf@subsubtitlebelowskip@length=\skip85
+\mdf@subsubtitleinneraboveskip@length=\skip86
+\mdf@subsubtitleinnerbelowskip@length=\skip87
+\mdf@frametitlebox=\box41
+\mdf@footnotebox=\box42
+\mdf@splitbox@one=\box43
+\mdf@splitbox@two=\box44
+\mdf@splitbox@save=\box45
+\mdfsplitboxwidth=\skip88
+\mdfsplitboxtotalwidth=\skip89
+\mdfsplitboxheight=\skip90
+\mdfsplitboxdepth=\skip91
+\mdfsplitboxtotalheight=\skip92
+\mdfframetitleboxwidth=\skip93
+\mdfframetitleboxtotalwidth=\skip94
+\mdfframetitleboxheight=\skip95
+\mdfframetitleboxdepth=\skip96
+\mdfframetitleboxtotalheight=\skip97
+\mdffootnoteboxwidth=\skip98
+\mdffootnoteboxtotalwidth=\skip99
+\mdffootnoteboxheight=\skip100
+\mdffootnoteboxdepth=\skip101
+\mdffootnoteboxtotalheight=\skip102
+\mdftotallinewidth=\skip103
+\mdfboundingboxwidth=\skip104
+\mdfboundingboxtotalwidth=\skip105
+\mdfboundingboxheight=\skip106
+\mdfboundingboxdepth=\skip107
+\mdfboundingboxtotalheight=\skip108
+\mdf@freevspace@length=\skip109
+\mdf@horizontalwidthofbox@length=\skip110
+\mdf@verticalmarginwhole@length=\skip111
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \makeglossaries
-                    
-? 
-! Undefined control sequence.
-<recently read> \makeglossaries 
-                                
-l.20 \makeglossaries
-                    
-? 
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newmdtheoremenv with arg. spec. 'O{} m o m o ' on
+. line 544.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \mdtheorem with arg. spec. ' O{} m o m o ' on line
+. 635.
+.................................................
+(./md-frame-0.mdf
+File: md-frame-0.mdf 2012/06/02 v1.6b: md-frame-0
+)
+\c@mdf@zref@counter=\count130
+Package zref Info: New property: mdf@pagevalue on input line 824.
+\mdf@horizontalspaceofbox=\skip112
+) (/usr/share/texmf/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2013/04/21 v3.05 (NLCT)
+
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texmf/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+\XKV@depth=\count131
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(/usr/share/texmf/tex/latex/glossaries/base/mfirstuc.sty
+Package: mfirstuc 2012/05/21 v1.06 (NLCT)
+\@glsmfirst=\toks24
+\@glsmrest=\toks25
+)
+(/usr/share/texmf/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/share/texmf/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2013/01/15 v2.13 (NLCT)
+
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip113
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks26
+\ex@=\dimen143
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen144
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count132
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count133
+\leftroot@=\count134
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count135
+\DOTSCASE@=\count136
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box46
+\strutbox@=\box47
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count137
+\c@MaxMatrixCols=\count138
+\dotsspace@=\muskip16
+\c@parentequation=\count139
+\dspbrk@lvl=\count140
+\tag@help=\toks27
+\row@=\count141
+\column@=\count142
+\maxfields@=\count143
+\andhelp@=\toks28
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks29
+\multlinegap=\skip114
+\multlinetaggap=\skip115
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texmf/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count144
+)
+(/usr/share/texmf/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2013/01/15 v2.13 (NLCT)
+
+(/usr/share/texmf/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texmf/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count145
+)
+(/usr/share/texmf/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count146
+\FP@xia=\count147
+\FP@xib=\count148
+\FP@xfa=\count149
+\FP@xfb=\count150
+\FP@rega=\count151
+\FP@regb=\count152
+\FP@regs=\count153
+\FP@times=\count154
+)
+(/usr/share/texmf/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texmf/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texmf/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texmf/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texmf/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texmf/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count155
+)
+(/usr/share/texmf/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texmf/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texmf/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks31
+\@dtl@tmpcount=\count156
+\dtl@tmplength=\skip116
+\dtl@sortresult=\count157
+\@dtl@numgrpsepcount=\count158
+\@dtl@datatype=\count159
+\dtl@codeA=\count160
+\dtl@codeB=\count161
+\@dtl@foreach@level=\count162
+)
+(/usr/share/texmf/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/share/texmf/tex/latex/beamer/translator/translator-language-mappings.tex)
+)
+\gls@level=\count163
+\@gls@tmpb=\toks32
+\gls@tmplen=\skip117
+\glswrite=\write3
+\glskeylisttok=\toks33
+\glslabeltok=\toks34
+\glsshorttok=\toks35
+\glslongtok=\toks36
+ (/usr/share/texmf/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
+)
+(/usr/share/texmf/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2012/11/11 v3.04 (NLCT)
+\glslistdottedwidth=\skip118
+)
+(/usr/share/texmf/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2012/09/21 v3.03 (NLCT)
+
+(/usr/share/texmf/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip119
+\LTright=\skip120
+\LTpre=\skip121
+\LTpost=\skip122
+\LTchunksize=\count164
+\LTcapwidth=\dimen152
+\LT@head=\box48
+\LT@firsthead=\box49
+\LT@foot=\box50
+\LT@lastfoot=\box51
+\LT@cols=\count165
+\LT@rows=\count166
+\c@LT@tables=\count167
+\c@LT@chunks=\count168
+\LT@p@ftn=\toks37
+)
+\glsdescwidth=\skip123
+\glspagelistwidth=\skip124
+)
+(/usr/share/texmf/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2012/09/21 v3.03 (NLCT)
+
+(/usr/share/texmf/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count169
+\ST@wd=\dimen153
+\ST@rightskip=\skip125
+\ST@leftskip=\skip126
+\ST@parfillskip=\skip127
+\ST@pageleft=\dimen154
+\ST@headht=\dimen155
+\ST@tailht=\dimen156
+\ST@pagesofar=\dimen157
+\ST@pboxht=\dimen158
+\ST@lineht=\dimen159
+\ST@stretchht=\dimen160
+\ST@prevht=\dimen161
+\ST@toadd=\dimen162
+\ST@dimen=\dimen163
+\ST@pbox=\box52
+))
+(/usr/share/texmf/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2012/09/21 v3.03 (NLCT)
+\glstreeindent=\skip128
+))
+\glo@main@file=\write4
+\openout4 = `iTesis.glo'.
+
+Package glossaries Info: Writing glossary file iTesis.glo on input line 20.
+\glo@acronym@file=\write5
+\openout5 = `iTesis.acn'.
+
+Package glossaries Info: Writing glossary file iTesis.acn on input line 20.
+
 (/usr/share/texmf/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -137,26 +663,16 @@ Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 (/usr/share/texmf/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -168,25 +684,18 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-)
-\@linkdim=\dimen112
-\Hy@linkcounter=\count96
-\Hy@pagecounter=\count97
+\@linkdim=\dimen164
+\Hy@linkcounter=\count170
+\Hy@pagecounter=\count171
 
 (/usr/share/texmf/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count98
+\Hy@SavedSpaceFactor=\count172
 
 (/usr/share/texmf/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -198,17 +707,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count99
+\c@Hy@tempcnt=\count173
 
 (/usr/share/texmf/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip17
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen113
-\Fld@menulength=\count100
-\Field@Width=\dimen114
-\Fld@charsize=\dimen115
+\XeTeXLinkMargin=\dimen165
+\Fld@menulength=\count174
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -218,109 +727,51 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count101
-\c@Item=\count102
-\c@Hfootnote=\count103
+\Hy@abspage=\count175
+\c@Item=\count176
+\c@Hfootnote=\count177
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count104
-\c@bookmark@seq@number=\count105
+\HyAnn@Count=\count178
+\Fld@listcount=\count179
+\c@bookmark@seq@number=\count180
 
 (/usr/share/texmf/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip43
+\Hy@SectionHShift=\skip129
 ) (./cicese.sty
 (./natbib.sty
 Package: natbib 1995/12/06 6.1 (PWD)
-\bibhang=\skip44
+\bibhang=\skip130
 LaTeX Info: Redefining \cite on input line 301.
-\c@NAT@ctr=\count106
+\c@NAT@ctr=\count181
 )
-\c@dal@supervisornum=\count107
-\c@dal@readernum=\count108
+\c@dal@supervisornum=\count182
+\c@dal@readernum=\count183
 ) (/usr/share/texmf/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
 (/usr/share/texmf/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box26
+\@eurobox=\box53
 )
 (/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks22
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip45
-
-For additional information on amsmath, use the `?' option.
-(/usr/share/texmf/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks23
-\ex@=\dimen116
-))
-(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen117
-)
-(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count109
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count110
-\leftroot@=\count111
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count112
-\DOTSCASE@=\count113
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen118
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count114
-\c@MaxMatrixCols=\count115
-\dotsspace@=\muskip11
-\c@parentequation=\count116
-\dspbrk@lvl=\count117
-\tag@help=\toks24
-\row@=\count118
-\column@=\count119
-\maxfields@=\count120
-\andhelp@=\toks25
-\eqnshift@=\dimen119
-\alignsep@=\dimen120
-\tagshift@=\dimen121
-\tagwidth@=\dimen122
-\totwidth@=\dimen123
-\lineht@=\dimen124
-\@envbody=\toks26
-\multlinegap=\skip46
-\multlinetaggap=\skip47
-\mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
 (/usr/share/texmf/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -334,258 +785,54 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count121
-))
-\Gin@req@height=\dimen125
-\Gin@req@width=\dimen126
 )
-
-! LaTeX Error: File `emptypage.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
+)
+(/usr/share/texmf/tex/latex/emptypage/emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
+)
 (/usr/share/texmf/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count122
-\float@exts=\toks28
-\float@box=\box29
-\@float@everytoks=\toks29
-\@floatcapt=\box30
+\c@float@type=\count184
+\float@exts=\toks38
+\float@box=\box54
+\@float@everytoks=\toks39
+\@floatcapt=\box55
 )
 (/usr/share/texmf/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks30
+\@enLab=\toks40
+) (./algorithm.sty
+Package: algorithm 
+
+Document Style `algorithm' - floating environment
+\@float@every@algorithm=\toks41
+\c@algorithm=\count185
+) (./algorithmic.sty
+Package: algorithmic 2005/07/05
+
+Document Style `algorithmic' - environment
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count186
+\calc@Bcount=\count187
+\calc@Adimen=\dimen170
+\calc@Bdimen=\dimen171
+\calc@Askip=\skip131
+\calc@Bskip=\skip132
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count188
+\calc@Cskip=\skip133
 )
-
-! LaTeX Error: File `algorithm.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `algorithmic.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(./spanishAlgorithmic.tex
-
-! LaTeX Error: \listalgorithmname undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \renewcommand{\listalgorithmname}
-                                     {Lista de algoritmos}
-? 
-
-! LaTeX Error: \algorithmicrequire undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \renewcommand{\algorithmicrequire}
-                                      {\textbf{Entrada:}}
-? 
-
-! LaTeX Error: \algorithmicensure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \renewcommand{\algorithmicensure}
-                                     {\textbf{Salida:}}
-? 
-
-! LaTeX Error: \algorithmicend undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \renewcommand{\algorithmicend}
-                                  {\textbf{fin}}
-? 
-
-! LaTeX Error: \algorithmicif undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \renewcommand{\algorithmicif}
-                                 {\textbf{si}}
-? 
-
-! LaTeX Error: \algorithmicthen undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \renewcommand{\algorithmicthen}
-                                   {\textbf{entonces}}
-? 
-
-! LaTeX Error: \algorithmicelse undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \renewcommand{\algorithmicelse}
-                                   {\textbf{si no}}
-? 
-
-! LaTeX Error: \algorithmicelsif undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \renewcommand{\algorithmicelsif}
-                                    {\algorithmicelse,\ \algorithmicif}
-? 
-
-! LaTeX Error: \algorithmicendif undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 \renewcommand{\algorithmicendif}
-                                     {\algorithmicend\ \algorithmicif}
-? 
-
-! LaTeX Error: \algorithmicfor undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \renewcommand{\algorithmicfor}
-                                   {\textbf{para}}
-? 
-
-! LaTeX Error: \algorithmicforall undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \renewcommand{\algorithmicforall}
-                                      {\textbf{para todo}}
-? 
-
-! LaTeX Error: \algorithmicdo undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \renewcommand{\algorithmicdo}
-                                  {\textbf{hacer}}
-? 
-
-! LaTeX Error: \algorithmicendfor undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \renewcommand{\algorithmicendfor}
-                                      {\algorithmicend\ \algorithmicfor}
-? 
-
-! LaTeX Error: \algorithmicwhile undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \renewcommand{\algorithmicwhile}
-                                     {\textbf{mientras}}
-? 
-
-! LaTeX Error: \algorithmicendwhile undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \renewcommand{\algorithmicendwhile}
-                                        {\algorithmicend\ \algorithmicwhile}
-? 
-
-! LaTeX Error: \algorithmicloop undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \renewcommand{\algorithmicloop}
-                                    {\textbf{repetir}}
-? 
-
-! LaTeX Error: \algorithmicendloop undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \renewcommand{\algorithmicendloop}
-                                       {\algorithmicend\ \algorithmicloop}
-? 
-
-! LaTeX Error: \algorithmicrepeat undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \renewcommand{\algorithmicrepeat}
-                                      {\textbf{repetir}}
-? 
-
-! LaTeX Error: \algorithmicuntil undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \renewcommand{\algorithmicuntil}
-                                     {\textbf{hasta que}}
-? 
-
-! LaTeX Error: \algorithmicprint undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \renewcommand{\algorithmicprint}
-                                     {\textbf{imprimir}}
-? 
-
-! LaTeX Error: \algorithmicreturn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \renewcommand{\algorithmicreturn}
-                                      {\textbf{regresar}}
-? 
+\c@ALC@line=\count189
+\c@ALC@rem=\count190
+\c@ALC@depth=\count191
+\ALC@tlm=\skip134
+\algorithmicindent=\skip135
+) (./spanishAlgorithmic.tex
 
 ! LaTeX Error: \algorithmictrue undefined.
 
@@ -608,15 +855,15 @@ l.24 \renewcommand{\algorithmicfalse}
 ? 
 ) (/usr/share/texmf/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box31
-\beforetitleunit=\skip48
-\aftertitleunit=\skip49
-\ttl@plus=\dimen127
-\ttl@minus=\dimen128
-\ttl@toksa=\toks31
-\titlewidth=\dimen129
-\titlewidthlast=\dimen130
-\titlewidthfirst=\dimen131
+\ttl@box=\box56
+\beforetitleunit=\skip136
+\aftertitleunit=\skip137
+\ttl@plus=\dimen172
+\ttl@minus=\dimen173
+\ttl@toksa=\toks42
+\titlewidth=\dimen174
+\titlewidthlast=\dimen175
+\titlewidthfirst=\dimen176
 )
 (/usr/share/texmf/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -624,13 +871,13 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/share/texmf/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen132
-\captionmargin@=\dimen133
-\captionwidth=\dimen134
-\caption@tempdima=\dimen135
-\caption@indent=\dimen136
-\caption@parindent=\dimen137
-\caption@hangindent=\dimen138
+\captionmargin=\dimen177
+\captionmargin@=\dimen178
+\captionwidth=\dimen179
+\caption@tempdima=\dimen180
+\caption@indent=\dimen181
+\caption@parindent=\dimen182
+\caption@hangindent=\dimen183
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -643,10 +890,16 @@ Package caption Info: \@makecaption = \long macro:#1#2->\linespread {1.0} \vski
 p \abovecaptionskip \vspace {-0.5cm} \sbox \@tempboxa {#1. #2}\ifdim \wd \@temp
 boxa >\hsize #1. #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \bo
 x \@tempboxa \hfil }\fi \vskip \belowcaptionskip .
-\c@ContinuedFloat=\count123
+\c@ContinuedFloat=\count192
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package caption Info: longtable package is loaded.
+(/usr/share/texmf/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 (/usr/share/texmf/tex/latex/latexconfig/color.cfg
@@ -659,16 +912,17 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/share/texmf/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen139
-\extrarowheight=\dimen140
-\NC@list=\toks32
-\extratabsurround=\skip50
-\backup@length=\skip51
+\col@sep=\dimen184
+\extrarowheight=\dimen185
+\NC@list=\toks43
+\extratabsurround=\skip138
+\backup@length=\skip139
 )
-\everycr=\toks33
-\minrowclearance=\skip52
+\everycr=\toks44
+\minrowclearance=\skip140
 )
-\rownum=\count124
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count193
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -681,99 +935,75 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texmf/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-
-(/usr/share/texmf/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\c@r@tfl@t=\count125
-\rotFPtop=\skip53
-\rotFPbot=\skip54
-\rot@float@box=\box32
-\rot@mess@toks=\toks34
+\c@r@tfl@t=\count194
+\rotFPtop=\skip141
+\rotFPbot=\skip142
+\rot@float@box=\box57
+\rot@mess@toks=\toks45
 )
 (/usr/share/texmf/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip55
-\subfigcapskip=\skip56
-\subfigcaptopadj=\dimen141
-\subfigbottomskip=\skip57
-\subfigcapmargin=\dimen142
-\subfiglabelskip=\skip58
-\c@subfigure=\count126
-\c@lofdepth=\count127
-\c@subtable=\count128
-\c@lotdepth=\count129
+\subfigtopskip=\skip143
+\subfigcapskip=\skip144
+\subfigcaptopadj=\dimen186
+\subfigbottomskip=\skip145
+\subfigcapmargin=\dimen187
+\subfiglabelskip=\skip146
+\c@subfigure=\count195
+\c@lofdepth=\count196
+\c@subtable=\count197
+\c@lotdepth=\count198
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (/usr/share/texmf/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip59
-\subfig@bottom=\skip60
+\subfig@top=\skip147
+\subfig@bottom=\skip148
 )
 (/usr/share/texmf/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texmf/tex/latex/tools/longtable.sty
-Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip61
-\LTright=\skip62
-\LTpre=\skip63
-\LTpost=\skip64
-\LTchunksize=\count130
-\LTcapwidth=\dimen143
-\LT@head=\box33
-\LT@firsthead=\box34
-\LT@foot=\box35
-\LT@lastfoot=\box36
-\LT@cols=\count131
-\LT@rows=\count132
-\c@LT@tables=\count133
-\c@LT@chunks=\count134
-\LT@p@ftn=\toks35
+(/usr/share/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen188
 )
-
-! LaTeX Error: File `multirow.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
 (/usr/share/texmf/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen144
-\lightrulewidth=\dimen145
-\cmidrulewidth=\dimen146
-\belowrulesep=\dimen147
-\belowbottomsep=\dimen148
-\aboverulesep=\dimen149
-\abovetopsep=\dimen150
-\cmidrulesep=\dimen151
-\cmidrulekern=\dimen152
-\defaultaddspace=\dimen153
-\@cmidla=\count135
-\@cmidlb=\count136
-\@aboverulesep=\dimen154
-\@belowrulesep=\dimen155
-\@thisruleclass=\count137
-\@lastruleclass=\count138
-\@thisrulewidth=\dimen156
+\heavyrulewidth=\dimen189
+\lightrulewidth=\dimen190
+\cmidrulewidth=\dimen191
+\belowrulesep=\dimen192
+\belowbottomsep=\dimen193
+\aboverulesep=\dimen194
+\abovetopsep=\dimen195
+\cmidrulesep=\dimen196
+\cmidrulekern=\dimen197
+\defaultaddspace=\dimen198
+\@cmidla=\count199
+\@cmidlb=\count200
+\@aboverulesep=\dimen199
+\@belowrulesep=\dimen200
+\@thisruleclass=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\@lastruleclass=\count277
+\@thisrulewidth=\dimen201
 )
-\c@theorem=\count139
-\c@lemma=\count140
-\c@teo=\count141
-\c@obs=\count142
+\c@theorem=\count278
+\c@lemma=\count279
+\c@teo=\count280
+\c@obs=\count281
  (./tcilatex.tex
 TCILATEX Macros for Scientific Word 5.0 <13 Feb 2003>.
 NOTICE: This macro file is NOT proprietary and may be freely copied and distrib
 uted.
-\msipdfoutput=\count143
-\@hour=\count144
-\@minute=\count145
-\GRAPHICSTYPE=\count146
-\@msidraft=\count147
-\dispkind=\count148
-\theight=\dimen157
+\msipdfoutput=\count282
+\@hour=\count283
+\@minute=\count284
+\GRAPHICSTYPE=\count285
+\@msidraft=\count286
+\dispkind=\count287
+Normal \dimen register pool exhausted, switching to extended pool.
+\theight=\dimen256
 LaTeX Info: Redefining \rm on input line 645.
 LaTeX Info: Redefining \sf on input line 646.
 LaTeX Info: Redefining \tt on input line 647.
@@ -781,15 +1011,21 @@ LaTeX Info: Redefining \bf on input line 648.
 LaTeX Info: Redefining \it on input line 649.
 LaTeX Info: Redefining \sl on input line 650.
 LaTeX Info: Redefining \sc on input line 651.
-\c@axiom=\count149
-\c@remark=\count150
-\c@example=\count151
-\c@exercise=\count152
-\c@definition=\count153
-\c@equationnumber=\count154
+\c@axiom=\count288
+\c@remark=\count289
+\c@example=\count290
+\c@exercise=\count291
+\c@definition=\count292
+\c@equationnumber=\count293
 ) (./iTesis.aux
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
+
+
+LaTeX Warning: Label `secc:caregivers' multiply defined.
+
+
+LaTeX Warning: Label `secc:dementia' multiply defined.
 
 
 LaTeX Warning: Label `capit:cap2' multiply defined.
@@ -855,39 +1091,43 @@ LaTeX Info: Redefining \% on input line 111.
 (/usr/share/texmf/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 111.
+\AtBeginShipoutBox=\box58
 
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen257
+\scratchbox=\box59
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen258
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks47
+)
+(/usr/share/texmf/tex/latex/glossaries/dict/glossaries-dictionary-English.dict
+Dictionary: glossaries-dictionary, Language: English 
+)
+Package hyperref Info: Link coloring OFF on input line 111.
 (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texmf/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count155
+\c@section@level=\count300
 )
 LaTeX Info: Redefining \ref on input line 111.
 LaTeX Info: Redefining \pageref on input line 111.
 LaTeX Info: Redefining \nameref on input line 111.
  (./iTesis.out)
 (./iTesis.out)
-\@outlinefile=\write3
-\openout3 = `iTesis.out'.
+\@outlinefile=\write6
+\openout6 = `iTesis.out'.
 
- (/usr/share/texmf/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count156
-\scratchdimen=\dimen158
-\scratchbox=\box38
-\nofMPsegments=\count157
-\nofMParguments=\count158
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count159
-\MPscratchDim=\dimen159
-\MPnumerator=\count160
-\makeMPintoPDFobject=\count161
-\everyMPtoPDFconversion=\toks37
-) (/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+ (/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texmf/tex/latex/oberdiek/grfext.sty
@@ -903,18 +1143,13 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: longtable package is loaded.
-
-(/usr/share/texmf/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
-)
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <15.84> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 198.
 
-<./Figures/logoCicese2009.pdf, id=98, 540.60239pt x 270.30113pt>
+<./Figures/logoCicese2009.pdf, id=102, 540.60239pt x 270.30113pt>
 File: ./Figures/logoCicese2009.pdf Graphic file (type pdf)
 
 <use ./Figures/logoCicese2009.pdf>
@@ -927,6 +1162,8 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 198.
  [1
+
+\openout3 = `iTesis.ist'.
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/logoCicese2009
 .pdf>]
@@ -944,17 +1181,21 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 198.
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (7.00508pt too wide) in paragraph at lines 198--198
+[][] 
+ []
+
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 198.
- [2] (./Resumen.tex) [3]
-(./Abstract.tex) [4] (./Dedicatoria.tex
+[2] (./Resumen.tex) [3] (./Abstract.tex) [4] (./Dedicatoria.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <17.28> not available
 (Font)              Font shape `OT1/phv/b/it' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <17.28> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 4.
 ) [5
 
-] (./Agradecimientos.tex) [6
+]
+(./Agradecimientos.tex) [6
 
 ]
 Overfull \hbox (3.66335pt too wide) in paragraph at lines 198--198
@@ -965,8 +1206,8 @@ Overfull \hbox (3.66335pt too wide) in paragraph at lines 198--198
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@toc=\write4
-\openout4 = `iTesis.toc'.
+\tf@toc=\write7
+\openout7 = `iTesis.toc'.
 
  [7
 
@@ -979,8 +1220,8 @@ Overfull \hbox (3.66335pt too wide) in paragraph at lines 198--198
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lof=\write5
-\openout5 = `iTesis.lof'.
+\tf@lof=\write8
+\openout8 = `iTesis.lof'.
 
  [8
 
@@ -993,162 +1234,111 @@ Overfull \hbox (3.66335pt too wide) in paragraph at lines 198--198
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lot=\write6
-\openout6 = `iTesis.lot'.
+\tf@lot=\write9
+\openout9 = `iTesis.lot'.
 
  [9
 
 ] (./Capitulo01.tex
 Cap\'{\i }tulo 1
+
+Package natbib Warning: Citation `psychologyapa' on page 1 undefined on input l
+ine 10.
+
+
+Package natbib Warning: Citation `PMID2235645' on page 1 undefined on input lin
+e 10.
+
+
+Package natbib Warning: Citation `repetto2013' on page 1 undefined on input lin
+e 10.
+
+
+Package natbib Warning: Citation `Chen2013' on page 1 undefined on input line 1
+6.
+
+
+Package natbib Warning: Citation `bernier2010autism' on page 1 undefined on inp
+ut line 19.
+
+
+Package natbib Warning: Citation `Aziz' on page 1 undefined on input line 21.
+
 [1
 
-]) (./Capitulo02.tex
+] [2]) (./Capitulo02.tex
 Cap\'{\i }tulo 2
+[3
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 11.
-
-<./Figures/instauracionFatigaReposo_1_3.png, id=189, 803.0pt x 602.25pt>
-File: ./Figures/instauracionFatigaReposo_1_3.png Graphic file (type png)
-
-<use ./Figures/instauracionFatigaReposo_1_3.png>
-Package pdftex.def Info: ./Figures/instauracionFatigaReposo_1_3.png used on inp
-ut line 18.
-(pdftex.def)             Requested size: 227.62204pt x 170.71487pt.
-File: ./Figures/instauracionFatigaReposo_1_3.png Graphic file (type png)
-
-<use ./Figures/instauracionFatigaReposo_1_3.png>
-Package pdftex.def Info: ./Figures/instauracionFatigaReposo_1_3.png used on inp
-ut line 19.
-(pdftex.def)             Requested size: 227.62204pt x 170.71487pt.
-File: ./Figures/instauracionFatigaReposo_1_3.png Graphic file (type png)
-
-<use ./Figures/instauracionFatigaReposo_1_3.png>
-Package pdftex.def Info: ./Figures/instauracionFatigaReposo_1_3.png used on inp
-ut line 20.
-(pdftex.def)             Requested size: 455.24408pt x 341.43895pt.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 21.
- [2
-
-] [3 <./Figures/instauracionFatigaReposo_1_3.png>]) (./Capitulo03.tex
+]) (./Capitulo03.tex
 Cap\'{\i }tulo 3
-
-Underfull \hbox (badness 5652) in paragraph at lines 64--64
-[]|\OT1/phv/m/n/12 Country Na-me
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 64--64
-[]|\OT1/phv/m/n/12 ISO ALP-HA 2
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 64--64
-[]|\OT1/phv/m/n/12 ISO ALP-HA 3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-[]|\OT1/phv/m/n/12 ISO nu-me-ric
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-[]|\OT1/phv/m/n/12 American Sa-
- []
-
 [4
 
-]
-! Undefined control sequence.
-<recently read> \multirow 
-                          
-l.83 \multirow
-              {3}{4em}{Multiple row} & cell2 & cell3 \\
-? 
-[5] [6]
-
-Package natbib Warning: Citation `Barstow:1991' on page 7 undefined on input li
-ne 159.
-
-[7]) (./Capitulo04.tex
+]) (./Capitulo04.tex
 Cap\'{\i }tulo 4
-[8
+[5
 
 ]) (./Capitulo05.tex
 Cap\'{\i }tulo 5
-<./Figures/doge.jpeg, id=240, 259.97125pt x 194.7275pt>
-File: ./Figures/doge.jpeg Graphic file (type jpg)
+[6
 
-<use ./Figures/doge.jpeg>
-Package pdftex.def Info: ./Figures/doge.jpeg used on input line 13.
-(pdftex.def)             Requested size: 389.95592pt x 292.0905pt.
- [9
-
- <./Figures/doge.jpeg>]) (./Capitulo06.tex
+]) (./Capitulo06.tex
 Cap\'{\i }tulo 6
-[10
+[7
 
 ]) (./Capitulo07.tex
 Cap\'{\i }tulo 7
-
-Package natbib Warning: Citation `Chalder1993' on page 11 undefined on input li
-ne 9.
-
-[11
+[8
 
 ]) (./Capitulo08.tex
 Cap\'{\i }tulo 8
-[12
+[9
 
-]) (./iTesis.bbl) (./Apendice.tex [13
+]) (./iTesis.bbl) (./Apendice.tex [10
 
 ]
 Ap\'{e}ndice A
-) [14
+) [11
 
 ]
+
+Package glossaries Warning: No \printglossary or \printglossaries found.
+This document will not have a glossary.
+
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
 (./iTesis.aux
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
 Package rerunfilecheck Info: File `iTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 154FC976ADE05AF619AEE45E7E8A29E7;1414.
+(rerunfilecheck)             Checksum: 2C1468BFC5E3E3D0B4E3C2C549545D6E;1516.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
  ) 
 Here is how much of TeX's memory you used:
- 11241 strings out of 493315
- 155560 string characters out of 6145893
- 277598 words of memory out of 5000000
- 14384 multiletter control sequences out of 15000+600000
- 38793 words of font info for 74 fonts, out of 8000000 for 9000
+ 20451 strings out of 493315
+ 314873 string characters out of 6145893
+ 472688 words of memory out of 5000000
+ 23386 multiletter control sequences out of 15000+600000
+ 22593 words of font info for 50 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,18n,40p,841b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
-e/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/
-public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
-/texmf/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf/fonts/type1/urw/he
-lvetic/uhvbo8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
-share/texmf/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on iTesis.pdf (23 pages, 176267 bytes).
+ 53i,7n,92p,1456b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/u
+rw/helvetic/uhvb8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvbo8a.pfb><
+/usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf/fonts/ty
+pe1/urw/helvetic/uhvro8a.pfb>
+Output written on iTesis.pdf (20 pages, 63000 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
