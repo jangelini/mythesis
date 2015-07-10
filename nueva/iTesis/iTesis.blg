@@ -1,49 +1,56 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
+This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: iTesis.aux
 The style file: cicese.bst
-Database file #1: cicese.bib
-Warning--I didn't find a database entry for "Barstow:1991"
-Warning--I didn't find a database entry for "Chalder1993"
-You've used 2 entries,
+Database file #1: iTesis.bib
+Repeated entry---line 488 of file iTesis.bib
+ : @article{Sharma20121287
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Chen2013
+Warning--empty journal in Hamilton1959
+Warning--empty publisher in EcgPractica
+Warning--there's a number but no volume in Joling2014
+Warning--empty publisher in psychologyapa
+You've used 38 entries,
             2727 wiz_defined-function locations,
-            733 strings with 5776 characters,
-and the built_in function-call counts, 925 in all, are:
-= -- 87
-> -- 51
-< -- 1
-+ -- 15
-- -- 15
-* -- 99
-:= -- 148
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 11
-chr.to.int$ -- 2
-cite$ -- 6
-duplicate$ -- 32
-empty$ -- 63
-format.name$ -- 17
-if$ -- 179
+            1000 strings with 14530 characters,
+and the built_in function-call counts, 21131 in all, are:
+= -- 1964
+> -- 1380
+< -- 30
++ -- 415
+- -- 415
+* -- 2163
+:= -- 3176
+add.period$ -- 128
+call.type$ -- 38
+change.case$ -- 269
+chr.to.int$ -- 38
+cite$ -- 119
+duplicate$ -- 778
+empty$ -- 1317
+format.name$ -- 463
+if$ -- 4357
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 8
-pop$ -- 14
+missing$ -- 38
+newline$ -- 196
+num.names$ -- 155
+pop$ -- 410
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 213
 quote$ -- 0
-skip$ -- 28
+skip$ -- 733
 stack$ -- 0
-substring$ -- 50
-swap$ -- 9
-text.length$ -- 0
+substring$ -- 973
+swap$ -- 312
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
-warning$ -- 0
-while$ -- 10
+type$ -- 333
+warning$ -- 5
+while$ -- 172
 width$ -- 0
-write$ -- 28
-(There were 2 warnings)
+write$ -- 524
+(There was 1 error message)
