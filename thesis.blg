@@ -1,46 +1,55 @@
 This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
-I found no \bibstyle command---while reading file thesis.aux
+The style file: cicese.bst
+Database file #1: thesis.bib
+Repeated entry---line 488 of file thesis.bib
+ : @article{Sharma20121287
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Chen2013
+Warning--empty publisher in EcgPractica
+Warning--there's a number but no volume in Joling2014
+Warning--empty publisher in psychologyapa
 You've used 21 entries,
-            0 wiz_defined-function locations,
-            120 strings with 943 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
+            2733 wiz_defined-function locations,
+            870 strings with 10366 characters,
+and the built_in function-call counts, 11026 in all, are:
+= -- 1013
+> -- 709
+< -- 13
++ -- 211
+- -- 211
+* -- 1176
+:= -- 1692
+add.period$ -- 76
+call.type$ -- 21
+change.case$ -- 135
+chr.to.int$ -- 21
+cite$ -- 67
+duplicate$ -- 387
+empty$ -- 706
+format.name$ -- 238
+if$ -- 2242
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+missing$ -- 23
+newline$ -- 117
+num.names$ -- 86
+pop$ -- 202
+preamble$ -- 1
+purify$ -- 111
 quote$ -- 0
-skip$ -- 0
+skip$ -- 350
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 501
+swap$ -- 142
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 180
+warning$ -- 4
+while$ -- 88
 width$ -- 0
-write$ -- 0
+write$ -- 297
 (There was 1 error message)
