@@ -9,23 +9,27 @@
 \contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introducci\'on}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}Qu\'e es la Ansiedad?}{2}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}``State Anxiety'' y ``Trait Anxiety''}{2}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Ansiedad y estr\'es}{3}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Ansiedad y estr\'es}{2}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}``State Anxiety'' y ``Trait Anxiety''}{3}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Demencia}{3}{section.2.3}
-\contentsline {section}{\numberline {2.4}Cuidadores}{3}{section.2.4}
+\contentsline {section}{\numberline {2.4}Cuidadores}{4}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}C\'omo se genera la ansiedad en los cuidadores?}{4}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Se\~nales fisiol\'ogicas relacionadas}{4}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Cuidadores Formales e Informales}{4}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}C\'omputo vestible}{4}{section.2.5}
-\contentsline {section}{\numberline {2.6}Trabajo previo en detecci\'on de ansiedad}{5}{section.2.6}
-\contentsline {section}{\numberline {2.7}Conclusion}{5}{section.2.7}
-\contentsline {chapter}{\numberline {3}Metodolog\'ia y dise\~no de un m\'etodo para inducir ansiedad en cuidadores de personas con demencia}{6}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introducci\'on}{6}{section.3.1}
-\contentsline {section}{\numberline {3.2}Un experimento para inducir ansiedad en cuidadores informales}{6}{section.3.2}
-\contentsline {chapter}{\numberline {4}}{8}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{9}{chapter.5}
-\contentsline {chapter}{\numberline {6}6}{10}{chapter.6}
-\contentsline {chapter}{\numberline {7}7}{11}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusiones}{12}{chapter.8}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{13}{chapter.8}
-\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice}{17}{appendix.Alph9}
+\contentsline {subsection}{\numberline {2.4.2}Caracter\'isticas del individuo}{5}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Factores de estr\'es primarios}{5}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Carga del cuidador}{5}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Estrategias de afrontamiento}{5}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}Se\~nales fisiol\'ogicas relacionadas}{6}{subsection.2.4.6}
+\contentsline {subsection}{\numberline {2.4.7}Cuidadores Formales e Informales}{6}{subsection.2.4.7}
+\contentsline {section}{\numberline {2.5}C\'omputo vestible}{6}{section.2.5}
+\contentsline {section}{\numberline {2.6}Trabajo previo en detecci\'on de ansiedad}{6}{section.2.6}
+\contentsline {section}{\numberline {2.7}Conclusion}{6}{section.2.7}
+\contentsline {chapter}{\numberline {3}Metodolog\'ia y dise\~no de un m\'etodo para inducir ansiedad en cuidadores de personas con demencia}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\'on}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Un experimento para inducir ansiedad en cuidadores informales}{7}{section.3.2}
+\contentsline {chapter}{\numberline {4}}{9}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{10}{chapter.5}
+\contentsline {chapter}{\numberline {6}6}{11}{chapter.6}
+\contentsline {chapter}{\numberline {7}7}{12}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusiones}{13}{chapter.8}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{14}{chapter.8}
+\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice}{18}{appendix.Alph9}

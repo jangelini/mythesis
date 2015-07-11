@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  10 JUL 2015 01:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  10 JUL 2015 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1115,7 +1115,7 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <15.84> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 198.
 
-<./Figures/logoCicese2009.pdf, id=122, 540.60239pt x 270.30113pt>
+<./Figures/logoCicese2009.pdf, id=138, 540.60239pt x 270.30113pt>
 File: ./Figures/logoCicese2009.pdf Graphic file (type pdf)
 
 <use ./Figures/logoCicese2009.pdf>
@@ -1213,18 +1213,18 @@ Cap\'{\i }tulo 1
 Cap\'{\i }tulo 2
 [2
 
-] [3] <./Figures/img_frame.png, id=222, 662.475pt x 339.51843pt>
+] [3] <./Figures/img_frame.png, id=242, 662.475pt x 339.51843pt>
 File: ./Figures/img_frame.png Graphic file (type png)
 
 <use ./Figures/img_frame.png>
-Package pdftex.def Info: ./Figures/img_frame.png used on input line 46.
+Package pdftex.def Info: ./Figures/img_frame.png used on input line 45.
 (pdftex.def)             Requested size: 455.23817pt x 227.62122pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 47.
- [4 <./Figures/img_frame.png>] [5])
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 46.
+ [4 <./Figures/img_frame.png>] [5] [6])
 (./Capitulo03.tex
 Cap\'{\i }tulo 3
-<./Figures/img_exp_setup.png, id=233, 1385.175pt x 879.285pt>
+<./Figures/img_exp_setup.png, id=257, 1385.175pt x 879.285pt>
 File: ./Figures/img_exp_setup.png Graphic file (type png)
 
 <use ./Figures/img_exp_setup.png>
@@ -1234,27 +1234,27 @@ Package pdftex.def Info: ./Figures/img_exp_setup.png used on input line 17.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6
+[7
 
-]) (./Capitulo04.tex [7 <./Figures/img_exp_setup.png>]
+]) (./Capitulo04.tex [8 <./Figures/img_exp_setup.png>]
 Cap\'{\i }tulo 4
-[8
+[9
 
 ]) (./Capitulo05.tex
 Cap\'{\i }tulo 5
-[9
+[10
 
 ]) (./Capitulo06.tex
 Cap\'{\i }tulo 6
-[10
+[11
 
 ]) (./Capitulo07.tex
 Cap\'{\i }tulo 7
-[11
+[12
 
 ]) (./Capitulo08.tex
 Cap\'{\i }tulo 8
-[12
+[13
 
 ]) (./iTesis.bbl (/usr/share/texmf/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
@@ -1264,9 +1264,9 @@ Underfull \hbox (badness 1082) in paragraph at lines 35--41
 iy, M., y Si-do-ro-va, N. (2012).
  []
 
-[13
+[14
 
-] [14]
+] [15]
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 273.
 
  (/usr/share/texmf/tex/latex/psnfss/omsphv.fd
@@ -1274,10 +1274,10 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 273.
- [15]) (./Apendice.tex
-[16]
+ [16]) (./Apendice.tex
+[17]
 Ap\'{e}ndice A
-) [17
+) [18
 
 ]
 
@@ -1293,17 +1293,17 @@ LaTeX Info: Redefining \% on input line 25.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
 Package rerunfilecheck Info: File `iTesis.out' has not changed.
-(rerunfilecheck)             Checksum: F1285E631F0F0AD1392BBC5C7A157CE4;1976.
+(rerunfilecheck)             Checksum: C316DBA78874ADA29EA9B7A6BFCB5EDB;2301.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20760 strings out of 493315
- 318722 string characters out of 6145893
- 476651 words of memory out of 5000000
- 23671 multiletter control sequences out of 15000+600000
+ 20773 strings out of 493315
+ 318982 string characters out of 6145893
+ 477893 words of memory out of 5000000
+ 23679 multiletter control sequences out of 15000+600000
  25986 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  53i,7n,92p,1456b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1312,10 +1312,10 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvb8a.
 pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texmf/fo
 nts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uh
 vro8a.pfb>
-Output written on iTesis.pdf (26 pages, 307384 bytes).
+Output written on iTesis.pdf (27 pages, 311116 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
