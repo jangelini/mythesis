@@ -27,20 +27,24 @@
 \contentsline {section}{\numberline {2.6}C\'omputo vestible}{8}{section.2.6}
 \contentsline {section}{\numberline {2.7}Trabajo previo en detecci\'on de ansiedad}{9}{section.2.7}
 \contentsline {section}{\numberline {2.8}Conclusion}{9}{section.2.8}
-\contentsline {chapter}{\numberline {3}Metodolog\'ia y dise\~no de un experimento para inducir ansiedad en cuidadores de personas con demencia}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introducci\'on}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}Un experimento para inducir ansiedad en cuidadores informales}{10}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Sujetos}{11}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Procedimiento}{11}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Entrenamiento}{11}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Tareas de terapias}{12}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Configuraci\'on}{13}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Obtenci\'on de datos}{14}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}An\'alsis de los datos}{15}{section.3.5}
-\contentsline {chapter}{\numberline {4}}{17}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{18}{chapter.5}
-\contentsline {chapter}{\numberline {6}6}{19}{chapter.6}
-\contentsline {chapter}{\numberline {7}7}{20}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusiones}{21}{chapter.8}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{22}{chapter.8}
-\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice}{26}{appendix.Alph9}
+\contentsline {chapter}{\numberline {3}Metodolog\'ia y dise\~no de un experimento para inducir ansiedad en cuidadores de personas con demencia.}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\'on.}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}Un experimento para inducir ansiedad en cuidadores informales.}{10}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Sujetos.}{11}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Procedimiento.}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Entrenamiento.}{11}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Tareas de terapias.}{12}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Configuraci\'on.}{13}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Obtenci\'on de datos.}{14}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}An\'alisis de los datos.}{15}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Pre-procesado de GSR}{16}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}HR and IBI Pre-processing.}{16}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Procesamiento de video.}{17}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Segmentaci\'on de los datos.}{17}{subsection.3.5.4}
+\contentsline {chapter}{\numberline {4}}{19}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{20}{chapter.5}
+\contentsline {chapter}{\numberline {6}6}{21}{chapter.6}
+\contentsline {chapter}{\numberline {7}7}{22}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusiones}{23}{chapter.8}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{24}{chapter.8}
+\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice}{28}{appendix.Alph9}
