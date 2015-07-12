@@ -3,6 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: iTesis.aux
 The style file: cicese.bst
 Database file #1: iTesis.bib
+Warning--I didn't find a database entry for "Miranda"
 Warning--empty journal in Chen2013
 Warning--empty journal in Hamilton1959
 Warning--empty publisher in EcgPractica
@@ -11,7 +12,7 @@ Warning--empty publisher in psychologyapa
 Warning--empty year in prince15; set to ????
 You've used 44 entries,
             2727 wiz_defined-function locations,
-            1048 strings with 16010 characters,
+            1050 strings with 16024 characters,
 and the built_in function-call counts, 24836 in all, are:
 = -- 2302
 > -- 1629
@@ -50,4 +51,4 @@ warning$ -- 6
 while$ -- 203
 width$ -- 0
 write$ -- 604
-(There were 6 warnings)
+(There were 7 warnings)

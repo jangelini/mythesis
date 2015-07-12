@@ -1,3 +1,4 @@
+kill %
 rm *.aux
 rm iTesis.pdf
 pdflatex iTesis
