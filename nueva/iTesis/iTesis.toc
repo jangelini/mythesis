@@ -30,6 +30,7 @@
 \contentsline {chapter}{\numberline {3}Metodolog\'ia y dise\~no de un experimento para inducir ansiedad en cuidadores de personas con demencia.}{10}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introducci\'on.}{10}{section.3.1}
 \contentsline {section}{\numberline {3.2}Metodolog\'ia.}{10}{section.3.2}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3.3}Un experimento para inducir ansiedad en cuidadores informales.}{10}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Sujetos.}{11}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Procedimiento.}{12}{section.3.4}
@@ -49,3 +50,25 @@
 \contentsline {chapter}{\numberline {8}Conclusiones}{23}{chapter.8}
 \contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{24}{chapter.8}
 \contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice}{28}{appendix.Alph9}
+=======
+\contentsline {section}{\numberline {3.3}Un experimento para inducir ansiedad en cuidadores informales.}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Sujetos.}{12}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Procedimiento.}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Entrenamiento.}{12}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Tareas de terapias.}{13}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Configuraci\'on.}{14}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Obtenci\'on de datos.}{15}{subsection.3.5.1}
+\contentsline {section}{\numberline {3.6}An\'alisis de los datos.}{16}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Pre-procesado de GSR}{17}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}HR and IBI Pre-processing.}{17}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Procesamiento de video.}{18}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Segmentaci\'on de los datos.}{18}{subsection.3.6.4}
+\contentsline {chapter}{\numberline {4}}{20}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{21}{chapter.5}
+\contentsline {chapter}{\numberline {6}6}{22}{chapter.6}
+\contentsline {chapter}{\numberline {7}7}{23}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusiones}{24}{chapter.8}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{25}{chapter.8}
+\contentsline {chapter}{\numberline {A}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{29}{appendix.Alph9}
+\contentsline {chapter}{\numberline {B}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{30}{appendix.Alph10}
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892

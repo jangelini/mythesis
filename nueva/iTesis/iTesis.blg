@@ -3,52 +3,55 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: iTesis.aux
 The style file: cicese.bst
 Database file #1: iTesis.bib
-Warning--I didn't find a database entry for "Miranda"
+Repeated entry---line 720 of file iTesis.bib
+ : @article{Sharma20121287
+ :                        ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Chen2013
 Warning--empty journal in Hamilton1959
 Warning--empty publisher in EcgPractica
 Warning--there's a number but no volume in Joling2014
 Warning--empty publisher in psychologyapa
 Warning--empty year in prince15; set to ????
-You've used 44 entries,
+You've used 46 entries,
             2727 wiz_defined-function locations,
-            1050 strings with 16024 characters,
-and the built_in function-call counts, 24836 in all, are:
-= -- 2302
-> -- 1629
+            1061 strings with 16447 characters,
+and the built_in function-call counts, 25897 in all, are:
+= -- 2397
+> -- 1700
 < -- 32
-+ -- 490
-- -- 490
-* -- 2591
-:= -- 3727
-add.period$ -- 146
-call.type$ -- 44
-change.case$ -- 314
-chr.to.int$ -- 44
-cite$ -- 138
-duplicate$ -- 896
-empty$ -- 1554
-format.name$ -- 546
-if$ -- 5099
++ -- 511
+- -- 511
+* -- 2717
+:= -- 3890
+add.period$ -- 153
+call.type$ -- 46
+change.case$ -- 327
+chr.to.int$ -- 46
+cite$ -- 144
+duplicate$ -- 930
+empty$ -- 1622
+format.name$ -- 569
+if$ -- 5310
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 45
-newline$ -- 225
-num.names$ -- 179
-pop$ -- 479
+missing$ -- 47
+newline$ -- 236
+num.names$ -- 187
+pop$ -- 496
 preamble$ -- 1
-purify$ -- 250
+purify$ -- 261
 quote$ -- 0
-skip$ -- 836
+skip$ -- 865
 stack$ -- 0
-substring$ -- 1204
-swap$ -- 358
+substring$ -- 1258
+swap$ -- 370
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 387
+type$ -- 405
 warning$ -- 6
-while$ -- 203
+while$ -- 211
 width$ -- 0
-write$ -- 604
-(There were 7 warnings)
+write$ -- 632
+(There was 1 error message)

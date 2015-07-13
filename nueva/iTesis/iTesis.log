@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 JUL 2015 02:28
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  12 JUL 2015 20:13
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1121,7 +1125,11 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <15.84> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 199.
 
+<<<<<<< HEAD
 <./Figures/logoCicese2009.pdf, id=203, 540.60239pt x 270.30113pt>
+=======
+<./Figures/logoCicese2009.pdf, id=207, 540.60239pt x 270.30113pt>
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
 File: ./Figures/logoCicese2009.pdf Graphic file (type pdf)
 
 <use ./Figures/logoCicese2009.pdf>
@@ -1218,7 +1226,11 @@ Cap\'{\i }tulo 1
 Cap\'{\i }tulo 2
 [2
 
+<<<<<<< HEAD
 ] [3] <./Figures/img_frame.png, id=347, 662.475pt x 339.51843pt>
+=======
+] [3] <./Figures/img_frame.png, id=358, 662.475pt x 339.51843pt>
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
 File: ./Figures/img_frame.png Graphic file (type png)
 
 <use ./Figures/img_frame.png>
@@ -1227,14 +1239,22 @@ Package pdftex.def Info: ./Figures/img_frame.png used on input line 45.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 46.
  [4 <./Figures/img_frame.png>] [5]
+<<<<<<< HEAD
 <./Figures/img_snc.png, id=358, 1440.13031pt x 727.96968pt>
+=======
+<./Figures/img_snc.png, id=369, 1440.13031pt x 727.96968pt>
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
 File: ./Figures/img_snc.png Graphic file (type png)
 
 <use ./Figures/img_snc.png>
 Package pdftex.def Info: ./Figures/img_snc.png used on input line 69.
 (pdftex.def)             Requested size: 455.22563pt x 227.62326pt.
 
+<<<<<<< HEAD
 <./Figures/img_gsr.png, id=359, 347.04657pt x 272.51813pt>
+=======
+<./Figures/img_gsr.png, id=370, 347.04657pt x 272.51813pt>
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
 File: ./Figures/img_gsr.png Graphic file (type png)
 
 <use ./Figures/img_gsr.png>
@@ -1243,8 +1263,19 @@ Package pdftex.def Info: ./Figures/img_gsr.png used on input line 79.
  [6 <./Figures/img_snc.png>] [7 <./Figures/img_gsr.png>] [8] [9]) (./Capitulo03
 .tex
 Cap\'{\i }tulo 3
+<./Figures/img_metodologia.png, id=396, 766.865pt x 145.54375pt>
+File: ./Figures/img_metodologia.png Graphic file (type png)
+
+<use ./Figures/img_metodologia.png>
+Package pdftex.def Info: ./Figures/img_metodologia.png used on input line 15.
+(pdftex.def)             Requested size: 455.24408pt x 86.40305pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [10
 
+<<<<<<< HEAD
 ]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1266,12 +1297,53 @@ File: ./Figures/img_caremetoo.png Graphic file (type png)
 
 <use ./Figures/img_caremetoo.png>
 Package pdftex.def Info: ./Figures/img_caremetoo.png used on input line 112.
+=======
+] <./Figures/img_evalmethods.png, id=403, 612.03656pt x 327.47343pt>
+File: ./Figures/img_evalmethods.png Graphic file (type png)
+
+<use ./Figures/img_evalmethods.png>
+Package pdftex.def Info: ./Figures/img_evalmethods.png used on input line 24.
+(pdftex.def)             Requested size: 256.07301pt x 142.26491pt.
+ [11 <./Figures/img_metodologia.png> <./Figures/img_evalmethods.png>]
+Overfull \hbox (2.11668pt too wide) in paragraph at lines 34--35
+[]\OT1/phv/m/n/12 Los su-je-tos fue-ron re-clu-ta-dos a trav[]es de la lis-ta d
+e co-rreo de CI-CE-SE. Se les otorg[]o un
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12]
+Overfull \hbox (64.67169pt too wide) in paragraph at lines 73--87
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13] <./Figures/img_exp_setup.png, id=424, 1385.175pt x 879.285pt>
+File: ./Figures/img_exp_setup.png Graphic file (type png)
+
+<use ./Figures/img_exp_setup.png>
+Package pdftex.def Info: ./Figures/img_exp_setup.png used on input line 108.
+(pdftex.def)             Requested size: 455.22806pt x 227.61586pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] <./Figures/img_caremetoo.png, id=429, 401.5pt x 713.66624pt>
+File: ./Figures/img_caremetoo.png Graphic file (type png)
+
+<use ./Figures/img_caremetoo.png>
+Package pdftex.def Info: ./Figures/img_caremetoo.png used on input line 121.
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
 (pdftex.def)             Requested size: 128.05377pt x 227.62204pt.
  [14 <./Figures/img_exp_setup.png>]
 
 Package natbib Warning: Citation `Miranda' on page 15 undefined on input line 1
 16.
 
+<<<<<<< HEAD
 
 Overfull \hbox (41.21535pt too wide) in paragraph at lines 116--121
 \OT1/phv/m/n/12 trav[]es de una li-brer[]^^Pa lla-mad a ``ma-xi-Pro-ces-ser'' (
@@ -1292,31 +1364,50 @@ Package pdftex.def Info: ./Figures/img_segment.png used on input line 156.
 (pdftex.def)             Requested size: 483.22871pt x 512.1496pt.
 
 Overfull \hbox (11.19748pt too wide) in paragraph at lines 156--157
+=======
+[15 <./Figures/img_exp_setup.png>]
+Overfull \hbox (5.84264pt too wide) in paragraph at lines 136--144
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <./Figures/img_caremetoo.png>] [17]
+<./Figures/img_segment.png, id=453, 1678.27pt x 1778.645pt>
+File: ./Figures/img_segment.png Graphic file (type png)
+
+<use ./Figures/img_segment.png>
+Package pdftex.def Info: ./Figures/img_segment.png used on input line 165.
+(pdftex.def)             Requested size: 483.22871pt x 512.1496pt.
+
+Overfull \hbox (11.19748pt too wide) in paragraph at lines 165--166
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]) (./Capitulo04.tex [18 <./Figures/img_segment.png>]
+[18]) (./Capitulo04.tex [19 <./Figures/img_segment.png>]
 Cap\'{\i }tulo 4
-[19
+[20
 
 ]) (./Capitulo05.tex
 Cap\'{\i }tulo 5
-[20
+[21
 
 ]) (./Capitulo06.tex
 Cap\'{\i }tulo 6
-[21
+[22
 
 ]) (./Capitulo07.tex
 Cap\'{\i }tulo 7
-[22
+[23
 
 ]) (./Capitulo08.tex
 Cap\'{\i }tulo 8
-[23
+[24
 
 ]) (./iTesis.bbl
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
@@ -1327,20 +1418,30 @@ Underfull \hbox (badness 1082) in paragraph at lines 35--41
 iy, M., y Si-do-ro-va, N. (2012).
  []
 
-[24
+[25
 
-] [25]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 273.
+]
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 160.
 
  (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
+<<<<<<< HEAD
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 273.
 
 [26]) (./Apendice.tex [27]
+=======
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
+ [26] [27]) (./Apendice.tex
+[28]
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
 Ap\'{e}ndice A
-) [28
+) (./ApendiceB.tex [29
+
+]
+Ap\'{e}ndice B
+) [30
 
 ]
 
@@ -1348,25 +1449,27 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
 (./iTesis.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
 Package rerunfilecheck Info: File `iTesis.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 36B3801EEFCC88BA30C191D6CF91FB25;3571.
+=======
+(rerunfilecheck)             Checksum: B3864CBB1014BE20C889330C914EA3B3;3765.
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  21640 strings out of 493117
  349439 string characters out of 6135433
  513283 words of memory out of 5000000
@@ -1391,4 +1494,33 @@ PDF statistics:
  475 compressed objects within 5 object streams
  104 named destinations out of 1000 (max. 500000)
  436 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 21081 strings out of 493315
+ 323450 string characters out of 6145893
+ 487508 words of memory out of 5000000
+ 23911 multiletter control sequences out of 15000+600000
+ 33060 words of font info for 72 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 53i,19n,92p,1456b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/symbols
+/msam10.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/t
+exmf/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texmf/fonts/type1/urw/hel
+vetic/uhvr8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on iTesis.pdf (40 pages, 3074766 bytes).
+PDF statistics:
+ 576 PDF objects out of 1000 (max. 8388607)
+ 504 compressed objects within 6 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 454 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> ece85c13c9b5b4fca4b7e62c24e5c47f7f2d1892
 

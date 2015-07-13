@@ -9,20 +9,29 @@
 Como vimos en el cap\'itulo 2, la mayor\'ia de los estudios logran inducir ansiedad o estr\'es por medio de situaciones controladas dentro del laboratorio exitosamente. Sin embargo, generar ansiedad en cuidadores informales es mucho mas dif\'icil: El escenario de un laboratorio no coincide con el entorno en el que una persona con demencia se desarrolla por lo que los comportamientos impredecibles no ser\'ian congruentes con el ambiente. Adem\'as, exponer a personas sin experiencia ante una persona con demencia que tiene necesidades reales resultar\'ia riesgoso para ambos individuos. Por otra parte, realizar una intervenci\'on totalmente natural a\~nade un grado de dificultad al estudio, resultando en ruido en los datos recolectados (p. ej. la se\~nal de ritmo card\'iaco podr\'ia ser alta no por una situaci\'on de ansiedad, sino por una actividad f\'isica, m\'ultiples distracciones o responsabilidades al mismo tiempo para el cuidador) haciendo d\'ificil de analizarlos para probar hip\'otesis.
 
 \section{Metodolog\'ia.}\label{secc:methodology}
-[insertar grafica de los 3 cuadros]
-
-[insertar imagen del triangulo de castro]
-A continuaci\'on, se muestra un experimento que implementa la  t\'ecnica conocida como ``Naturalistic enactment (NE)'' \cite{Castro11}
+La metodolog\'ia seguida se bas\'o en tres pasos: \textit{Captura de datos}, \textit{Detecci\'on de ansiedad}, y un paso hipot\'etico de \textit{Estrategias de afrontamiento} (ver figura ~\ref{fig:metodology}). El primer paso consiste en recabar informaci\'on de cuidadores bajo situaciones de ansiedad con el fin de etiquetar eventos y entender la relaci\'on que existe entre el cuidador y la persona con demencia. Esta captura se logr\'o por medio de un experimento que implementa una t\'ecnica de ``Natural Enactment''. Una vez capturada y etiquetada la informaci\'on, se desarroll\'o un m\'etodo basado en t\'ecnicas de aprendizaje de m\'aquina que tom\'o los segmentos de ansiedad y se extrajeron caracter\'isticas personales de cada se\~nal con tal de caracter\'izar dichos eventos. El tercer paso, aunque queda fuera del alcance de esta tesis se discute como las posibles aplicaciones por medio de tecnolog\'ia m\'ovil y/o pantallas ambientales y c\'omo ser\'ia un concepto de aplicaci\'on real. (Ver Trabajo a futuro)
+\begin{figure}[h]
+        \centering
+        \subfigure[]{\includegraphics[width=160mm]{./Figures/img_metodologia}}
+        \caption{Metodolog\'ia seguida durante la investigaci\'on.} \label{fig:metodology}
+\end{figure}
 
 \section{Un experimento para inducir ansiedad en cuidadores informales.}\label{secc:experiment}
-Se dise\~n\'o una intervenci\'on para inducir ansiedad en cuidadores informales bajo situaciones naturalistas y controladas. Para lograr esto, se utiliz\'o la t\'ecnica de NE. NE fue propuesta originalmente para evaluar tecnolog\'ias m\'edicas ubicuas, donde el tener una validad ambiental e interacc\'on directa del usuario es importante, y que sin embargo, utilizar pacientes reales puede ser peligroso. NE consiste de el desarrollo de tareas reales (p. ej. la exposici\'on a situaciones y tareas en situaciones naturales) para simular la experiencia del usuario bajo condiciones normales, y por lo tanto desenterrar problemas y comportamientos que podr\'ian de otra manera haber sido dif\'iciles de capturar.
+Se dise\~n\'o una intervenci\'on para inducir ansiedad en cuidadores informales bajo situaciones naturalistas y controladas. Para lograr esto, se utiliz\'o la t\'ecnica de NE. NE fue propuesta originalmente para evaluar tecnolog\'ias m\'edicas ubicuas, donde el tener una validad ambiental e interacc\'on directa del usuario es importante, y que sin embargo, utilizar pacientes reales puede ser peligroso\citep{Castro11}. NE consiste de el desarrollo de tareas reales (p. ej. la exposici\'on a situaciones y tareas en situaciones naturales) para simular la experiencia del usuario bajo condiciones normales, y por lo tanto desenterrar problemas y comportamientos que podr\'ian de otra manera haber sido dif\'iciles de capturar. NE representa una ventaja ante otros m\'etodos de evaluaci\'on gracias a su alta fidelidad, mediano riesgo y alta involucraci\'on del usuario (Ver figura ~\ref{fig:evalmethods}).
+
+\begin{figure}[h]
+        \centering
+        \subfigure[]{\includegraphics[width=90mm,height=50mm]{./Figures/img_evalmethods}}
+        \caption{M\'etodos de evaluaci\'on clasificados de acuerdo a la involucraci\'on del usuario, fidelidad y riesgo}\label{fig:evalmethods}
+\end{figure}
+
 
 Para poder exponer a los sujetos a una situaci\'on de cuidador estresante y realista bajo condiciones controladas, se formul\' un ejercicio que consisti\'o de una situaci\'on de terapia real con una persona actuando como si fuera una persona con demencia. Un adulto mayor de 75 a\~nos actu\'o como si sufriera de demencia. Se le entren\'o con los comportamientos t\'ipicos de demencia moderada como: murmureo, gritos, vagabundeo, preguntas repetitivas, entre otras. Ella ya estaba familiaraza con los estos comportamientos por conocidos que sufrieron de demencia. A los participantes se les dijo que estar\'ian trabajndo con una persona que realmente ten\'ia demencia. Tambi\'en, se les ocult\'o la verdadera raz\'on del estudio. En cambio, se les dijo que se les estaba evaluando su rendimiento como cuidadores basados en el entrenamiento inicial que se les di\'o.
 
-Se les pidi\'o firmar un documento de divulgaci\'on para evitar que los participantes hablaran entre ellos acerca del experimento, de los comportamientos del adulto mayor o cualquier otra t\'ecnica acerca de como manejar el comportamiento del adulto mayor, durante el tiempo en que el experimento durara.
+Se les pidi\'o firmar un documento de no divulgaci\'on (Ver Ap\'endice ~\ref{aped:B} )para evitar que los participantes hablaran entre ellos acerca del experimento, de los comportamientos del adulto mayor o cualquier otra t\'ecnica acerca de como manejar el comportamiento del adulto mayor, durante el tiempo en que el experimento durara.
 
 \subsection{Sujetos.}\label{secc:subjects}
-Los sujetos fueron reclutados a trav\'es de la lista de correo de CICESE. Se les otorg\'o un premio de compensaci\'on de 100.00 MXN en dinero electr\'onico para el cine. Se les pidi\'o a los participantes asisitr a 3 sesiones (una por cada semana), cada sesi\'on requiri\'o al rededor de 90 minutos de su tiempo.
+Los sujetos fueron reclutados a trav\'es de la lista de correo de CICESE. Se les otorg\'o un premio de compensaci\'on de 100.00 MXN en dinero electr\'onico para el cine. Se les pidi\'o a los participantes asisitr a 3 sesiones (una por cada semana), cada sesi\'on requiri\'o al rededor de 90 minutos de su tiempo. Se obtuvo consentimiento firmadde todos los sujetos (Ver Ap\'endice ~\ref{aped:A} )
 
 Todos los sujetos participaron en una sesi\'on de entrenamiento, en donde se les explic\'o las actividades a realiar en las terapias que hicieron con el adulto mayor.
 Participaron 10 estudiantes (5 hombres y 5 Mujeres) con un promedio de 24.5 a\~nos de edad ($\sigma=1.0593$) La tabla \ref{table:kysymys} muestra los datos demogr\'aficos de los participantes.
@@ -113,7 +122,7 @@ Se desarrollaron dos aplicaciones separadas para el sensor Empatica E3 y el band
         \caption{La aplicaci\'on Care Me Too mostrando se\~nales fisiol\'ogicas siendo grabadas.}\label{fig:caremetoo}
 \end{figure}
 
-Para la banda Zephyr HxM se utiliz\'o el programa de l\'inea de comandos ``anxiLogger'' (https://github.com/panzerfausten/anxiLogger) desarrollado para un estudio anterior \cite{Miranda}. El archivo csv de salida fue agregado a los datos de sesi\'on para sincronizar los tiempos a trav\'es de una librer\'ia llamad a ``maxiProcesser'' (https://github.com/panzerfausten/maxiProcesser)
+Para la banda Zephyr HxM se utiliz\'o el programa de l\'inea de comandos ``anxiLogger''\footnote{https://github.com/panzerfausten/anxiLogger} desarrollado para un estudio anterior \citep{Miranda}. El archivo csv de salida fue agregado a los datos de sesi\'on para sincronizar los tiempos a trav\'es de una librer\'ia llamad a ``maxiProcesser''\footnote{https://github.com/panzerfausten/maxiProcesser}
 \\
 Para la banda Muse se us\'o la aplicaci\'on de escritorio ``Muse lab'' Los datos obtenidos en .use fueron exportados a csv para analizarlos posteriormente.
 \\
