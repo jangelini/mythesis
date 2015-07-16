@@ -228,10 +228,10 @@ FUNCTION {bbl.and}
 { "y"}
 
 FUNCTION {bbl.editors}
-{ "(eds.)" }
+{ "editores" }
 
 FUNCTION {bbl.editor}
-{ "(ed.)" }
+{ "editor" }
 
 FUNCTION {bbl.edby}
 { "editado por" }
@@ -252,15 +252,13 @@ FUNCTION {bbl.nr}
 { "num." }
 
 FUNCTION {bbl.in}
-{ "en:" }
+{ "en" }
 
 FUNCTION {bbl.pages}
-{ "pp." }
-%{ "p\'aginas" }
+{ "p\'aginas" }
 
 FUNCTION {bbl.page}
-{ "p." }
-%{ "p\'agina" }
+{ "p\'agina" }
 
 FUNCTION {bbl.chapter}
 { "cap\'itulo" }
@@ -275,19 +273,19 @@ FUNCTION {bbl.phdthesis}
 { "Tesis de doctorado" }
 
 FUNCTION {bbl.first}
-{ "Primera" }
+{ "Primero" }
 
 FUNCTION {bbl.second}
-{ "Segunda" }
+{ "Segundo" }
 
 FUNCTION {bbl.third}
-{ "Tercera" }
+{ "Tercero" }
 
 FUNCTION {bbl.fourth}
-{ "Cuarta" }
+{ "Cuarto" }
 
 FUNCTION {bbl.fifth}
-{ "Quinta" }
+{ "Quinto" }
 
 FUNCTION {bbl.st}
 { "er" }
@@ -323,7 +321,7 @@ MACRO {oct} {"Octubre"}
 
 MACRO {nov} {"Noviembre"}
 
-MACRO {dec} {"Diciembre"}
+MACRO {dec} {"Deciembre"}
 
 FUNCTION {eng.ord}
 { duplicate$ "1" swap$ *
@@ -544,10 +542,8 @@ FUNCTION {format.in.editors}
     { "" }
     { editor format.names.ed
       editor num.names$ #1 >
-        { " " * bbl.editors * }
-        { " " * bbl.editor * }
-        %{ ", " * bbl.editors * }
-        %{ ", " * bbl.editor * }
+        { ", " * bbl.editors * }
+        { ", " * bbl.editor * }
       if$
     }
   if$
@@ -990,19 +986,17 @@ FUNCTION {book}
     { format.bvolume output
       new.block
       format.number.series output
-      new.block
+      new.sentence
       publisher "publisher" output.check
-      format.edition output  
-      new.block
       address output
-      format.pages output
     }
     {
       new.block
       format.book.crossref output.nonnull
     }
   if$
-  %format.isbn output
+  format.edition output
+  format.isbn output
   new.block
   note output
   fin.entry
@@ -1054,7 +1048,7 @@ FUNCTION {inbook}
     }
   if$
   format.edition output
-  %format.isbn output
+  format.isbn output
   new.block
   note output
   fin.entry
@@ -1071,20 +1065,18 @@ FUNCTION {incollection}
   crossref missing$
     { format.in.ed.booktitle "booktitle" output.check
       format.bvolume output
-%      format.number.series output
-%      format.chapter.pages output
+      format.number.series output
+      format.chapter.pages output
       new.sentence
       publisher "publisher" output.check
       address output
       format.edition output
-      format.number.series output
-      format.chapter.pages output
     }
     { format.incoll.inproc.crossref output.nonnull
       format.chapter.pages output
     }
   if$
-  %format.isbn output
+  format.isbn output
   new.block
   note output
   fin.entry
@@ -1100,24 +1092,20 @@ FUNCTION {inproceedings}
   new.block
   crossref missing$
     { format.in.ed.booktitle "booktitle" output.check
-%      format.bvolume output
-%      format.number.series output
-%      format.pages output
-      month output  %%%
+      format.bvolume output
+      format.number.series output
+      format.pages output
       address output
       new.sentence
       organization output
       publisher output
-      format.bvolume output
-      format.number.series output
-      format.pages output
     }
     { format.incoll.inproc.crossref output.nonnull
       format.pages output
     }
   if$
-  %format.isbn output
-  %new.block  
+  format.isbn output
+  new.block
   note output
   fin.entry
 }
@@ -1199,7 +1187,7 @@ FUNCTION {proceedings}
   new.sentence
   organization output
   publisher output
-  %format.isbn output
+  format.isbn output
   new.block
   note output
   fin.entry
@@ -1258,11 +1246,11 @@ FUNCTION {format.lab.names}
   s #1 "{vv~}{ll}" format.name$
   s num.names$ duplicate$
   #2 >
-    { pop$ " " * "\mbox{et al.}" emphasize * }
+    { pop$ " " * "et~al." emphasize * }
     { #2 <
         'skip$
         { s #2 "{ff }{vv }{ll}{ jj}" format.name$ "others" =
-            { " " * "\mbox{et al.}" emphasize * }
+            { " " * "et~al." emphasize * }
             { bbl.and space.word * s #2 "{vv~}{ll}" format.name$ * }
           if$
         }

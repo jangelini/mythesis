@@ -1,0 +1,356 @@
+\usepackage{natbib}
+\usepackage[letterpaper,left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry} % ivy
+
+\linespread{1.75}\small\normalsize
+
+%\renewcommand{\tablename}{\sf Tabla}
+%\renewcommand{\figurename}{\sf Figura}
+%\renewcommand{\listtablename}{\'Indice de tablas}
+%\renewcommand{\listfigurename}{\'Indice de figuras}
+\renewcommand{\contentsname}{Contenido}
+\renewcommand{\chaptername}{Cap\'{i}tulo}
+\renewcommand{\bibname}{Referencias}
+\renewcommand{\appendixname}{Ap\'endice}
+\renewcommand{\thechapter}{\Roman{chapter}}
+%\renewcommand{\thefigure}{\arabic{figure}}
+%\renewcommand{\thetable}{\Roman{table}}
+\renewcommand{\thepage}{\arabic{page}}
+\renewcommand{\theequation}{\arabic{equation}}
+
+\def\autor#1{\gdef\@autor{#1}}
+\def\titulo#1{\gdef\@titulo{#1}}
+\def\posgrado#1{\gdef\@posgrado{#1}}
+\def\orientacion#1{\gdef\@orientacion{#1}}
+\def\grado#1{\gdef\@grado{#1}}
+\def\fechaexamen#1{\gdef\@fechaexamen{#1}}
+\def\fechaexamencompleta#1{\gdef\@fechaexamencompleta{#1}}
+\def\tituloIN#1{\gdef\@tituloIN{#1}}
+\def\posgradoIN#1{\gdef\@posgradoIN{#1}}
+\def\orientacionIN#1{\gdef\@orientacionIN{#1}}
+\def\gradoIN#1{\gdef\@gradoIN{#1}}
+\def\fechaexamenIN#1{\gdef\@fechaexamenIN{#1}}
+\def\director#1{\gdef\@director{#1}}
+\def\primersinodal#1{\gdef\@primersinodal{#1}}
+\def\segundosinodal#1{\gdef\@segundosinodal{#1}}
+\def\tercersinodal#1{\gdef\@tercersinodal{#1}}
+\def\cuartosinodal#1{\gdef\@cuartosinodal{#1}}
+\def\dirposgrado#1{\gdef\@dirposgrado{#1}}
+\def\cpp#1{\gdef\@cpp{#1}}
+\def\resumenES#1{\gdef\@resumenES{#1}}
+\def\resumenIN#1{\gdef\@resumenIN{#1}}
+\def\dedicatoria#1{\gdef\@dedicatoria{#1}}
+\def\agradecimientos#1{\gdef\@agradecimientos{#1}}
+\def\palabrasclave#1{\gdef\@palabrasclave{#1}}
+% Palabras clave en ingles
+\def\keywords#1{\gdef\@keywords{#1}}
+\def\mc{\grado{Maestro en Ciencias}}
+\def\dc{\grado{Doctor en Ciencias}}
+\def\@titulo{}
+\def\@autor{}
+
+
+\newif\ifdal@second@supervisor   \dal@second@supervisorfalse
+\newif\ifdal@second@reader     \dal@second@readerfalse
+\newif\ifdal@third@reader      \dal@third@readerfalse
+\newif\ifdal@fourth@reader     \dal@fourth@readerfalse
+\newif\ifdal@fifth@reader      \dal@fifth@readerfalse
+
+%%%%DIRECTORES
+
+\newcounter{dal@supervisornum}
+\setcounter{dal@supervisornum}{0}
+\def\director#1{%
+   \ifnum\value{dal@supervisornum}=3
+      \ClassWarningNoLine{dalthesis}%
+         {Lo siento, solamente puede haber maximo dos directores}%
+   \else
+      \addtocounter{dal@supervisornum}{1}%
+      \def\@tempa{@\ifcase\value{dal@supervisornum}\or
+         first\or second\or third\or fourth\fi}%
+      \expandafter\gdef\csname \@tempa supervisor\endcsname{#1}%
+      \ifnum\value{dal@supervisornum}>1%
+         \csname dal\@tempa @supervisortrue\endcsname%
+      \fi%
+   \fi%
+}
+\def\firstsupervisor#1{%
+   \gdef\@firstsupervisor{#1}%
+   \addtocounter{dal@supervisornum}{1}%
+}
+\def\secondsupervisor#1{%
+   \gdef\@secondsupervisor{#1}\dal@second@supervisortrue%
+   \addtocounter{dal@supervisornum}{1}%
+}
+
+\def\signature#1#2{\parbox[b]{1in}{}
+\parbox[bt]{2.8in}{\shortstack{\vrule width 2.8in height 0.4pt\\
+                \\ #1 \\ \\ \\ \\ {\small#2}}}}
+\def\signatureRes#1#2{\parbox[b]{1in}{}
+\parbox[bt]{2.8in}{\shortstack{\vrule width 2.8in height 0.4pt\\
+                \\ #1 \\ \\ \\ \\ {\small#2}}}}
+\def\signatureDept#1#2#3{\parbox[b]{1in}{}
+    \parbox[bt]{2.8in}{\shortstack{\vrule width 2.8in height 0.4pt\\
+                \\ #1 \\ \\ \\ \\ {\it \small#2}\\ \\ {\it \small #3}}}}
+
+%%%%SINODALES
+
+\newcounter{dal@readernum}
+\setcounter{dal@readernum}{0}
+\def\sinodal#1{%
+   \ifnum\value{dal@readernum}=5
+      \ClassWarningNoLine{dalthesis}%
+         {Lo siento, solamente puede haber maximo cuatro sinodales}%
+   \else
+      \addtocounter{dal@readernum}{1}%
+      \def\@tempa{@\ifcase\value{dal@readernum}\or
+         first\or second\or third\or fourth\fi}%
+      \expandafter\gdef\csname \@tempa reader\endcsname{#1}%
+      \ifnum\value{dal@readernum}>1%
+         \csname dal\@tempa @readertrue\endcsname%
+      \fi%
+   \fi%
+}
+\def\firstreader#1{%
+   \gdef\@firstreader{#1}%
+   \addtocounter{dal@readernum}{1}%
+}
+\def\secondreader#1{%
+   \gdef\@secondreader{#1}\dal@second@readertrue%
+   \addtocounter{dal@readernum}{1}%
+}
+\def\thirdreader#1{%
+   \gdef\@thirdreader{#1}\dal@third@readertrue%
+   \addtocounter{dal@readernum}{1}%
+}
+\def\fourthreader#1{%
+   \gdef\@fourthreader{#1}\dal@fourth@readertrue%
+   \addtocounter{dal@readernum}{1}%
+}
+%
+%  ----  Preliminary pages  ---------------------------
+%
+\def\preliminares{
+
+%\setcounter{page}{1}\pagenumbering{roman}
+\thispagestyle{empty}
+%firmas
+
+\begin{center}
+
+        ANTEPROYECTO DE TESIS ELABORADO POR
+
+        \Large\bfseries\@autor
+        \vspace{0.5cm}
+
+        \normalsize\normalfont Y APROBADO POR EL SIGUIENTE COMIT\'E
+        \vspace{3.5cm}
+
+        %con un solo director
+        \ifnum\value{dal@supervisornum}=1%
+                \signature{\@firstsupervisor}{\emph{Director del Comit\'e}}
+        \fi
+        %con dos directores
+        \ifnum\value{dal@supervisornum}=2%
+        \hskip -0.5in
+                \signature{\@firstsupervisor}{\emph{Codirector del Comit\'e}}
+        \hskip 0.5in
+                \signature{\@secondsupervisor}{\emph{Codirector del Comit\'e}}
+        \fi
+
+        %con solo 2 sinodales
+        \ifnum\value{dal@readernum}=2%
+        \vspace{2cm}
+        \hskip -0.1cm
+                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+        \vspace{2cm}
+                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+        \fi
+
+        %con tres sinodales
+        \ifnum\value{dal@readernum}=3%
+        \vspace{2cm}
+        \hskip -0.1cm
+                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+        \vspace{2cm}
+                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+        \fi
+
+        %con cuatro sinodales
+        \ifnum\value{dal@readernum}=4%
+        \vspace{2.0cm}
+        \hskip -0.1cm
+                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+        \vspace{2cm}
+
+        \hskip -0.1cm
+                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
+        \fi
+%        \vspace{1.965cm} ivy
+%        \hskip -0.1cm ivy
+%        \signatureDept{\@cpp}{Coordinador del programa de}{posgrado en \@posgrado} ivy
+%        \hfill ivy
+%                \signature{\vspace{0.8mm}\@dirposgrado}{\vspace{6.5mm}\emph{Director de Estudios de Posgrado}} ivy
+\end{center}
+%\vspace{2.4cm} ivy
+\vspace{6.0cm} % ivy
+\begin{flushright}
+        \@fechaexamencompleta
+\end{flushright}
+
+%\linespread{1.75}\small\normalsize
+\newpage
+
+%portada
+\thispagestyle{empty}
+\begin{center}
+
+\large
+\textbf{CENTRO DE INVESTIGACI\'ON CIENT\'IFICA Y DE EDUCACI\'ON SUPERIOR DE ENSENADA}
+\normalsize
+
+\vspace{0.9cm}
+\begin{figure}[!h]
+   \begin{center}
+      \includegraphics[width=1.5in]{Figures/logoCicese2009.pdf}\\
+   \end{center}
+\end{figure}
+
+\vspace{0.5cm}
+
+\vrule width 15.5cm height 1.5pt
+
+\textbf{PROGRAMA DE POSGRADO EN CIENCIAS\\
+EN \expandafter\uppercase\expandafter{\@posgrado}}
+
+\vrule width 15.5cm height 1.5pt
+
+% El espacio de 1.7cm es para un titulo con 2 renglones
+% El espacio de 1.27cm es para un titulo con 3 renglones
+\vspace{1.27cm} % ivy
+
+% Titulo de la tesis
+\textbf{\expandafter\uppercase\expandafter{\@titulo}}
+
+% El espacio de 1.7cm es para un titulo con 2 renglones
+% El espacio de 1.27cm es para un titulo con 3 renglones
+\vspace{1.27cm} % ivy
+
+ANTEPROYECTO DE TESIS
+
+\end{center}
+
+%\noindent que para cubrir parcialmente los requisitos necesarios para obtener el grado de
+que para cubrir parcialmente los requisitos necesarios para obtener el grado de % ivy
+
+\begin{center}
+
+\expandafter\uppercase\expandafter{\@grado}
+
+\vspace{0.5cm}
+
+Presenta:
+
+\expandafter\bf{\uppercase\expandafter{\@autor}}
+\vspace{1.0cm}
+
+\normalfont{Ensenada, Baja California, M\'exico, \@fechaexamen}
+
+\end{center}
+\normalsize
+
+\linespread{1}\small\normalsize
+
+%%%%%%%%%%%%%%%%%%%%%%%  RESUMEN ESPAÑOL
+\newpage\pagestyle{myheadings}
+ \addcontentsline{toc}{chapter}{Resumen en espa\~nol}
+\setcounter{page}{1}\pagenumbering{roman}
+
+\noindent\textbf{RESUMEN} del anteproyecto de tesis de \textbf{\expandafter\uppercase\expandafter{\@autor}},
+presentado como requisito parcial para la
+obtenci\'on del grado de \expandafter\uppercase\expandafter{\@grado} en
+\expandafter\uppercase\expandafter{\@posgrado} \@orientacion. Ensenada, Baja California, \@fechaexamen.
+
+\vspace{.15cm}
+\begin{center}
+   \textbf{\expandafter\uppercase\expandafter{\@titulo}}\\
+\end{center}
+%\vspace{.5cm}
+Resumen aprobado por:
+\begin{flushright}
+        \ifnum\value{dal@supervisornum}=1%
+%           \vspace{.25cm}
+            \signatureRes{\@firstsupervisor}{Director de Tesis}\\
+        \fi
+        \ifnum\value{dal@supervisornum}=2%
+            \vspace{.5cm}
+        \signatureRes{\@firstsupervisor}{Codirector de Tesis}
+            \vspace{.5cm}
+        \signatureRes{\@secondsupervisor}{Codirector de Tesis}\\
+        \fi
+\end{flushright}
+
+\vspace{0.25cm}
+
+\input{\@resumenES}
+
+\vspace{1.0cm}
+
+\noindent \textbf{Palabras Clave:} \@palabrasclave
+
+%% ivy (bloque) %%
+%\newpage\pagestyle{myheadings}
+% \addcontentsline{toc}{chapter}{Resumen en ingl\'es}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%% RESUMEN INGLES
+%
+%\noindent\textbf{ABSTRACT} of the thesis presented by \textbf{\expandafter\uppercase\expandafter{\@autor}},
+%in partial fulfillment of the requirements of the degree of \expandafter\uppercase\expandafter{\@gradoIN}
+%in \expandafter\uppercase\expandafter{\@posgradoIN} \@orientacionIN. Ensenada, Baja California, \@fechaexamenIN.
+%
+%\vspace{.5cm}
+%\begin{center}
+%        \textbf{\expandafter\uppercase\expandafter{\@tituloIN}}
+%\end{center}
+%\vspace{1cm}
+%
+%\input{\@resumenIN}
+%\vspace{1cm}
+%
+%% Palabras clave en ingles
+%\noindent \textbf{Keywords:} \@keywords
+%
+%\linespread{1.75}\small\normalsize
+%
+%\newpage\pagestyle{myheadings}
+%\chapter*{}
+% \addcontentsline{toc}{chapter}{Dedicatoria}
+%\input{\@dedicatoria}
+%
+%\newpage\pagestyle{myheadings}
+%\chapter*{Agradecimientos}
+%\addcontentsline{toc}{chapter}{Agradecimientos}
+%%\vspace{1in}
+%\input{\@agradecimientos}
+%\vspace{1in}
+
+
+%\newpage\pagestyle{empty}
+\newpage\pagestyle{myheadings}
+\linespread{1.75}\small\normalsize
+\tableofcontents 
+%\listoffigures\listoftables
+
+%%%%%%%%%%%%%%empieza el documento principal
+\linespread{1.75}\small\normalsize
+\newpage\pagestyle{myheadings}
+\setcounter{page}{1}\pagenumbering{arabic}
+
+}

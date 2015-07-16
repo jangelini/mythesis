@@ -331,10 +331,10 @@
                     \secdef\@chapter\@schapter}
 \def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
                          \refstepcounter{chapter}%
-                         \typeout{\@chapapp\space\thechapter}%
+                         \typeout{\@chapapp\space\thechapter.}%
                          \addcontentsline{toc}{chapter}%
 % Agrega el punto despues de cada capitulo en numero romano
-                                   {\protect\numberline{\thechapter}#1}%
+                                   {\protect\numberline{\thechapter.}#1}%
                     \else
                       \addcontentsline{toc}{chapter}{#1}%
                     \fi
@@ -357,23 +357,19 @@
 \linespread{1.0}
 
 %       Tama~no de la palabra capitulo
+%% ivy (bloque) %%
 %        \LARGE\bfseries \@chapapp\space \thechapter
-%		TODO: Lo cambie para que aparezca en tamano normal
-                     \bfseries \@chapapp\space \thechapter .\space #1
-%		\bfseries \@chapapp\space \thechapter \vskip 10\p@ \hrule \par \nobreak \vskip 40\p@ \space #1 		
-        \par \nobreak 
-         \vskip 15\p@  \hrule 
-        \vskip 20\p@ 
+%        \par\nobreak
+%        \vskip 20\p@
     \fi
     \interlinepenalty\@M
 %   Tama~no del nombre de cada capitulo
-%    \LARGE \bfseries #1\par\nobreak
-%	TODO: Lo cambie para que aparezca en tamano normal
-%    \bfseries #1\par\nobreak    
+    \LARGE \bfseries \thechapter . #1\par\nobreak % ivy
+%    \LARGE \bfseries #1\par\nobreak ivy
 %   Si se desea el nombre de cada capitulo en mayusculas en forma automatica
 %   seleccionar el siguiente renglon y comentar el anterior.
-%    \LARGE \bfseries \expandafter\uppercase\expandafter{#1\par\nobreak}	   
-	\vskip 10 \p@ 
+%    \LARGE \bfseries \expandafter\uppercase\expandafter{#1\par\nobreak}
+    \vskip 40\p@
   }}
 \def\@schapter#1{\if@twocolumn
                    \@topnewpage[\@makeschapterhead{#1}]%
@@ -386,19 +382,17 @@
   {\parindent \z@ \raggedright
     \normalfont
     \interlinepenalty\@M
-%    \LARGE \bfseries  #1\par\nobreak
-%	TODO: Lo cambie para que aparezca en tamano normal
-    \bfseries  #1\par\nobreak
-    \vskip 10\p@
+    \LARGE \bfseries  #1\par\nobreak
+    \vskip 40\p@
   }}
 \newcommand\section{\@startsection {section}{1}{\z@}%
                                    {-3.5ex \@plus -1ex \@minus -.2ex}%
                                    {2.3ex \@plus.2ex}%
-                                   {\normalfont\normalsize\bfseries}}
+                                   {\normalfont\Large\bfseries}}
 \newcommand\subsection{\@startsection{subsection}{2}{\z@}%
                                      {-3.25ex\@plus -1ex \@minus -.2ex}%
                                      {1.5ex \@plus .2ex}%
-                                     {\normalfont\normalsize\bfseries}}
+                                     {\normalfont\large\bfseries}}
 \newcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
                                      {-3.25ex\@plus -1ex \@minus -.2ex}%
                                      {1.5ex \@plus .2ex}%
@@ -557,14 +551,14 @@
 
 %%% Aqui es donde cambia, tenia
 %\newcounter{figure}[chapter]
-\newcounter{figure}
+%\newcounter{figure}
 
 %%y aqui tambien, tenia
 %%\renewcommand \thefigure
 %%     {\ifnum \c@chapter>\z@ \thechapter.\fi \@arabic\c@figure}
 
-\renewcommand \thefigure
-     {\@arabic\c@figure}
+%\renewcommand \thefigure
+%     {\@arabic\c@figure}
 
 \def\fps@figure{tbp}
 \def\ftype@figure{1}
@@ -652,7 +646,7 @@
 % El valor de 2.3 es para maximo 7 capitulos
 % El valor de 2.7 es para 8 capitulos
 %    \setlength\@tempdima{\@ptocnumwidth}%
-    \setlength\@tempdima{2.9em}%
+    \setlength\@tempdima{2.3em}%
     \begingroup
       \parindent \z@ \rightskip \@pnumwidth
       \parfillskip -\@pnumwidth
@@ -682,11 +676,11 @@
 % Espacio entre el numero romano y el nombre de cada seccion
 % El valor de 2.3 es para maximo 7 capitulos
 % El valor de 2.7 es para 8 capitulos
-\newcommand*\l@section{\@dottedtocline{1}{3.0em}{3.0em}}
+\newcommand*\l@section{\@dottedtocline{1}{2.3em}{2.6em}}
 % Espacio entre el numero romano y el nombre de cada subseccion
 % El valor de 4.9 es para maximo 7 capitulos
 % El valor de 5.3 es para 8 capitulos
-\newcommand*\l@subsection{\@dottedtocline{2}{6.0em}{3.3em}}
+\newcommand*\l@subsection{\@dottedtocline{2}{4.9em}{3.3em}}
 \newcommand*\l@subsubsection{\@dottedtocline{3}{7.0em}{4.1em}}
 \newcommand*\l@paragraph{\@dottedtocline{4}{10em}{5em}}
 \newcommand*\l@subparagraph{\@dottedtocline{5}{12em}{6em}}
@@ -697,22 +691,15 @@
 % por eso comente la siguiente linea y agregue la de newcommand*\l@table...
 %\let\l@table\l@figure
 
-
-%\newcommand*\l@table{\@dottedtocline{1}{1.5em}{2.3em}}
-%%Cuando se tienen m�s de XVIII tablas es necesario mover porque traslapan los n�mero romanos
-%\newcommand*\l@table{\@dottedtocline{1}{1.5em}{3em}}
-%%Cuando se tienen m�s de XXVIII tablas es necesario mover porque traslapan los n�mero romanos
-%\newcommand*\l@table{\@dottedtocline{1}{1.5em}{4em}}
-%%Cuando se tienen m�s de XXVIII tablas es necesario mover porque traslapan los n�mero romanos
-\newcommand*\l@table{\@dottedtocline{1}{1.5em}{5em}}
+\newcommand*\l@table{\@dottedtocline{1}{1.5em}{2.3em}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\tableofcontents}
  {
-  \chapter*{\centerline{Tabla de contenido}}
+  \chapter*{\centerline{Contenido}}
    \pagestyle{myheadings}
-%  \addcontentsline{toc}{chapter}{Contenido}
+ %\addcontentsline{toc}{chapter}{Contenido}
   \tocheadline{}{P\'agina}
   {%
     \output {%
@@ -742,23 +729,15 @@
       \else
       \global \vsize \maxdimen
       \fi
-      
       \begin{flushleft}
-         \noindent\makebox[\textwidth][l]
-                  {\Large\bfseries \centerline{Tabla de contenido {\Large\bfseries(continuaci\'on)}}}\par
-         \vspace{+\baselineskip} \vspace{.17in}
-       \end{flushleft}
-       
-%      \begin{flushleft}
-%         \noindent\makebox[\textwidth][l]
-		% \centerline{Contenido}
-%                  {\bfseries}\par
-%         \vspace{+\baselineskip} %\vspace{.2in}
- 	    % \noindent\makebox[\textwidth][l]
-       	%          {Cap\'{\i}tulo\hfill P\'agina}\par
-%            {\rm\tocheadline{}{P\'agina}}\par
-%        \vspace{-\baselineskip}
-%      \end{flushleft}
+        \noindent\makebox[\textwidth][l]
+                 {\LARGE\bfseries \centerline{Contenido {\Large\bfseries(continuaci\'on)}}}\par
+        \vspace{+\baselineskip} \vspace{.2in}
+      % \noindent\makebox[\textwidth][l]
+       %          {Cap\'{\i}tulo\hfill P\'agina}\par
+            {\rm\tocheadline{}{P\'agina}}\par
+        \vspace{-\baselineskip}
+      \end{flushleft}
       }
     \renewcommand{\baselinestretch}{1}\reset@font
     \setlength{\parskip}{0pt plus 0pt minus 0pt}
@@ -766,110 +745,7 @@
     }
   }
 
-%% List of Figures (use only if figures).
-%% ECE-11 and PU-5,17.
-\newcommand{\listoffigures}{
-  \chapter*{\centerline{Lista de figuras}}
-   \pagestyle{myheadings}
-   \addcontentsline{toc}{chapter}{Lista de figuras}
 
-  \tocheadline{Figura}{P\'agina}%
-  {%
-    \output {%
-      \let \par \@@par
-      \ifnum \outputpenalty<-\@M
-      \@specialoutput
-      \else
-      \@makecol
-      \@opcol
-      \@startcolumn
-      \@whilesw \if@fcolmade \fi
-      {%
-        \@opcol\@startcolumn}%
-      \fi
-      \ifnum \outputpenalty>-\@Miv
-      \ifdim \@colroom<1.5\baselineskip
-      \ifdim \@colroom<\textheight
-      \@latex@warning@no@line {Text page \thepage\space
-        contains only floats}%
-      \@emptycol
-      \else
-      \global \vsize \@colroom
-      \fi
-      \else
-      \global \vsize \@colroom
-     \fi
-      \else
-      \global \vsize \maxdimen
-      \fi
-
-       \begin{flushleft}
-         \noindent\makebox[\textwidth][l]
-                  {\Large\bfseries \centerline{Lista de figuras {\Large\bfseries(continuaci\'on)}}}\par
-         \vspace{+\baselineskip} \vspace{.17in}
-       \end{flushleft}
-
-      \tocheadline{Figura}{P\'agina}%
-
-      }
-    \renewcommand{\baselinestretch}{1}\reset@font
-    \setlength{\parskip}{7.5pt plus 0pt minus 0pt}
-    \@starttoc{lof}
-    }
-  }
-
-%% List of Tables (use only if tables).
-%% ECE-11 and PU-5,16.
-\newcommand{\listoftables}{
-  \chapter*{\centerline{Lista de tablas}}
-   \pagestyle{myheadings}
-   \addcontentsline{toc}{chapter}{Lista de tablas}
-\linespread{1.0}
-  \tocheadline{Tabla}{P\'agina}%
-
-  {%
-    \output {%
-      \let \par \@@par
-      \ifnum \outputpenalty<-\@M
-      \@specialoutput
-      \else
-      \@makecol
-      \@opcol
-      \@startcolumn
-      \@whilesw \if@fcolmade \fi
-      {%
-        \@opcol\@startcolumn}%
-      \fi
-      \ifnum \outputpenalty>-\@Miv
-      \ifdim \@colroom<1.5\baselineskip
-      \ifdim \@colroom<\textheight
-      \@latex@warning@no@line {Text page \thepage\space
-        contains only floats}%
-      \@emptycol
-      \else
-      \global \vsize \@colroom
-      \fi
-      \else
-      \global \vsize \@colroom
-      \fi
-      \else
-      \global \vsize \maxdimen
-      \fi
-
-      \begin{flushleft}
-        \noindent\makebox[\textwidth][l]
-                 {\Large\bfseries \centerline{Lista de tablas {\Large\bfseries(continuaci\'on)}}}\par
-        \vspace{+\baselineskip} \vspace{.17in}
-      \end{flushleft}
-
-      \tocheadline{Tabla}{P\'agina}%
-
-      }
-    \renewcommand{\baselinestretch}{1}\reset@font
-    \setlength{\parskip}{7.5pt plus 0pt minus 0pt}
-    \@starttoc{lot}
-    }
-  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%Aqui estaba la bibliography
@@ -932,12 +808,12 @@
     \noindent
     \hb@xt@1.8em{\hss\@makefnmark}#1}
 \newcommand\contentsname{Contents}
-\newcommand\listfigurename{List of Figures}
-\newcommand\listtablename{List of Tables}
-\newcommand\bibname{Lista de referencias}
+%\newcommand\listfigurename{List of Figures}
+%\newcommand\listtablename{List of Tables}
+\newcommand\bibname{Bibliography}
 \newcommand\indexname{Index}
-\newcommand\figurename{Figure}
-\newcommand\tablename{Table}
+%\newcommand\figurename{Figure}
+%\newcommand\tablename{Table}
 \newcommand\partname{Part}
 \newcommand\chaptername{Chapter}
 \newcommand\appendixname{Appendix}
@@ -959,5 +835,3 @@
 \endinput
 %%
 %% End of file `report.cls'.
-
-
