@@ -1,25 +1,33 @@
 \usepackage{natbib}
-\usepackage[letterpaper,left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry} % ivy
+\usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 
-\linespread{1.75}\small\normalsize
+\linespread{1.5}\small\normalsize
 
-%\renewcommand{\tablename}{\sf Tabla}
-%\renewcommand{\figurename}{\sf Figura}
+\renewcommand{\tablename}{\sf Tabla}
+\renewcommand{\figurename}{\sf Figura}
 %\renewcommand{\listtablename}{\'Indice de tablas}
 %\renewcommand{\listfigurename}{\'Indice de figuras}
-\renewcommand{\contentsname}{Contenido}
+\renewcommand{\contentsname}{Tabla de contenido}
 \renewcommand{\chaptername}{Cap\'{i}tulo}
-\renewcommand{\bibname}{Referencias}
+\addto\captionsspanish{%
+\renewcommand{\bibname}{Lista de referencias}%
+}
+%\renewcommand{\bibname}{Referencias}
 \renewcommand{\appendixname}{Ap\'endice}
-\renewcommand{\thechapter}{\Roman{chapter}}
-%\renewcommand{\thefigure}{\arabic{figure}}
-%\renewcommand{\thetable}{\Roman{table}}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
 \renewcommand{\thepage}{\arabic{page}}
 \renewcommand{\theequation}{\arabic{equation}}
+
+
+
+
 
 \def\autor#1{\gdef\@autor{#1}}
 \def\titulo#1{\gdef\@titulo{#1}}
 \def\posgrado#1{\gdef\@posgrado{#1}}
+\def\posgradoUP#1{\gdef\@posgradoUP{#1}}
 \def\orientacion#1{\gdef\@orientacion{#1}}
 \def\grado#1{\gdef\@grado{#1}}
 \def\fechaexamen#1{\gdef\@fechaexamen{#1}}
@@ -47,6 +55,7 @@
 \def\dc{\grado{Doctor en Ciencias}}
 \def\@titulo{}
 \def\@autor{}
+\def\anioDefensa#1{\gdef\@anioDefensa{#1}}
 
 
 \newif\ifdal@second@supervisor   \dal@second@supervisorfalse
@@ -54,6 +63,7 @@
 \newif\ifdal@third@reader      \dal@third@readerfalse
 \newif\ifdal@fourth@reader     \dal@fourth@readerfalse
 \newif\ifdal@fifth@reader      \dal@fifth@readerfalse
+\newif\ifdal@sixth@reader      \dal@sixth@readerfalse
 
 %%%%DIRECTORES
 
@@ -66,7 +76,7 @@
    \else
       \addtocounter{dal@supervisornum}{1}%
       \def\@tempa{@\ifcase\value{dal@supervisornum}\or
-         first\or second\or third\or fourth\fi}%
+         first\or second\or third\or fourth\or fifth\or sixth\fi}%
       \expandafter\gdef\csname \@tempa supervisor\endcsname{#1}%
       \ifnum\value{dal@supervisornum}>1%
          \csname dal\@tempa @supervisortrue\endcsname%
@@ -97,13 +107,13 @@
 \newcounter{dal@readernum}
 \setcounter{dal@readernum}{0}
 \def\sinodal#1{%
-   \ifnum\value{dal@readernum}=5
+   \ifnum\value{dal@readernum}=7
       \ClassWarningNoLine{dalthesis}%
-         {Lo siento, solamente puede haber maximo cuatro sinodales}%
+         {Lo siento, solamente puede haber maximo seis sinodales}%
    \else
       \addtocounter{dal@readernum}{1}%
       \def\@tempa{@\ifcase\value{dal@readernum}\or
-         first\or second\or third\or fourth\fi}%
+         first\or second\or third\or fourth\or fifth\or sixth\fi}%
       \expandafter\gdef\csname \@tempa reader\endcsname{#1}%
       \ifnum\value{dal@readernum}>1%
          \csname dal\@tempa @readertrue\endcsname%
@@ -126,29 +136,117 @@
    \gdef\@fourthreader{#1}\dal@fourth@readertrue%
    \addtocounter{dal@readernum}{1}%
 }
+\def\fifthreader#1{%
+   \gdef\@fifthreader{#1}\dal@fifth@readertrue%
+   \addtocounter{dal@readernum}{1}%
+}
+\def\sixthreader#1{%
+   \gdef\@sixthreader{#1}\dal@sixth@readertrue%
+   \addtocounter{dal@readernum}{1}%
+}
 %
-%  ----  Preliminary pages  ---------------------------
+%  --------------------------------------------  Preliminary pages  ----------------------------------------------
 %
 \def\preliminares{
 
 %\setcounter{page}{1}\pagenumbering{roman}
 \thispagestyle{empty}
-%firmas
 
+%------------------------------ portada ------------------------------------------
+
+\thispagestyle{empty}
+\setcounter{page}{1}\pagenumbering{roman}
 \begin{center}
 
-        ANTEPROYECTO DE TESIS ELABORADO POR
+%\large
+%\textsf{\textbf{CENTRO DE INVESTIGACI\'ON CIENT\'IFICA Y DE EDUCACI\'ON SUPERIOR DE ENSENADA, BAJA CALIFORNIA}}
+\fontsize{15.84pt}{18}\selectfont
+\textsf{\textbf{CENTRO DE INVESTIGACI\'ON CIENT\'IFICA Y DE EDUCACI\'ON SUPERIOR DE ENSENADA, BAJA CALIFORNIA}}
+
+
+
+%\normalsize
+
+\vspace{0.9cm}
+\begin{figure}[!h]
+   \begin{center}
+     \includegraphics[width=2.75in]{./Figures/logoCicese2009.pdf}\\
+     % \includegraphics[width=1.55in]{figures/logoCiceseAniv.jpg}\\
+   \end{center}
+\end{figure}
+
+\vspace{0.3cm}
+
+\vrule width 15.5cm height .5pt
+
+%\Large
+\fontsize{15.84pt}{18}\selectfont
+\textsf{\textbf{\uppercase{Programa de Posgrado en Ciencias\\
+en \expandafter{\@posgradoUP}}}}
+\vrule width 15.5cm height .1pt
+
+% El espacio de 1.7cm es para un titulo con 2 renglones
+% El espacio de 1.27cm es para un titulo con 3 renglones
+%%%CORREGIDO PARA MI TITULO DE TESIS
+\vspace{0.7cm} 
+
+
+% Titulo de la tesis
+\fontsize{15.84pt}{18}\selectfont
+\textsf{\textbf{\expandafter{\@titulo}}}
+
+% El espacio de 1.7cm es para un titulo con 2 renglones
+% El espacio de 1.27cm es para un titulo con 3 renglones
+\vspace{0.7cm}
+
+\normalsize
+\textsf{Tesis
+\\ para cubrir parcialmente los requisitos necesarios para obtener el grado de
+\\ 
+\expandafter{\@grado}}
+\end{center}
+\begin{center}
+
+\vspace{0.35cm}
+\textsf{
+Presenta: \\
+\textbf{\expandafter{\@autor}}
+}
+\vfill
+\textsf{
+Ensenada, Baja California, M\'exico
+}
+\\
+\@anioDefensa
+
+
+\end{center}
+\normalsize
+\linespread{1}\small\normalsize
+\newpage
+
+%----------------------- hoja de firmas -----------------------------------------
+
+\thispagestyle{empty}
+\begin{center}
+
+        Tesis defendida por
 
         \Large\bfseries\@autor
         \vspace{0.5cm}
 
-        \normalsize\normalfont Y APROBADO POR EL SIGUIENTE COMIT\'E
+        \normalsize\normalfont y aprobada por el siguiente comit\'e
         \vspace{3.5cm}
+
+% DIRECTORES
+%*********************************************************************************
+%*********************************************************************************
 
         %con un solo director
         \ifnum\value{dal@supervisornum}=1%
-                \signature{\@firstsupervisor}{\emph{Director del Comit\'e}}
+                \signature{\vspace{-1.5mm}\@firstsupervisor}{\emph{Director del Comit\'e}}
         \fi
+        
         %con dos directores
         \ifnum\value{dal@supervisornum}=2%
         \hskip -0.5in
@@ -157,50 +255,98 @@
                 \signature{\@secondsupervisor}{\emph{Codirector del Comit\'e}}
         \fi
 
-        %con solo 2 sinodales
-        \ifnum\value{dal@readernum}=2%
-        \vspace{2cm}
-        \hskip -0.1cm
-                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
-        \vspace{2cm}
-                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
-        \fi
+% SINODALES
+%*********************************************************************************
+%*********************************************************************************
 
+        %con solo 2 sinodales
+        \vspace{1.5cm}
+        \ifnum\value{dal@readernum}=2%
+        \vspace{1cm}
+        \hskip -0.1cm
+                \signature{\vspace{-1.5mm}\@firstreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{-1.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+        \fi
+       
         %con tres sinodales
         \ifnum\value{dal@readernum}=3%
-        \vspace{2cm}
+        \vspace{1cm}
         \hskip -0.1cm
                 \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
         \hfill
                 \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
-        \vspace{2cm}
+        \vspace{1.5cm}
                 \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
         \fi
 
         %con cuatro sinodales
         \ifnum\value{dal@readernum}=4%
-        \vspace{2.0cm}
+        \vspace{3.0cm}
         \hskip -0.1cm
                 \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
         \hfill
                 \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
-        \vspace{2cm}
+        \vspace{1cm}
 
         \hskip -0.1cm
                 \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
         \hfill
                 \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
         \fi
-%        \vspace{1.965cm} ivy
-%        \hskip -0.1cm ivy
-%        \signatureDept{\@cpp}{Coordinador del programa de}{posgrado en \@posgrado} ivy
-%        \hfill ivy
-%                \signature{\vspace{0.8mm}\@dirposgrado}{\vspace{6.5mm}\emph{Director de Estudios de Posgrado}} ivy
+
+		%con cinco sinodales
+        \ifnum\value{dal@readernum}=5%
+        \vspace{0.8cm}
+        \hskip -0.1cm
+                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+        \vspace{1cm}
+
+        \hskip -0.1cm
+                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
+        \vspace{1.5cm}
+                \signature{\@fifthreader}{\emph{Miembro del Comit\'e}}
+        \vspace{-1.5cm}
+        \fi
+        
+        %con seis sinodales
+        \ifnum\value{dal@readernum}=6%
+        \vspace{0.8cm}
+        \hskip -0.1cm
+                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+        \vspace{1cm}
+
+        \hskip -0.1cm
+                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
+        \vspace{1.5cm}
+                \signature{\@fifthreader}{\emph{Miembro del Comit\'e}}
+        \hfill
+                \signature{\vspace{0.8mm}\@sixthreader}{\emph{Miembro del Comit\'e}}
+        \vspace{-1.5cm}
+        \fi
+    
+% DIRECTIVOS
+%*********************************************************************************
+%*********************************************************************************    
+        \vspace{3.5cm}
+        \hskip -0.1cm
+        \signatureDept{\vspace{-1.5mm}\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}
+        \hfill
+                \signature{\vspace{-1.5mm}\@dirposgrado}{\vspace{6.5mm}\emph{Director de Estudios de Posgrado}}
 \end{center}
-%\vspace{2.4cm} ivy
-\vspace{6.0cm} % ivy
+%%%CORREGIDO PARA QUE APAREZCA LA FECHA
+%\vspace{1cm}
+
+\hfill
+\vfill
 \begin{flushright}
         \@fechaexamencompleta
 \end{flushright}
@@ -208,93 +354,35 @@
 %\linespread{1.75}\small\normalsize
 \newpage
 
-%portada
-\thispagestyle{empty}
-\begin{center}
 
-\large
-\textbf{CENTRO DE INVESTIGACI\'ON CIENT\'IFICA Y DE EDUCACI\'ON SUPERIOR DE ENSENADA}
-\normalsize
 
-\vspace{0.9cm}
-\begin{figure}[!h]
-   \begin{center}
-      \includegraphics[width=1.5in]{Figures/logoCicese2009.pdf}\\
-   \end{center}
-\end{figure}
+%-------------------------------  Resumen espaniol ----------------------------------
 
-\vspace{0.5cm}
-
-\vrule width 15.5cm height 1.5pt
-
-\textbf{PROGRAMA DE POSGRADO EN CIENCIAS\\
-EN \expandafter\uppercase\expandafter{\@posgrado}}
-
-\vrule width 15.5cm height 1.5pt
-
-% El espacio de 1.7cm es para un titulo con 2 renglones
-% El espacio de 1.27cm es para un titulo con 3 renglones
-\vspace{1.27cm} % ivy
-
-% Titulo de la tesis
-\textbf{\expandafter\uppercase\expandafter{\@titulo}}
-
-% El espacio de 1.7cm es para un titulo con 2 renglones
-% El espacio de 1.27cm es para un titulo con 3 renglones
-\vspace{1.27cm} % ivy
-
-ANTEPROYECTO DE TESIS
-
-\end{center}
-
-%\noindent que para cubrir parcialmente los requisitos necesarios para obtener el grado de
-que para cubrir parcialmente los requisitos necesarios para obtener el grado de % ivy
-
-\begin{center}
-
-\expandafter\uppercase\expandafter{\@grado}
-
-\vspace{0.5cm}
-
-Presenta:
-
-\expandafter\bf{\uppercase\expandafter{\@autor}}
-\vspace{1.0cm}
-
-\normalfont{Ensenada, Baja California, M\'exico, \@fechaexamen}
-
-\end{center}
-\normalsize
-
-\linespread{1}\small\normalsize
-
-%%%%%%%%%%%%%%%%%%%%%%%  RESUMEN ESPAÑOL
 \newpage\pagestyle{myheadings}
  \addcontentsline{toc}{chapter}{Resumen en espa\~nol}
-\setcounter{page}{1}\pagenumbering{roman}
-
-\noindent\textbf{RESUMEN} del anteproyecto de tesis de \textbf{\expandafter\uppercase\expandafter{\@autor}},
-presentado como requisito parcial para la
-obtenci\'on del grado de \expandafter\uppercase\expandafter{\@grado} en
-\expandafter\uppercase\expandafter{\@posgrado} \@orientacion. Ensenada, Baja California, \@fechaexamen.
+% de {\expandafter{\textbf{\@autor}}},
+\noindent{Resumen} de la tesis que presenta \@autor \, como requisito parcial para la
+obtenci\'on del grado de \expandafter{\@grado} en
+\expandafter{\@posgrado}. 
+%\@orientacion
 
 \vspace{.15cm}
 \begin{center}
-   \textbf{\expandafter\uppercase\expandafter{\@titulo}}\\
+   \textbf{\@titulo}\\
 \end{center}
 %\vspace{.5cm}
-Resumen aprobado por:
+Resumen elaborado por:
 \begin{flushright}
-        \ifnum\value{dal@supervisornum}=1%
+        \ifnum\value{dal@supervisornum}>0%
 %           \vspace{.25cm}
-            \signatureRes{\@firstsupervisor}{Director de Tesis}\\
+            \signatureRes{\vspace{-1.5mm}\@autor}{}\\
         \fi
-        \ifnum\value{dal@supervisornum}=2%
-            \vspace{.5cm}
-        \signatureRes{\@firstsupervisor}{Codirector de Tesis}
-            \vspace{.5cm}
-        \signatureRes{\@secondsupervisor}{Codirector de Tesis}\\
-        \fi
+        %\ifnum\value{dal@supervisornum}=2%
+        %    \vspace{.5cm}
+        %\signatureRes{\@firstsupervisor}{Codirector de Tesis}
+        %    \vspace{.5cm}
+        %\signatureRes{\@secondsupervisor}{Codirector de Tesis}\\
+        %\fi
 \end{flushright}
 
 \vspace{0.25cm}
@@ -303,53 +391,66 @@ Resumen aprobado por:
 
 \vspace{1.0cm}
 
-\noindent \textbf{Palabras Clave:} \@palabrasclave
+\vfill
+\noindent {Palabras Clave:} \textbf\@palabrasclave
 
-%% ivy (bloque) %%
-%\newpage\pagestyle{myheadings}
-% \addcontentsline{toc}{chapter}{Resumen en ingl\'es}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%% RESUMEN INGLES
-%
-%\noindent\textbf{ABSTRACT} of the thesis presented by \textbf{\expandafter\uppercase\expandafter{\@autor}},
-%in partial fulfillment of the requirements of the degree of \expandafter\uppercase\expandafter{\@gradoIN}
-%in \expandafter\uppercase\expandafter{\@posgradoIN} \@orientacionIN. Ensenada, Baja California, \@fechaexamenIN.
-%
-%\vspace{.5cm}
-%\begin{center}
-%        \textbf{\expandafter\uppercase\expandafter{\@tituloIN}}
-%\end{center}
-%\vspace{1cm}
-%
-%\input{\@resumenIN}
-%\vspace{1cm}
-%
-%% Palabras clave en ingles
-%\noindent \textbf{Keywords:} \@keywords
-%
-%\linespread{1.75}\small\normalsize
-%
-%\newpage\pagestyle{myheadings}
-%\chapter*{}
-% \addcontentsline{toc}{chapter}{Dedicatoria}
-%\input{\@dedicatoria}
-%
-%\newpage\pagestyle{myheadings}
-%\chapter*{Agradecimientos}
-%\addcontentsline{toc}{chapter}{Agradecimientos}
-%%\vspace{1in}
-%\input{\@agradecimientos}
+%----------------------------------  Resumen ingles ------------------------------------------
+
+\newpage\pagestyle{myheadings}
+ \addcontentsline{toc}{chapter}{Resumen en ingl\'es}
+%by \expandafter{\textbf{\@autor}},
+\noindent{Abstract} of the thesis presented by \@autor \, as a partial requirement to obtain the Master of Science degree in \expandafter{\@gradoIN}
+in \expandafter{\@posgradoIN}. 
+
+\vspace{.15cm}
+\begin{center}
+       \textbf{\@tituloIN}\\
+\end{center}
+%\vspace{0.5cm}
+Abstract by:
+\begin{flushright}
+        \ifnum\value{dal@supervisornum}>0%
+%           \vspace{.25cm}
+            \signatureRes{\vspace{-1.5mm}\@autor}{}\\
+        \fi
+        %\ifnum\value{dal@supervisornum}=2%
+         %   \vspace{.5cm}
+        %\signatureRes{\@firstsupervisor}{Thesis Co-Director}
+        %    \vspace{.5cm}
+        %\signatureRes{\@secondsupervisor}{Thesis Co-Director}\\
+        %\fi
+\end{flushright}
+
+\vspace{0.25cm}
+
+\input{\@resumenIN}
+\vspace{1cm}
+
+\vfill
+\noindent {Keywords:} \textbf\@keywords
+
+\linespread{1.75}\small\normalsize
+
+\newpage\pagestyle{myheadings}
+\chapter*{Dedicatoria}
+ \addcontentsline{toc}{chapter}{Dedicatoria}
+\input{\@dedicatoria}
+
+\newpage\pagestyle{myheadings}
+\chapter*{Agradecimientos}
+\addcontentsline{toc}{chapter}{Agradecimientos}
 %\vspace{1in}
+\input{\@agradecimientos}
+\vspace{1in}
 
 
 %\newpage\pagestyle{empty}
 \newpage\pagestyle{myheadings}
-\linespread{1.75}\small\normalsize
-\tableofcontents 
-%\listoffigures\listoftables
+\linespread{1}\small\normalsize
+\tableofcontents \listoffigures\listoftables
 
 %%%%%%%%%%%%%%empieza el documento principal
-\linespread{1.75}\small\normalsize
+\linespread{1.5}\small\normalsize
 \newpage\pagestyle{myheadings}
 \setcounter{page}{1}\pagenumbering{arabic}
 
