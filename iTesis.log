@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 JUL 2015 23:09
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  28 JUL 2015 11:42
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,8 +785,16 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+=======
+(/usr/share/texmf/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -980,6 +992,7 @@ LaTeX Info: Redefining \bf on input line 648.
 LaTeX Info: Redefining \it on input line 649.
 LaTeX Info: Redefining \sl on input line 650.
 LaTeX Info: Redefining \sc on input line 651.
+<<<<<<< HEAD
 \c@axiom=\count289
 \c@remark=\count290
 \c@example=\count291
@@ -988,23 +1001,42 @@ LaTeX Info: Redefining \sc on input line 651.
 \c@equationnumber=\count294
 )
 No file iTesis.aux.
+=======
+\c@axiom=\count290
+\c@remark=\count291
+\c@example=\count292
+\c@exercise=\count293
+\c@definition=\count294
+\c@equationnumber=\count295
+) (./iTesis.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+
+
+LaTeX Warning: Label `secc:caregivers' multiply defined.
+
+
+LaTeX Warning: Label `secc:dementia' multiply defined.
+
+)
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 \openout1 = `iTesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 113.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1043,9 +1075,15 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<<<<<<< HEAD
 LaTeX Info: Redefining \. on input line 112.
 LaTeX Info: Redefining \% on input line 112.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
+=======
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+(/usr/share/texmf/tex/latex/ucs/ucsencs.def
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \AtBeginShipoutBox=\box58
@@ -1068,9 +1106,14 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 nary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 )
+<<<<<<< HEAD
 Package hyperref Info: Link coloring OFF on input line 112.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+=======
+Package hyperref Info: Link coloring OFF on input line 113.
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1078,6 +1121,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count301
 )
+<<<<<<< HEAD
 LaTeX Info: Redefining \ref on input line 112.
 LaTeX Info: Redefining \pageref on input line 112.
 LaTeX Info: Redefining \nameref on input line 112.
@@ -1088,6 +1132,29 @@ LaTeX Info: Redefining \nameref on input line 112.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+=======
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
+ (./iTesis.out)
+(./iTesis.out)
+\@outlinefile=\write6
+\openout6 = `iTesis.out'.
+
+LaTeX Info: Redefining \celsius on input line 113.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 113
+.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 113.
+Package gensymb Info: Using \Omega for \ohm on input line 113.
+
+Package gensymb Warning: Not defining \micro.
+
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1107,20 +1174,24 @@ Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <15.84> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 199.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 200.
 
+<<<<<<< HEAD
 <./Figures/logoCicese2009.pdf, id=255, 540.60239pt x 270.30113pt>
+=======
+<./Figures/logoCicese2009.pdf, id=259, 540.60239pt x 270.30113pt>
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ./Figures/logoCicese2009.pdf Graphic file (type pdf)
 
 <use ./Figures/logoCicese2009.pdf>
-Package pdftex.def Info: ./Figures/logoCicese2009.pdf used on input line 199.
+Package pdftex.def Info: ./Figures/logoCicese2009.pdf used on input line 200.
 (pdftex.def)             Requested size: 198.7425pt x 99.37056pt.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 199.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 200.
  [1
 
 \openout3 = `iTesis.ist'.
@@ -1128,24 +1199,31 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figur
 es/logoCicese2009.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 199.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 200.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+<<<<<<< HEAD
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 199.
 LaTeX Font Info:    Try loading font information for U+msa on input line 199.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+=======
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 200.
+LaTeX Font Info:    Try loading font information for U+msa on input line 200.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 199.
+LaTeX Font Info:    Try loading font information for U+msb on input line 200.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (7.00508pt too wide) in paragraph at lines 199--199
+Overfull \hbox (7.00508pt too wide) in paragraph at lines 200--200
 [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 199.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 200.
 [2] (./Resumen.tex) [3] (./Abstract.tex) [4] (./Dedicatoria.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <17.28> not available
 (Font)              Font shape `OT1/phv/b/it' tried instead on input line 4.
@@ -1157,7 +1235,7 @@ LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <17.28> not available
 (./Agradecimientos.tex) [6
 
 ]
-Overfull \hbox (3.66335pt too wide) in paragraph at lines 199--199
+Overfull \hbox (3.66335pt too wide) in paragraph at lines 200--200
 | []| 
  []
 
@@ -1167,10 +1245,15 @@ Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 \tf@toc=\write7
 \openout7 = `iTesis.toc'.
 
+<<<<<<< HEAD
 [7
 
 ]
 Overfull \hbox (3.66335pt too wide) in paragraph at lines 199--199
+=======
+ [8]
+Overfull \hbox (3.66335pt too wide) in paragraph at lines 200--200
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 | []| 
  []
 
@@ -1183,7 +1266,7 @@ Package hyperref Warning: old lof file detected, not used; run LaTeX again.
 [8
 
 ]
-Overfull \hbox (3.66335pt too wide) in paragraph at lines 199--199
+Overfull \hbox (3.66335pt too wide) in paragraph at lines 200--200
 | []| 
  []
 
@@ -1238,6 +1321,7 @@ ine 24.
 
 [5
 
+<<<<<<< HEAD
 ]
 
 Package natbib Warning: Citation `Aziz' on page 6 undefined on input line 35.
@@ -1247,6 +1331,9 @@ Package natbib Warning: Citation `Chen2013' on page 6 undefined on input line 3
 8.
 
 [6] <./Figures/img_frame.png, id=333, 662.475pt x 339.51843pt>
+=======
+] [6] <./Figures/img_frame.png, id=437, 662.475pt x 339.51843pt>
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ./Figures/img_frame.png Graphic file (type png)
 
 <use ./Figures/img_frame.png>
@@ -1254,6 +1341,7 @@ Package pdftex.def Info: ./Figures/img_frame.png used on input line 45.
 (pdftex.def)             Requested size: 455.23817pt x 227.62122pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 46.
+<<<<<<< HEAD
 
 
 Package natbib Warning: Citation `Pearlin01101990' on page 7 undefined on input
@@ -1268,13 +1356,21 @@ line 57.
 LaTeX Warning: Reference `fig:modeloSNP' on page 8 undefined on input line 65.
 
 [8] <./Figures/img_snc.png, id=344, 1440.13031pt x 727.96968pt>
+=======
+ [7 <./Figures/img_frame.png>] [8]
+<./Figures/img_snc.png, id=449, 1440.13031pt x 727.96968pt>
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ./Figures/img_snc.png Graphic file (type png)
 
 <use ./Figures/img_snc.png>
 Package pdftex.def Info: ./Figures/img_snc.png used on input line 69.
 (pdftex.def)             Requested size: 455.22563pt x 227.62326pt.
 
+<<<<<<< HEAD
 <./Figures/img_gsr.png, id=345, 347.04657pt x 272.51813pt>
+=======
+<./Figures/img_gsr.png, id=450, 347.04657pt x 272.51813pt>
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ./Figures/img_gsr.png Graphic file (type png)
 
 <use ./Figures/img_gsr.png>
@@ -1291,11 +1387,15 @@ LaTeX Warning: Reference `fig:GSRsignal' on page 10 undefined on input line 83.
 
 [10 <./Figures/img_gsr.png>] [11] [12]) (./Capitulo03.tex
 Cap\'{\i }tulo 3
+<<<<<<< HEAD
 
 LaTeX Warning: Reference `fig:metodology' on page 13 undefined on input line 14
 .
 
 <./Figures/img_metodologia.png, id=371, 766.865pt x 145.54375pt>
+=======
+<./Figures/img_metodologia.png, id=476, 766.865pt x 145.54375pt>
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ./Figures/img_metodologia.png Graphic file (type png)
 
 <use ./Figures/img_metodologia.png>
@@ -1312,7 +1412,11 @@ Package natbib Warning: Citation `Castro11' on page 14 undefined on input line
 LaTeX Warning: Reference `fig:evalmethods' on page 14 undefined on input line 2
 2.
 
+<<<<<<< HEAD
 <./Figures/img_evalmethods.png, id=377, 612.03656pt x 327.47343pt>
+=======
+] <./Figures/img_evalmethods.png, id=483, 612.03656pt x 327.47343pt>
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ./Figures/img_evalmethods.png Graphic file (type png)
 
 <use ./Figures/img_evalmethods.png>
@@ -1350,7 +1454,11 @@ Overfull \hbox (64.67169pt too wide) in paragraph at lines 75--89
 LaTeX Warning: Reference `table:anxilevels' on page 17 undefined on input line 
 105.
 
+<<<<<<< HEAD
 <./Figures/img_exp_setup.png, id=397, 602.25pt x 388.45125pt>
+=======
+[16] <./Figures/img_exp_setup.png, id=504, 1385.175pt x 879.285pt>
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ./Figures/img_exp_setup.png Graphic file (type png)
 
 <use ./Figures/img_exp_setup.png>
@@ -1362,11 +1470,15 @@ LaTeX Warning: Reference `fig:img_exp_setup' on page 18 undefined on input line
  114.
 
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `fig:caremetoo' on page 18 undefined on input line 118
 .
 
 [18 <./Figures/img_exp_setup.png>]
 <./Figures/img_caremetoo.png, id=410, 401.5pt x 713.66624pt>
+=======
+[17] <./Figures/img_caremetoo.png, id=509, 401.5pt x 713.66624pt>
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ./Figures/img_caremetoo.png Graphic file (type png)
 
 <use ./Figures/img_caremetoo.png>
@@ -1391,11 +1503,16 @@ Overfull \hbox (5.84264pt too wide) in paragraph at lines 138--146
 LaTeX Warning: Reference `table:anxilevels' on page 21 undefined on input line 
 159.
 
+<<<<<<< HEAD
 
 LaTeX Warning: Reference `fig:imgsegment' on page 21 undefined on input line 16
 3.
 
 <./Figures/img_segment.png, id=428, 1678.27pt x 1778.645pt>
+=======
+[19 <./Figures/img_caremetoo.png>] [20]
+<./Figures/img_segment.png, id=532, 1678.27pt x 1778.645pt>
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: ./Figures/img_segment.png Graphic file (type png)
 
 <use ./Figures/img_segment.png>
@@ -1417,6 +1534,7 @@ Cap\'{\i }tulo 4
 Cap\'{\i }tulo 5
 [24
 
+<<<<<<< HEAD
 ]) (./Capitulo06.tex
 Cap\'{\i }tulo 6
 [25
@@ -1431,6 +1549,9 @@ Cap\'{\i }tulo 8
 
 ]) (./iTesis.bbl
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
+=======
+]) (./iTesis.bbl (/usr/share/texmf/tex/latex/ucs/data/uni-32.def
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
 Underfull \hbox (badness 1082) in paragraph at lines 35--41
@@ -1438,7 +1559,7 @@ Underfull \hbox (badness 1082) in paragraph at lines 35--41
 iy, M., y Si-do-ro-va, N. (2012).
  []
 
-[28
+[25
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 160.
@@ -1448,17 +1569,23 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
+<<<<<<< HEAD
  [29]
 
 Package natbib Warning: Citation `DBLP:conf/phycs/2014' on page 30 undefined on
  input line 230.
 
 [30]) (./Apendice.tex [31]
+=======
+ [26] [27]) (./Apendice.tex
+[28]
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 Ap\'{e}ndice A
-) (./ApendiceB.tex [32
+) (./ApendiceB.tex [29
 
 ]
 Ap\'{e}ndice B
+<<<<<<< HEAD
 ) (./ApendiceC.tex [33
 
 ]
@@ -1475,6 +1602,35 @@ Here is how much of TeX's memory you used:
  349700 string characters out of 6135433
  505092 words of memory out of 5000000
  24557 multiletter control sequences out of 15000+600000
+=======
+) [30
+
+]
+
+Package glossaries Warning: No \printglossary or \printglossaries found.
+This document will not have a glossary.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+(./iTesis.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+Package rerunfilecheck Info: File `iTesis.out' has not changed.
+(rerunfilecheck)             Checksum: F12EA467F3FB1FF729F2A3A4D38AE85B;4766.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 21143 strings out of 493315
+ 324245 string characters out of 6145893
+ 487847 words of memory out of 5000000
+ 23964 multiletter control sequences out of 15000+600000
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
  33060 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,19n,92p,10423b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1484,6 +1640,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
+<<<<<<< HEAD
 pdfTeX warning (dest): name{appendix.Alph11} has been referenced but does not e
 xist, replaced by a fixed one
 
@@ -1504,4 +1661,20 @@ PDF statistics:
  482 compressed objects within 5 object streams
  127 named destinations out of 1000 (max. 500000)
  550 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/symbols
+/msam10.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/t
+exmf/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texmf/fonts/type1/urw/hel
+vetic/uhvr8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on iTesis.pdf (40 pages, 3084247 bytes).
+PDF statistics:
+ 647 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 558 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
 
