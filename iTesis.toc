@@ -53,11 +53,8 @@
 \contentsline {subsection}{\numberline {3.6.2}HR and IBI Pre-processing.}{20}{subsection.3.6.2}
 \contentsline {subsection}{\numberline {3.6.3}Procesamiento de video.}{21}{subsection.3.6.3}
 \contentsline {subsection}{\numberline {3.6.4}Segmentaci\'on de los datos.}{21}{subsection.3.6.4}
-\contentsline {chapter}{\numberline {4}}{23}{chapter.4}
+\contentsline {chapter}{\numberline {4}Evaluacion}{23}{chapter.4}
 \contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{24}{chapter.5}
-\contentsline {chapter}{\numberline {6}6}{25}{chapter.6}
-\contentsline {chapter}{\numberline {7}7}{26}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusiones}{27}{chapter.8}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{28}{chapter.8}
-\contentsline {chapter}{\numberline {A}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{32}{appendix.Alph9}
-\contentsline {chapter}{\numberline {B}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{33}{appendix.Alph10}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{25}{chapter.5}
+\contentsline {chapter}{\numberline {A}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{29}{appendix.Alph6}
+\contentsline {chapter}{\numberline {B}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{30}{appendix.Alph7}
