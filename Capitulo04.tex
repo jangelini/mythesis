@@ -9,6 +9,10 @@
 \section{Introducci\'on}\label{cap4:intro}
 
 \section{Codificaci\'on}
+Para lograr obtener \textit{ground truth} se utilizaron varias t\'ecnicas: Observaci\'on directa, auto reportado y codificaci\'on. Se utilizaron primordialmente la observaci\'on directa y la codificaci\'on, debido a que los participantes tuvieron problemas para llenar los formatos de auto reportado en la mayor\'ia de las sesiones.
+
+Los videos fueron primero transcritos manualmente con el programa \textit{F5 Transcription Free} para Mac OS X. Por cada video, se gener\'o un archivo en formato .txt el cual contenia el tiempo y la transcripci\'on (Ver Figura ~\ref{fig:f5transcritp}). 
+
 
 \section{Extracci\'on de caracter\'isticas}
 Por cada tipo de se\~nal, se tomaron varias caracter\'isticas que generalizan un segmento de datos. La tabla ~\ref{tab:features} describe dichas caracter\'isticas.
@@ -20,19 +24,19 @@ Por cada tipo de se\~nal, se tomaron varias caracter\'isticas que generalizan un
 	\label{tab:features}
 	\begin{tabular}{|l|l|l|l|l|}
 		Se\~nal & Caracter\'istica & Descripci\'on & Unidad \\
-		GSR&\textit{Valor en el pico}                &             &	$\mu S$ \\
-		GSR   &\textit{Amplitud del pico}                &             &$\mu S$ 	\\
-		GSR   &\textit{Valor en el punto de crecimiento}                &             &$\mu S$	 \\
-		GSR   &\textit{Indice de media recuperac\'on}                &             &Segundos	 \\
-		GSR   &\textit{Valor de media recuperac\'on}                &             &$\mu S$	 \\
-		GSR   &\textit{Distancia el pico anterior}                &             &Segundos	 \\
-		HR   &\textit{M\'aximo}                &             &BPM	 \\
-		HR   &\textit{Promedio}                &             &BPM	 \\
-		IBI   &\textit{M\'inimo}                &             &Segundos	 \\
-		IBI   &\textit{Promedio}                &             &Segundos	 \\
-		IBI   &\textit{Desviaci\'on estandar}                &             &Segundos	 \\
-		TEMP   &\textit{M\'aximo}                &             &$\degree C$	 \\
-		TEMP   &\textit{Promedio}                &             &$\degree C$ \\
+		GSR& \pbox{12cm}{\textit{Valor en el pico}}                &  \pbox{12cm}{Valor absoluto en el pico.}             &	 \pbox{12cm}{$\mu S$} \\
+		GSR   & \pbox{12cm}{\textit{Amplitud del pico}}                & \pbox{12cm}{Distancia desde el punto\\ de crecimiento hacia el pico}             & \pbox{12cm}{$\mu S$} 	\\
+		GSR   &\textit{Valor en el punto de crecimiento}                &  \pbox{12cm}{Valor absoluto en el punto\\ de crecimiento}            &$\mu S$	 \\
+		GSR   &\textit{Indice de media recuperac\'on}                &  \pbox{12cm}{Distancia en segundos desde\\ el pico hacia el punto de \\media recuperaci\'on}            &Segundos	 \\
+		GSR   &\textit{Valor de media recuperac\'on}                &  \pbox{12cm}{Valor absoluto en el punto\\ de media recuperac\'on}	             &$\mu S$	 \\
+		GSR   &\textit{Distancia al pico anterior}                &  \pbox{12cm}{Distancia en segundos (si existe)\\ hacia el pico anterior}            &Segundos	 \\
+		HR   &\textit{M\'aximo}                & Valor m\'aximo del segmento            &BPM	 \\
+		HR   &\textit{Promedio}                & Valor promedio del segmento            &BPM	 \\
+		IBI   &\textit{M\'inimo}                & Valor m\'inimo del segmento            &Segundos	 \\
+		IBI   &\textit{Promedio}                & Valor promedio del segmento            &Segundos	 \\
+		IBI   &\textit{Desviaci\'on estandar}                &  \pbox{12cm}{Desviaci\'on estandar de todos\\ los datos del segmento}            &Segundos	 \\
+		TEMP   &\textit{M\'aximo}                & Valor m\'aximo del segmento             &$\degree C$	 \\
+		TEMP   &\textit{Promedio}                & Valor promedio del segmento            &$\degree C$ \\
 
 		
 	\end{tabular}
