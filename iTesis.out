@@ -5,17 +5,17 @@
 \BOOKMARK [0][-]{chapter*.5}{Lista de figuras}{}% 5
 \BOOKMARK [0][-]{chapter*.6}{Lista de tablas}{}% 6
 \BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 7
-\BOOKMARK [1][-]{subsection.1.0.1}{Antecendentes}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.0.2}{Plantamiento del problema}{subsection.1.0.1}% 9
-\BOOKMARK [1][-]{section.1.1}{Objectivo}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.2}{Pregunta de investigac\355on}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.3}{Hip\363tesis}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.4}{Variables independientes}{chapter.1}% 13
-\BOOKMARK [1][-]{section.1.5}{Variables dependientes}{chapter.1}% 14
-\BOOKMARK [1][-]{section.1.6}{Escenario}{chapter.1}% 15
-\BOOKMARK [1][-]{section.1.7}{Configuraci\363n del escenario}{chapter.1}% 16
-\BOOKMARK [1][-]{section.1.8}{Consideraciones}{chapter.1}% 17
-\BOOKMARK [1][-]{section.1.9}{Metodolog\355a}{chapter.1}% 18
+\BOOKMARK [1][-]{section.1.1}{Antecendentes}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Plantamiento del problema}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{Objectivo}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{Pregunta de investigac\355on}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.5}{Hip\363tesis}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.6}{Variables independientes}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.7}{Variables dependientes}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.8}{Escenario}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.9}{Configuraci\363n del escenario}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.10}{Consideraciones}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.11}{Metodolog\355a}{chapter.1}% 18
 \BOOKMARK [0][-]{chapter.2}{Fundamentos te\363ricos}{}% 19
 \BOOKMARK [1][-]{section.2.1}{Introducci\363n}{chapter.2}% 20
 \BOOKMARK [1][-]{section.2.2}{Qu\351 es la Ansiedad?}{chapter.2}% 21
@@ -37,21 +37,21 @@
 \BOOKMARK [1][-]{section.2.6}{C\363mputo vestible}{chapter.2}% 37
 \BOOKMARK [1][-]{section.2.7}{Trabajo previo en detecci\363n de ansiedad}{chapter.2}% 38
 \BOOKMARK [1][-]{section.2.8}{Conclusion}{chapter.2}% 39
-\BOOKMARK [0][-]{chapter.3}{Metodolog\355a y dise\361o de un experimento para inducir ansiedad en cuidadores de personas con demencia.}{}% 40
-\BOOKMARK [1][-]{section.3.1}{Introducci\363n.}{chapter.3}% 41
-\BOOKMARK [1][-]{section.3.2}{Metodolog\355a.}{chapter.3}% 42
-\BOOKMARK [1][-]{section.3.3}{Un experimento para inducir ansiedad en cuidadores informales.}{chapter.3}% 43
-\BOOKMARK [2][-]{subsection.3.3.1}{Sujetos.}{section.3.3}% 44
-\BOOKMARK [1][-]{section.3.4}{Procedimiento.}{chapter.3}% 45
-\BOOKMARK [2][-]{subsection.3.4.1}{Entrenamiento.}{section.3.4}% 46
-\BOOKMARK [2][-]{subsection.3.4.2}{Tareas de terapias.}{section.3.4}% 47
-\BOOKMARK [1][-]{section.3.5}{Configuraci\363n.}{chapter.3}% 48
-\BOOKMARK [2][-]{subsection.3.5.1}{Obtenci\363n de datos.}{section.3.5}% 49
-\BOOKMARK [1][-]{section.3.6}{An\341lisis de los datos.}{chapter.3}% 50
+\BOOKMARK [0][-]{chapter.3}{Metodolog\355a y dise\361o de un experimento para inducir ansiedad en cuidadores de personas con demencia}{}% 40
+\BOOKMARK [1][-]{section.3.1}{Introducci\363n}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.2}{Metodolog\355a}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.3}{Un experimento para inducir ansiedad en cuidadores informales}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.3.1}{Sujetos}{section.3.3}% 44
+\BOOKMARK [1][-]{section.3.4}{Procedimiento}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.4.1}{Entrenamiento}{section.3.4}% 46
+\BOOKMARK [2][-]{subsection.3.4.2}{Tareas de terapias}{section.3.4}% 47
+\BOOKMARK [1][-]{section.3.5}{Configuraci\363n}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.5.1}{Obtenci\363n de datos}{section.3.5}% 49
+\BOOKMARK [1][-]{section.3.6}{An\341lisis de los datos}{chapter.3}% 50
 \BOOKMARK [2][-]{subsection.3.6.1}{Pre-procesado de GSR}{section.3.6}% 51
-\BOOKMARK [2][-]{subsection.3.6.2}{HR and IBI Pre-processing.}{section.3.6}% 52
-\BOOKMARK [2][-]{subsection.3.6.3}{Procesamiento de video.}{section.3.6}% 53
-\BOOKMARK [2][-]{subsection.3.6.4}{Segmentaci\363n de los datos.}{section.3.6}% 54
+\BOOKMARK [2][-]{subsection.3.6.2}{Pre-procesamiento de HR e IBI}{section.3.6}% 52
+\BOOKMARK [2][-]{subsection.3.6.3}{Procesamiento de video}{section.3.6}% 53
+\BOOKMARK [2][-]{subsection.3.6.4}{Segmentaci\363n de los datos}{section.3.6}% 54
 \BOOKMARK [0][-]{chapter.4}{}{}% 55
 \BOOKMARK [0][-]{chapter.5}{Conclusiones y trabajo a futuro}{}% 56
 \BOOKMARK [0][-]{chapter.6}{6}{}% 57

@@ -1,9 +1,5 @@
 % makeindex style file created by the glossaries package
-<<<<<<< HEAD:nueva/iTesis/iTesis.ist
-% for document 'iTesis' on 2015-7-13
-=======
 % for document 'iTesis' on 2015-7-16
->>>>>>> e42a9c850ef0bbb8926097ae48938302b5e37682:iTesis.ist
 actual '?'
 encap '|'
 level '!'

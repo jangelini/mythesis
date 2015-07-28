@@ -8,3 +8,4 @@ pdflatex iTesis
 
 pdflatex iTesis.tex
 okular iTesis.pdf
+open iTesis.pdf
