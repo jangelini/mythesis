@@ -11,7 +11,32 @@
 \section{Codificaci\'on}
 
 \section{Extracci\'on de caracter\'isticas}
+Por cada tipo de se\~nal, se tomaron varias caracter\'isticas que generalizan un segmento de datos. La tabla ~\ref{tab:features} describe dichas caracter\'isticas.
 
+
+\begin{table}[h]
+	\centering
+	\caption{Caracter\'isticas usadas como entrada para el clasificador de SVM}
+	\label{tab:features}
+	\begin{tabular}{|l|l|l|l|l|}
+		Se\~nal & Caracter\'istica & Descripci\'on & Unidad \\
+		GSR&\textit{Valor en el pico}                &             &	$\mu S$ \\
+		GSR   &\textit{Amplitud del pico}                &             &$\mu S$ 	\\
+		GSR   &\textit{Valor en el punto de crecimiento}                &             &$\mu S$	 \\
+		GSR   &\textit{Indice de media recuperac\'on}                &             &Segundos	 \\
+		GSR   &\textit{Valor de media recuperac\'on}                &             &$\mu S$	 \\
+		GSR   &\textit{Distancia el pico anterior}                &             &Segundos	 \\
+		HR   &\textit{M\'aximo}                &             &BPM	 \\
+		HR   &\textit{Promedio}                &             &BPM	 \\
+		IBI   &\textit{M\'inimo}                &             &Segundos	 \\
+		IBI   &\textit{Promedio}                &             &Segundos	 \\
+		IBI   &\textit{Desviaci\'on estandar}                &             &Segundos	 \\
+		TEMP   &\textit{M\'aximo}                &             &$\degree C$	 \\
+		TEMP   &\textit{Promedio}                &             &$\degree C$ \\
+
+		
+	\end{tabular}
+\end{table}
 \section{Resultados de aprendizaje de m\'aquina}
 \newpage
 %%=====================================================
