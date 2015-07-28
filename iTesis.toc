@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 \select@language {spanish}
 \contentsline {chapter}{Resumen en espa\~nol}{iii}{figure.caption.1}
 \contentsline {chapter}{Resumen en ingl\'es}{iv}{figure.caption.1}
@@ -8,17 +6,17 @@
 \contentsline {chapter}{Lista de figuras}{ix}{chapter*.5}
 \contentsline {chapter}{Lista de tablas}{x}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}
-\contentsline {subsection}{\numberline {1.0.1}Antecendentes}{1}{subsection.1.0.1}
-\contentsline {subsection}{\numberline {1.0.2}Plantamiento del problema}{1}{subsection.1.0.2}
-\contentsline {section}{\numberline {1.1}Objectivo}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Pregunta de investigac\'ion}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}Hip\'otesis}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}Variables independientes}{2}{section.1.4}
-\contentsline {section}{\numberline {1.5}Variables dependientes}{2}{section.1.5}
-\contentsline {section}{\numberline {1.6}Escenario}{2}{section.1.6}
-\contentsline {section}{\numberline {1.7}Configuraci\'on del escenario}{3}{section.1.7}
-\contentsline {section}{\numberline {1.8}Consideraciones}{3}{section.1.8}
-\contentsline {section}{\numberline {1.9}Metodolog\'ia}{4}{section.1.9}
+\contentsline {section}{\numberline {1.1}Antecendentes}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Plantamiento del problema}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Objectivo}{1}{section.1.3}
+\contentsline {section}{\numberline {1.4}Pregunta de investigac\'ion}{1}{section.1.4}
+\contentsline {section}{\numberline {1.5}Hip\'otesis}{2}{section.1.5}
+\contentsline {section}{\numberline {1.6}Variables independientes}{2}{section.1.6}
+\contentsline {section}{\numberline {1.7}Variables dependientes}{2}{section.1.7}
+\contentsline {section}{\numberline {1.8}Escenario}{2}{section.1.8}
+\contentsline {section}{\numberline {1.9}Configuraci\'on del escenario}{3}{section.1.9}
+\contentsline {section}{\numberline {1.10}Consideraciones}{3}{section.1.10}
+\contentsline {section}{\numberline {1.11}Metodolog\'ia}{4}{section.1.11}
 \contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introducci\'on}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Qu\'e es la Ansiedad?}{5}{section.2.2}
@@ -37,25 +35,25 @@
 \contentsline {subsubsection}{\numberline {2.4.7.2}Se\~nales relacionadas con el coraz\'on}{11}{subsubsection.2.4.7.2}
 \contentsline {subsubsection}{\numberline {2.4.7.3}Electroencefalogram\'ia (EEG)}{11}{subsubsection.2.4.7.3}
 \contentsline {section}{\numberline {2.5}Instrumentos tradicionales para la medici\'on de la ansiead}{11}{section.2.5}
-\contentsline {section}{\numberline {2.6}C\'omputo vestible}{11}{section.2.6}
+\contentsline {section}{\numberline {2.6}C\'omputo vestible}{12}{section.2.6}
 \contentsline {section}{\numberline {2.7}Trabajo previo en detecci\'on de ansiedad}{12}{section.2.7}
 \contentsline {section}{\numberline {2.8}M\'aquinas de soporte vectorial (SVM)}{12}{section.2.8}
 \contentsline {section}{\numberline {2.9}Conclusion}{12}{section.2.9}
-\contentsline {chapter}{\numberline {3}Metodolog\'ia y dise\~no de un experimento para inducir ansiedad en cuidadores de personas con demencia.}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introducci\'on.}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Metodolog\'ia.}{13}{section.3.2}
-\contentsline {section}{\numberline {3.3}Un experimento para inducir ansiedad en cuidadores informales.}{14}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Sujetos.}{15}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Procedimiento.}{15}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Entrenamiento.}{15}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Tareas de terapias.}{16}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Configuraci\'on.}{17}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Obtenci\'on de datos.}{18}{subsection.3.5.1}
-\contentsline {section}{\numberline {3.6}An\'alisis de los datos.}{19}{section.3.6}
+\contentsline {chapter}{\numberline {3}Metodolog\'ia y dise\~no de un experimento para inducir ansiedad en cuidadores de personas con demencia}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\'on}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Metodolog\'ia}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Un experimento para inducir ansiedad en cuidadores informales}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Sujetos}{15}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Procedimiento}{16}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Entrenamiento}{16}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Tareas de terapias}{16}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Configuraci\'on}{17}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Obtenci\'on de datos}{18}{subsection.3.5.1}
+\contentsline {section}{\numberline {3.6}An\'alisis de los datos}{19}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Pre-procesado de GSR}{20}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}HR and IBI Pre-processing.}{20}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Procesamiento de video.}{21}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Segmentaci\'on de los datos.}{21}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.2}Pre-procesamiento de HR e IBI}{21}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Procesamiento de video}{21}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Segmentaci\'on de los datos}{21}{subsection.3.6.4}
 \contentsline {chapter}{\numberline {4}Evaluacion}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introducci\'on}{23}{section.4.1}
 \contentsline {section}{\numberline {4.2}Codificaci\'on}{23}{section.4.2}
@@ -65,4 +63,3 @@
 \contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{25}{chapter.5}
 \contentsline {chapter}{\numberline {A}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{29}{appendix.Alph6}
 \contentsline {chapter}{\numberline {B}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{30}{appendix.Alph7}
->>>>>>> b9483c6ef0174d58d60aa0a2184bebddd51cd24b
