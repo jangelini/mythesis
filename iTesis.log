@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  4 AUG 2015 11:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  4 AUG 2015 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,6 +1024,9 @@ LaTeX Warning: Label `secc:caregivers' multiply defined.
 
 LaTeX Warning: Label `secc:dementia' multiply defined.
 
+
+LaTeX Warning: Label `table:therapies' multiply defined.
+
 )
 \openout1 = `iTesis.aux'.
 
@@ -1253,7 +1256,7 @@ Cap\'{\i }tulo 1
 Cap\'{\i }tulo 2
 [5
 
-] [6] <./Figures/anxiety_caregiver.png, id=449, 466.74374pt x 339.51843pt>
+] [6] <./Figures/anxiety_caregiver.png, id=450, 466.74374pt x 339.51843pt>
 File: ./Figures/anxiety_caregiver.png Graphic file (type png)
 
 <use ./Figures/anxiety_caregiver.png>
@@ -1263,14 +1266,14 @@ Package pdftex.def Info: ./Figures/anxiety_caregiver.png used on input line 45.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 46.
  [7 <./Figures/anxiety_caregiver.png>]
-[8] <./Figures/img_snc.png, id=462, 1440.13031pt x 727.96968pt>
+[8] <./Figures/img_snc.png, id=463, 1440.13031pt x 727.96968pt>
 File: ./Figures/img_snc.png Graphic file (type png)
 
 <use ./Figures/img_snc.png>
 Package pdftex.def Info: ./Figures/img_snc.png used on input line 69.
 (pdftex.def)             Requested size: 455.22563pt x 227.62326pt.
  [9 <./Figures/img_snc.png>]
-<./Figures/img_gsr.png, id=470, 347.04657pt x 272.51813pt>
+<./Figures/img_gsr.png, id=471, 347.04657pt x 272.51813pt>
 File: ./Figures/img_gsr.png Graphic file (type png)
 
 <use ./Figures/img_gsr.png>
@@ -1279,7 +1282,7 @@ Package pdftex.def Info: ./Figures/img_gsr.png used on input line 79.
  [10 <./Figures/img_gsr.png>] [11] [12])
 (./Capitulo03.tex
 Cap\'{\i }tulo 3
-<./Figures/img_metodologia.png, id=490, 766.865pt x 145.54375pt>
+<./Figures/img_metodologia.png, id=491, 766.865pt x 145.54375pt>
 File: ./Figures/img_metodologia.png Graphic file (type png)
 
 <use ./Figures/img_metodologia.png>
@@ -1288,7 +1291,7 @@ Package pdftex.def Info: ./Figures/img_metodologia.png used on input line 17.
  [13
 
 ]
-<./Figures/img_evalmethods.png, id=496, 844.756pt x 375.804pt>
+<./Figures/img_evalmethods.png, id=497, 844.756pt x 375.804pt>
 File: ./Figures/img_evalmethods.png Graphic file (type png)
 
 <use ./Figures/img_evalmethods.png>
@@ -1305,46 +1308,65 @@ e co-rreo de CI-CE-SE. Se les otorg[]o un
  []
 
 [15 <./Figures/img_evalmethods.png>] [16]
-Overfull \hbox (64.67169pt too wide) in paragraph at lines 75--89
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]|\OT1/phv/m/n/10 Formaci[]on de
  []
 
-<./Figures/img_exp_setup.png, id=519, 602.25pt x 388.45125pt>
+
+Underfull \hbox (badness 6725) in paragraph at lines 92--92
+[]|\OT1/phv/m/n/10 Separaci[]on de
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 93--93
+[]|\OT1/phv/m/n/10 Separaci[]on de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\OT1/phv/m/n/10 Formaci[]on de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]|\OT1/phv/m/n/10 Formaci[]on de
+ []
+
+[17] <./Figures/img_exp_setup.png, id=524, 602.25pt x 388.45125pt>
 File: ./Figures/img_exp_setup.png Graphic file (type png)
 
 <use ./Figures/img_exp_setup.png>
-Package pdftex.def Info: ./Figures/img_exp_setup.png used on input line 110.
+Package pdftex.def Info: ./Figures/img_exp_setup.png used on input line 121.
 (pdftex.def)             Requested size: 455.26112pt x 227.62537pt.
- [17] [18 <./Figures/img_exp_setup.png>]
-<./Figures/img_caremetoo.png, id=532, 401.5pt x 713.66624pt>
+ [18 <./Figures/img_exp_setup.png>]
+<./Figures/img_caremetoo.png, id=533, 401.5pt x 713.66624pt>
 File: ./Figures/img_caremetoo.png Graphic file (type png)
 
 <use ./Figures/img_caremetoo.png>
-Package pdftex.def Info: ./Figures/img_caremetoo.png used on input line 123.
+Package pdftex.def Info: ./Figures/img_caremetoo.png used on input line 134.
 (pdftex.def)             Requested size: 128.05377pt x 227.62204pt.
  [19 <./Figures/img_caremetoo.png>]
-Overfull \hbox (5.84264pt too wide) in paragraph at lines 138--146
-[][] 
+Overfull \hbox (1.30466pt too wide) in paragraph at lines 164--164
+[]|$[]$| 
  []
 
-[20] <./Figures/img_segment.png, id=551, 1678.27pt x 1778.645pt>
+[20] [21] <./Figures/img_segment.png, id=558, 1678.27pt x 1778.645pt>
 File: ./Figures/img_segment.png Graphic file (type png)
 
 <use ./Figures/img_segment.png>
-Package pdftex.def Info: ./Figures/img_segment.png used on input line 167.
+Package pdftex.def Info: ./Figures/img_segment.png used on input line 190.
 (pdftex.def)             Requested size: 483.22871pt x 512.1496pt.
 
-Overfull \hbox (11.19748pt too wide) in paragraph at lines 167--168
+Overfull \hbox (11.19748pt too wide) in paragraph at lines 190--191
  [][] 
  []
 
-[21]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22]) (./Capitulo04.tex [23 <./Figures/img_segment.png>]
 Cap\'{\i }tulo 4
-<./Figures/img_transcript.png, id=569, 1080.035pt x 715.67375pt>
+<./Figures/img_transcript.png, id=570, 1080.035pt x 715.67375pt>
 File: ./Figures/img_transcript.png Graphic file (type png)
 
 <use ./Figures/img_transcript.png>
@@ -1354,7 +1376,7 @@ Package pdftex.def Info: ./Figures/img_transcript.png used on input line 19.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/img_codification.png, id=572, 623.32875pt x 680.5425pt>
+<./Figures/img_codification.png, id=573, 623.32875pt x 680.5425pt>
 File: ./Figures/img_codification.png Graphic file (type png)
 
 <use ./Figures/img_codification.png>
@@ -1364,7 +1386,7 @@ Package pdftex.def Info: ./Figures/img_codification.png used on input line 28.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/img_anxietylevel.png, id=574, 578.16pt x 433.62pt>
+<./Figures/img_anxietylevel.png, id=575, 578.16pt x 433.62pt>
 File: ./Figures/img_anxietylevel.png Graphic file (type png)
 
 <use ./Figures/img_anxietylevel.png>
@@ -1431,7 +1453,7 @@ LaTeX Info: Redefining \% on input line 25.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `iTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1B5B509E39D438DBF1CEDB73109BE1A0;4763.
+(rerunfilecheck)             Checksum: 7CCB4BE26D5076759FDAB93953340EB6;4779.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1440,7 +1462,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  21171 strings out of 493315
  324924 string characters out of 6145893
- 490323 words of memory out of 5000000
+ 490339 words of memory out of 5000000
  23978 multiletter control sequences out of 15000+600000
  33060 words of font info for 72 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1462,10 +1484,10 @@ lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/symbols
 /msam10.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/t
 exmf/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texmf/fonts/type1/urw/hel
 vetic/uhvr8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on iTesis.pdf (44 pages, 3527952 bytes).
+Output written on iTesis.pdf (44 pages, 3526955 bytes).
 PDF statistics:
- 697 PDF objects out of 1000 (max. 8388607)
- 612 compressed objects within 7 object streams
+ 698 PDF objects out of 1000 (max. 8388607)
+ 613 compressed objects within 7 object streams
  138 named destinations out of 1000 (max. 500000)
  573 words of extra memory for PDF output out of 10000 (max. 10000000)
 

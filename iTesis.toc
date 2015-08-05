@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {2.4.4}Carga del cuidador}{8}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Estrategias de afrontamiento}{8}{subsection.2.4.5}
 \contentsline {subsection}{\numberline {2.4.6}Cuidadores Formales e Informales}{9}{subsection.2.4.6}
-\contentsline {subsection}{\numberline {2.4.7}Se\~nales fisiol\'ogicas relacionadas}{9}{subsection.2.4.7}
+\contentsline {subsection}{\numberline {2.4.7}Se\~nales fisiol\'ogicas relacionadas con la ansiedad}{9}{subsection.2.4.7}
 \contentsline {subsubsection}{\numberline {2.4.7.1}Respuesta Galv\'anica de la Piel (GSR)}{10}{subsubsection.2.4.7.1}
 \contentsline {subsubsection}{\numberline {2.4.7.2}Se\~nales relacionadas con el coraz\'on}{11}{subsubsection.2.4.7.2}
 \contentsline {subsubsection}{\numberline {2.4.7.3}Electroencefalograf\'ia (EEG)}{11}{subsubsection.2.4.7.3}
