@@ -235,8 +235,8 @@ Ensenada, Baja California, M\'exico
         \Large\bfseries\@autor
         \vspace{0.5cm}
 
-        \normalsize\normalfont y aprobada por el siguiente comit\'e
-        \vspace{3.5cm}
+        \normalsize\normalfont y aprobada por el comit\'e
+        \vspace{2.5cm}
 
 % DIRECTORES
 %*********************************************************************************
@@ -271,46 +271,45 @@ Ensenada, Baja California, M\'exico
        
         %con tres sinodales
         \ifnum\value{dal@readernum}=3%
-        \vspace{1cm}
-        \hskip -0.1cm
-                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
-        \vspace{1.5cm}
-                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+        %\vspace{1cm}
+        %\hskip -0.1cm
+        %        \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+        %\hfill
+        %        \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+        %\vspace{1.5cm}
+        %        \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
         \fi
 
         %con cuatro sinodales
-        \ifnum\value{dal@readernum}=4%
-        \vspace{3.0cm}
-        \hskip -0.1cm
-                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
-        \vspace{1cm}
 
-        \hskip -0.1cm
-                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
+        %con un solo director
+        %\ifnum\value{dal@supervisornum}=1%
+        %        \signature{\vspace{-1.5mm}\@firstsupervisor}{\emph{Director del Comit\'e}}
+        %\fi
+        \ifnum\value{dal@readernum}=4%
+
+	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@thirdreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@fourthreader} \textbf{(Miembro del comit\'e)}
+
         \fi
 
 		%con cinco sinodales
         \ifnum\value{dal@readernum}=5%
-        \vspace{0.8cm}
-        \hskip -0.1cm
-                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
-        \vspace{1cm}
 
-        \hskip -0.1cm
-                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
-        \vspace{1.5cm}
-                \signature{\@fifthreader}{\emph{Miembro del Comit\'e}}
-        \vspace{-1.5cm}
+		\signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+	        \vskip 0.5in
+		\signature{\@secondreader}{\emph{Miembro del Comit\'e}}
+	        \vskip 0.5in
+
+		\signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+	        \vskip 0.5in
+		\signature{\@fourthreader}{\emph{Miembro del Comit\'e}}
+	        \vskip 0.5in
         \fi
         
         %con seis sinodales
@@ -336,20 +335,31 @@ Ensenada, Baja California, M\'exico
 % DIRECTIVOS
 %*********************************************************************************
 %*********************************************************************************    
-        \vspace{3.5cm}
-        \hskip -0.1cm
-        \signatureDept{\vspace{-1.5mm}\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}
-        \hfill
-                \signature{\vspace{-1.5mm}\@dirposgrado}{\vspace{6.5mm}\emph{Director de Estudios de Posgrado}}
+	\vspace{1.0cm}
+	\begin{figure}[!h]
+	   \begin{center}
+	     \includegraphics[width=1.0cm]{./Figures/cc.jpg}\\
+	     % \includegraphics[width=1.55in]{figures/logoCiceseAniv.jpg}\\
+	   \end{center}
+	\end{figure}
+	\textbf{Autoridades}\\
+
+        \vspace{1.0cm}
+        %\hskip -0.1cm
+        \signatureDept{\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}\\
+        \vspace{1.5cm}
+        \signature{\@dirposgrado}{\emph{Director de Estudios de Posgrado}}
+        %\signatureDept{\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}
+        %\signatureDept{\vspace{-1.5mm}\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}
 \end{center}
 %%%CORREGIDO PARA QUE APAREZCA LA FECHA
 %\vspace{1cm}
 
-\hfill
-\vfill
-\begin{flushright}
-        \@fechaexamencompleta
-\end{flushright}
+%\hfill
+%\vfill
+%\begin{flushright}
+%        \@fechaexamencompleta
+%\end{flushright}
 
 %\linespread{1.75}\small\normalsize
 \newpage

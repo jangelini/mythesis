@@ -111,10 +111,15 @@ Ertin, E., Stohs, N., Kumar, S., Raij, A., al'Absi, M., y Shah, S. (2011).
 \newblock En: {\em Proceedings of the 9th ACM Conference on Embedded Networked
   Sensor Systems\/}, New York, NY, USA. ACM, SenSys '11, pp. 274--287.
 
-\bibitem[HAMILTON(1959)HAMILTON]{Hamilton1959}
-HAMILTON, M. (1959).
+\bibitem[HAMILTON(1959a)HAMILTON]{Hamilton1959}
+HAMILTON, M. (1959a).
 \newblock The assessment of anxiety states by rating.
 \newblock pp. 50--55.
+
+\bibitem[HAMILTON(1959b)HAMILTON]{PAPT467}
+HAMILTON, M. (1959b).
+\newblock The assessment of anxiety states by rating.
+\newblock {\em British Journal of Medical Psychology\/}, {\bf 32}(1): 50--55.
 
 \bibitem[Holzinger {\em \mbox{et al.}\/}(2014)Holzinger, Fairclough, Majoe, y
   da~Silva]{DBLP:conf/phycs/2014}
@@ -149,6 +154,13 @@ JULIAN, L.~J. (2011).
 \newblock Measures of anxiety.
 \newblock {\em Arthritis care \& research\/}, {\bf 63}(0 11):
   10.1002/acr.20561.
+
+\bibitem[Julian(2011)Julian]{julian2011measures}
+Julian, L.~J. (2011).
+\newblock Measures of anxiety: State-trait anxiety inventory (stai), beck
+  anxiety inventory (bai), and hospital anxiety and depression scale-anxiety
+  (hads-a).
+\newblock {\em Arthritis care \& research\/}, {\bf 63}(S11): S467--S472.
 
 \bibitem[Katsis {\em \mbox{et al.}\/}(2011)Katsis, Katertsidis, y
   Fotiadis]{Katsis2011261}
@@ -327,5 +339,15 @@ Wilt, J., Oehlberg, K., y Revelle, W. (2011).
   993.
 \newblock Special Issue on Anxiety (dedicated to the memory of Professor Blazej
   Szymura).
+
+\bibitem[Wolpe(1973)Wolpe]{wolpe1973practice}
+Wolpe, J. (1973).
+\newblock {\em The practice of behavior therapy..\/}.
+\newblock Pergamon.
+
+\bibitem[Zung(1971)Zung]{Zung1971371}
+Zung, W.~W. (1971).
+\newblock A rating instrument for anxiety disorders.
+\newblock {\em Psychosomatics\/}, {\bf 12}(6): 371 -- 379.
 
 \end{thebibliography}
