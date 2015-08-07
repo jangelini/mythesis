@@ -262,22 +262,21 @@ Ensenada, Baja California, M\'exico
         %con solo 2 sinodales
         \vspace{1.5cm}
         \ifnum\value{dal@readernum}=2%
-        \vspace{1cm}
-        \hskip -0.1cm
-                \signature{\vspace{-1.5mm}\@firstreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{-1.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+
+	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
         \fi
        
         %con tres sinodales
         \ifnum\value{dal@readernum}=3%
-        %\vspace{1cm}
-        %\hskip -0.1cm
-        %        \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
-        %\hfill
-        %        \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
-        %\vspace{1.5cm}
-        %        \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+
+	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@thirdreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
         \fi
 
         %con cuatro sinodales
@@ -301,48 +300,43 @@ Ensenada, Baja California, M\'exico
 		%con cinco sinodales
         \ifnum\value{dal@readernum}=5%
 
-		\signature{\@firstreader}{\emph{Miembro del Comit\'e}}
-	        \vskip 0.5in
-		\signature{\@secondreader}{\emph{Miembro del Comit\'e}}
-	        \vskip 0.5in
 
-		\signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
-	        \vskip 0.5in
-		\signature{\@fourthreader}{\emph{Miembro del Comit\'e}}
-	        \vskip 0.5in
+	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@thirdreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@fourthreader} \textbf{(Miembro del comit\'e)}
+        \vspace{0.3cm}
+	\textbf{\@fifthreader} \textbf{(Miembro del comit\'e)}
         \fi
         
         %con seis sinodales
         \ifnum\value{dal@readernum}=6%
-        \vspace{0.8cm}
-        \hskip -0.1cm
-                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
-        \vspace{1cm}
 
-        \hskip -0.1cm
-                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
-        \vspace{1.5cm}
-                \signature{\@fifthreader}{\emph{Miembro del Comit\'e}}
-        \hfill
-                \signature{\vspace{0.8mm}\@sixthreader}{\emph{Miembro del Comit\'e}}
-        \vspace{-1.5cm}
+	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@thirdreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{0.3cm}
+	\textbf{\@fourthreader} \textbf{(Miembro del comit\'e)}
+        \vspace{0.3cm}
+	\textbf{\@sixthreader} \textbf{(Miembro del comit\'e)}
         \fi
     
 % DIRECTIVOS
 %*********************************************************************************
 %*********************************************************************************    
 	\vspace{1.0cm}
-	\begin{figure}[!h]
-	   \begin{center}
+%	\begin{figure}[!h]
+%	   \begin{center}
 	     \includegraphics[width=1.0cm]{./Figures/cc.jpg}\\
 	     % \includegraphics[width=1.55in]{figures/logoCiceseAniv.jpg}\\
-	   \end{center}
-	\end{figure}
-	\textbf{Autoridades}\\
+%	   \end{center}
+%	\end{figure}
+	\textbf{Autoridades}
 
         \vspace{1.0cm}
         %\hskip -0.1cm
@@ -351,7 +345,6 @@ Ensenada, Baja California, M\'exico
         \signature{\@dirposgrado}{\emph{Director de Estudios de Posgrado}}
         %\signatureDept{\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}
         %\signatureDept{\vspace{-1.5mm}\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}
-\end{center}
 %%%CORREGIDO PARA QUE APAREZCA LA FECHA
 %\vspace{1cm}
 
@@ -362,6 +355,11 @@ Ensenada, Baja California, M\'exico
 %\end{flushright}
 
 %\linespread{1.75}\small\normalsize
+\vspace{0.5cm}
+\@autor\ \textregistered\ \@anioDefensa
+\vspace{0.3cm}
+\\\footnotesize{Queda prohibida la reproducci\'on parcial o total de esta obra sin el permiso del autor}
+\end{center}
 \newpage
 
 
