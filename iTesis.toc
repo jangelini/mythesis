@@ -31,42 +31,43 @@
 \contentsline {subsection}{\numberline {2.2.1}Ansiedad y estr\'es}{6}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Ansiedad situacional y Ansiedad como rasgo}{7}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Demencia}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}Cuidadores}{8}{section.2.4}
+\contentsline {section}{\numberline {2.4}Cuidadores}{7}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}C\'omo se genera la ansiedad en los cuidadores?}{8}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Caracter\'isticas del individuo}{9}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Factores de estr\'es primarios}{9}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Carga del cuidador}{9}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.2}Historial del cuidador}{9}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Estresores primarios}{9}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Tensi\'ones familiares}{9}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Estrategias de afrontamiento}{9}{subsection.2.4.5}
 \contentsline {subsection}{\numberline {2.4.6}Cuidadores formales e informales}{10}{subsection.2.4.6}
 \contentsline {subsection}{\numberline {2.4.7}Se\~nales fisiol\'ogicas relacionadas con la ansiedad}{10}{subsection.2.4.7}
-\contentsline {subsubsection}{\numberline {2.4.7.1}Respuesta Galv\'anica de la Piel (GSR)}{11}{subsubsection.2.4.7.1}
+\contentsline {subsubsection}{\numberline {2.4.7.1}Respuesta Galv\'anica de la Piel (GSR)}{10}{subsubsection.2.4.7.1}
 \contentsline {subsubsection}{\numberline {2.4.7.2}Se\~nales relacionadas con el coraz\'on}{12}{subsubsection.2.4.7.2}
-\contentsline {subsubsection}{\numberline {2.4.7.3}Electroencefalograf\'ia (EEG)}{13}{subsubsection.2.4.7.3}
+\contentsline {subsubsection}{\numberline {2.4.7.3}Electroencefalograma (EEG)}{12}{subsubsection.2.4.7.3}
 \contentsline {section}{\numberline {2.5}Instrumentos tradicionales para la medici\'on de la ansiead}{13}{section.2.5}
 \contentsline {section}{\numberline {2.6}C\'omputo vestible}{14}{section.2.6}
 \contentsline {section}{\numberline {2.7}Trabajo previo en detecci\'on autom\'atica de ansiedad}{14}{section.2.7}
-\contentsline {section}{\numberline {2.8}M\'aquinas de soporte vectorial (SVM)}{14}{section.2.8}
-\contentsline {section}{\numberline {2.9}Conclusi\'on}{14}{section.2.9}
-\contentsline {chapter}{\numberline {3}Metodolog\'ia y dise\~no de un experimento para inducir ansiedad en cuidadores de personas con demencia}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introducci\'on}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}Un experimento para inducir ansiedad en cuidadores informales}{16}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Sujetos}{18}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Procedimiento}{18}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Entrenamiento}{18}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Tareas de terapias}{19}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Configuraci\'on}{20}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Obtenci\'on de datos}{21}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}An\'alisis de los datos}{22}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Pre-procesado de GSR}{22}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Pre-procesamiento de HR e IBI}{23}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Procesamiento de video}{24}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Segmentaci\'on de los datos}{24}{subsection.3.5.4}
-\contentsline {chapter}{\numberline {4}Evaluacion}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introducci\'on}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Codificaci\'on}{26}{section.4.2}
-\contentsline {section}{\numberline {4.3}Extracci\'on de caracter\'isticas}{27}{section.4.3}
-\contentsline {section}{\numberline {4.4}Resultados de aprendizaje de m\'aquina}{27}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{30}{chapter.5}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{31}{chapter.5}
-\contentsline {chapter}{\numberline {A}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{35}{appendix.Alph6}
-\contentsline {chapter}{\numberline {B}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{36}{appendix.Alph7}
+\contentsline {section}{\numberline {2.8}M\'aquinas de soporte vectorial (SVM)}{15}{section.2.8}
+\contentsline {section}{\numberline {2.9}Conclusi\'on}{16}{section.2.9}
+\contentsline {chapter}{\numberline {3}Dise\~no de un experimento para inducir ansiedad en cuidadores de personas con demencia}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\'on}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Un experimento para inducir ansiedad en cuidadores informales}{17}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Sujetos}{19}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Procedimiento}{19}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Entrenamiento}{19}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Tareas de terapias}{20}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Configuraci\'on}{21}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Obtenci\'on de datos}{22}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Obtenci\'on de ground truth}{24}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Procesamiento de video}{25}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Observaci\'on}{26}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Autoreportado}{26}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Pre-procesado de GSR}{26}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Pre-procesamiento de HR e IBI}{26}{subsection.3.5.5}
+\contentsline {chapter}{\numberline {4}Evaluacion}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\'on}{28}{section.4.1}
+\contentsline {section}{\numberline {4.2}Codificaci\'on}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}Extracci\'on de caracter\'isticas}{29}{section.4.3}
+\contentsline {section}{\numberline {4.4}Resultados de aprendizaje de m\'aquina}{29}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{32}{chapter.5}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{33}{chapter.5}
+\contentsline {chapter}{\numberline {A}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{38}{appendix.Alph6}
+\contentsline {chapter}{\numberline {B}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{39}{appendix.Alph7}

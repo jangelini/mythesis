@@ -12,46 +12,47 @@ Warning--empty journal in Hamilton1959
 Warning--empty publisher in EcgPractica
 Warning--there's a number but no volume in Joling2014
 Warning--empty publisher in psychologyapa
+Warning--empty journal in picard1997affective
 Warning--empty year in prince15; set to ????
-You've used 51 entries,
+You've used 56 entries,
             2727 wiz_defined-function locations,
-            1093 strings with 17151 characters,
-and the built_in function-call counts, 27815 in all, are:
-= -- 2586
-> -- 1775
-< -- 36
-+ -- 534
-- -- 532
-* -- 2902
-:= -- 4190
-add.period$ -- 168
-call.type$ -- 51
-change.case$ -- 348
-chr.to.int$ -- 49
-cite$ -- 159
-duplicate$ -- 1007
-empty$ -- 1775
-format.name$ -- 595
-if$ -- 5696
-int.to.chr$ -- 3
+            1116 strings with 17837 characters,
+and the built_in function-call counts, 29994 in all, are:
+= -- 2785
+> -- 1908
+< -- 38
++ -- 574
+- -- 571
+* -- 3133
+:= -- 4534
+add.period$ -- 183
+call.type$ -- 56
+change.case$ -- 375
+chr.to.int$ -- 53
+cite$ -- 175
+duplicate$ -- 1087
+empty$ -- 1921
+format.name$ -- 639
+if$ -- 6125
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 53
-newline$ -- 261
-num.names$ -- 207
-pop$ -- 526
+missing$ -- 59
+newline$ -- 286
+num.names$ -- 227
+pop$ -- 570
 preamble$ -- 1
-purify$ -- 278
+purify$ -- 301
 quote$ -- 0
-skip$ -- 923
+skip$ -- 989
 stack$ -- 0
-substring$ -- 1375
-swap$ -- 387
+substring$ -- 1467
+swap$ -- 409
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 447
-warning$ -- 6
-while$ -- 233
+type$ -- 489
+warning$ -- 7
+while$ -- 253
 width$ -- 0
-write$ -- 696
+write$ -- 759
 (There was 1 error message)

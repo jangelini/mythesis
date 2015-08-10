@@ -75,6 +75,13 @@ Chen, Y., Ngo, V., y Park, S.~Y. (2013).
 \newblock Caring for caregivers: Designing for integrality.
 \newblock pp. 91--102.
 
+\bibitem[Cinaz {\em \mbox{et al.}\/}(2013)Cinaz, Arnrich, Marca, y
+  Tr\"{o}ster]{Cinaz13}
+Cinaz, B., Arnrich, B., Marca, R., y Tr\"{o}ster, G. (2013).
+\newblock Monitoring of mental workload levels during an everyday life
+  office-work scenario.
+\newblock {\em Personal Ubiquitous Comput.\/}, {\bf 17}(2): 229--239.
+
 \bibitem[CLARK y DONOVAN(1994)CLARK y DONOVAN]{CLARK1994354}
 CLARK, D.~B. y DONOVAN, J.~E. (1994).
 \newblock Reliability and validity of the hamilton anxiety rating scale in an
@@ -120,6 +127,14 @@ HAMILTON, M. (1959a).
 HAMILTON, M. (1959b).
 \newblock The assessment of anxiety states by rating.
 \newblock {\em British Journal of Medical Psychology\/}, {\bf 32}(1): 50--55.
+
+\bibitem[Handouzi {\em \mbox{et al.}\/}(2014)Handouzi, Maaoui, Pruski, y
+  Moussaoui]{Handouzi2014217}
+Handouzi, W., Maaoui, C., Pruski, A., y Moussaoui, A. (2014).
+\newblock Objective model assessment for short-term anxiety recognition from
+  blood volume pulse signal.
+\newblock {\em Biomedical Signal Processing and Control\/}, {\bf 14}: 217 --
+  227.
 
 \bibitem[Holzinger {\em \mbox{et al.}\/}(2014)Holzinger, Fairclough, Majoe, y
   da~Silva]{DBLP:conf/phycs/2014}
@@ -235,6 +250,11 @@ Pearlin, L.~I., Mullan, J.~T., Semple, S.~J., y Skaff, M.~M. (1990).
   measures.
 \newblock {\em The Gerontologist\/}, {\bf 30}(5): 583--594.
 
+\bibitem[Picard(1997)Picard]{picard1997affective}
+Picard, R.~W. (1997).
+\newblock Affective computing.
+\newblock {\bf 252}.
+
 \bibitem[Prince {\em \mbox{et al.}\/}(????)Prince, Bryce, Albanese, Wimo,
   Ribeiro, y Ferri]{prince15}
 Prince, M., Bryce, R., Albanese, E., Wimo, A., Ribeiro, W., y Ferri, C.~P.
@@ -249,12 +269,19 @@ Ramos, J., Hong, J.-H., y Dey, A.~K. (2014).
 \newblock Stress recognition - a step outside the lab.
 \newblock En:  \cite{DBLP:conf/phycs/2014}, pp. 107--118.
 
-\bibitem[Rani {\em \mbox{et al.}\/}(2007)Rani, Sarkar, y Adams]{Rani2007323}
-Rani, P., Sarkar, N., y Adams, J. (2007).
+\bibitem[Rani {\em \mbox{et al.}\/}(2007a)Rani, Sarkar, y Adams]{Rani2007323}
+Rani, P., Sarkar, N., y Adams, J. (2007a).
 \newblock Anxiety-based affective communication for implicit human–machine
   interaction.
 \newblock {\em Advanced Engineering Informatics\/}, {\bf 21}(3): 323 -- 334.
 \newblock Applications Eligible for Data Mining.
+
+\bibitem[Rani {\em \mbox{et al.}\/}(2007b)Rani, Sarkar, y
+  Adams]{rani2007anxiety}
+Rani, P., Sarkar, N., y Adams, J. (2007b).
+\newblock Anxiety-based affective communication for implicit human--machine
+  interaction.
+\newblock {\em Advanced Engineering Informatics\/}, {\bf 21}(3): 323--334.
 
 \bibitem[Rennert y Karapanos(2013)Rennert y Karapanos]{Rennert2013}
 Rennert, K. y Karapanos, E. (2013).
@@ -329,6 +356,11 @@ Sturm, V.~E., Yokoyama, J.~S., Seeley, W.~W., Kramer, J.~H., Miller, B.~L., y
   alzheimer's disease is associated with temporal lobe degeneration.
 \newblock {\em Proceedings of the National Academy of Sciences\/}, {\bf
   110}(24): 9944--9949.
+
+\bibitem[Tatum~IV(2014)Tatum~IV]{tatum2014handbook}
+Tatum~IV, W.~O. (2014).
+\newblock {\em Handbook of EEG interpretation\/}.
+\newblock Demos Medical Publishing.
 
 \bibitem[Tutar {\em \mbox{et al.}\/}(2013)Tutar, Cankurtaran, Tekin, y
   Caykoylu]{Tutar2013P484}

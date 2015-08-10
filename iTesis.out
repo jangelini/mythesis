@@ -32,21 +32,21 @@
 \BOOKMARK [1][-]{section.2.3}{Demencia}{chapter.2}% 32
 \BOOKMARK [1][-]{section.2.4}{Cuidadores}{chapter.2}% 33
 \BOOKMARK [2][-]{subsection.2.4.1}{C\363mo se genera la ansiedad en los cuidadores?}{section.2.4}% 34
-\BOOKMARK [2][-]{subsection.2.4.2}{Caracter\355sticas del individuo}{section.2.4}% 35
-\BOOKMARK [2][-]{subsection.2.4.3}{Factores de estr\351s primarios}{section.2.4}% 36
-\BOOKMARK [2][-]{subsection.2.4.4}{Carga del cuidador}{section.2.4}% 37
+\BOOKMARK [2][-]{subsection.2.4.2}{Historial del cuidador}{section.2.4}% 35
+\BOOKMARK [2][-]{subsection.2.4.3}{Estresores primarios}{section.2.4}% 36
+\BOOKMARK [2][-]{subsection.2.4.4}{Tensi\363nes familiares}{section.2.4}% 37
 \BOOKMARK [2][-]{subsection.2.4.5}{Estrategias de afrontamiento}{section.2.4}% 38
 \BOOKMARK [2][-]{subsection.2.4.6}{Cuidadores formales e informales}{section.2.4}% 39
 \BOOKMARK [2][-]{subsection.2.4.7}{Se\361ales fisiol\363gicas relacionadas con la ansiedad}{section.2.4}% 40
 \BOOKMARK [3][-]{subsubsection.2.4.7.1}{Respuesta Galv\341nica de la Piel \(GSR\)}{subsection.2.4.7}% 41
 \BOOKMARK [3][-]{subsubsection.2.4.7.2}{Se\361ales relacionadas con el coraz\363n}{subsection.2.4.7}% 42
-\BOOKMARK [3][-]{subsubsection.2.4.7.3}{Electroencefalograf\355a \(EEG\)}{subsection.2.4.7}% 43
+\BOOKMARK [3][-]{subsubsection.2.4.7.3}{Electroencefalograma \(EEG\)}{subsection.2.4.7}% 43
 \BOOKMARK [1][-]{section.2.5}{Instrumentos tradicionales para la medici\363n de la ansiead}{chapter.2}% 44
 \BOOKMARK [1][-]{section.2.6}{C\363mputo vestible}{chapter.2}% 45
 \BOOKMARK [1][-]{section.2.7}{Trabajo previo en detecci\363n autom\341tica de ansiedad}{chapter.2}% 46
 \BOOKMARK [1][-]{section.2.8}{M\341quinas de soporte vectorial \(SVM\)}{chapter.2}% 47
 \BOOKMARK [1][-]{section.2.9}{Conclusi\363n}{chapter.2}% 48
-\BOOKMARK [0][-]{chapter.3}{Metodolog\355a y dise\361o de un experimento para inducir ansiedad en cuidadores de personas con demencia}{}% 49
+\BOOKMARK [0][-]{chapter.3}{Dise\361o de un experimento para inducir ansiedad en cuidadores de personas con demencia}{}% 49
 \BOOKMARK [1][-]{section.3.1}{Introducci\363n}{chapter.3}% 50
 \BOOKMARK [1][-]{section.3.2}{Un experimento para inducir ansiedad en cuidadores informales}{chapter.3}% 51
 \BOOKMARK [2][-]{subsection.3.2.1}{Sujetos}{section.3.2}% 52
@@ -55,17 +55,18 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{Tareas de terapias}{section.3.3}% 55
 \BOOKMARK [1][-]{section.3.4}{Configuraci\363n}{chapter.3}% 56
 \BOOKMARK [2][-]{subsection.3.4.1}{Obtenci\363n de datos}{section.3.4}% 57
-\BOOKMARK [1][-]{section.3.5}{An\341lisis de los datos}{chapter.3}% 58
-\BOOKMARK [2][-]{subsection.3.5.1}{Pre-procesado de GSR}{section.3.5}% 59
-\BOOKMARK [2][-]{subsection.3.5.2}{Pre-procesamiento de HR e IBI}{section.3.5}% 60
-\BOOKMARK [2][-]{subsection.3.5.3}{Procesamiento de video}{section.3.5}% 61
-\BOOKMARK [2][-]{subsection.3.5.4}{Segmentaci\363n de los datos}{section.3.5}% 62
-\BOOKMARK [0][-]{chapter.4}{Evaluacion}{}% 63
-\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 64
-\BOOKMARK [1][-]{section.4.2}{Codificaci\363n}{chapter.4}% 65
-\BOOKMARK [1][-]{section.4.3}{Extracci\363n de caracter\355sticas}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.4}{Resultados de aprendizaje de m\341quina}{chapter.4}% 67
-\BOOKMARK [0][-]{chapter.5}{Conclusiones y trabajo a futuro}{}% 68
-\BOOKMARK [0][-]{chapter.5}{Lista de referencias}{}% 69
-\BOOKMARK [0][-]{appendix.Alph6}{Carta de consentimiento informado de participantes en el proyecto de investigaci\363n}{}% 70
-\BOOKMARK [0][-]{appendix.Alph7}{Carta de no divulgaci\363n de participantes en el proyecto de investigaci\363n}{}% 71
+\BOOKMARK [1][-]{section.3.5}{Obtenci\363n de ground truth}{chapter.3}% 58
+\BOOKMARK [2][-]{subsection.3.5.1}{Procesamiento de video}{section.3.5}% 59
+\BOOKMARK [2][-]{subsection.3.5.2}{Observaci\363n}{section.3.5}% 60
+\BOOKMARK [2][-]{subsection.3.5.3}{Autoreportado}{section.3.5}% 61
+\BOOKMARK [2][-]{subsection.3.5.4}{Pre-procesado de GSR}{section.3.5}% 62
+\BOOKMARK [2][-]{subsection.3.5.5}{Pre-procesamiento de HR e IBI}{section.3.5}% 63
+\BOOKMARK [0][-]{chapter.4}{Evaluacion}{}% 64
+\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.2}{Codificaci\363n}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.3}{Extracci\363n de caracter\355sticas}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.4}{Resultados de aprendizaje de m\341quina}{chapter.4}% 68
+\BOOKMARK [0][-]{chapter.5}{Conclusiones y trabajo a futuro}{}% 69
+\BOOKMARK [0][-]{chapter.5}{Lista de referencias}{}% 70
+\BOOKMARK [0][-]{appendix.Alph6}{Carta de consentimiento informado de participantes en el proyecto de investigaci\363n}{}% 71
+\BOOKMARK [0][-]{appendix.Alph7}{Carta de no divulgaci\363n de participantes en el proyecto de investigaci\363n}{}% 72
