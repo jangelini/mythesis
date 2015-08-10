@@ -60,13 +60,18 @@
 \contentsline {subsection}{\numberline {3.5.1}Procesamiento de video}{25}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Observaci\'on}{26}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Autoreportado}{26}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Pre-procesado de GSR}{26}{subsection.3.5.4}
-\contentsline {subsection}{\numberline {3.5.5}Pre-procesamiento de HR e IBI}{26}{subsection.3.5.5}
-\contentsline {chapter}{\numberline {4}Evaluacion}{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introducci\'on}{28}{section.4.1}
-\contentsline {section}{\numberline {4.2}Codificaci\'on}{28}{section.4.2}
-\contentsline {section}{\numberline {4.3}Extracci\'on de caracter\'isticas}{29}{section.4.3}
-\contentsline {section}{\numberline {4.4}Resultados de aprendizaje de m\'aquina}{29}{section.4.4}
+\contentsline {subsection}{\numberline {3.5.4}Unificaci\'on de ``ground truth''}{28}{subsection.3.5.4}
+\contentsline {section}{\numberline {3.6}Preprocesamiento de GSR}{28}{section.3.6}
+\contentsline {section}{\numberline {3.7}Preprocesamiento de HR e IBI}{29}{section.3.7}
+\contentsline {section}{\numberline {3.8}Extracci\'on de caracter\'isticas}{29}{section.3.8}
+\contentsline {section}{\numberline {3.9}Conclusi\'on}{30}{section.3.9}
+\contentsline {chapter}{\numberline {4}Detecci\'on de ansiedad y resultados}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\'on}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Resultados de aprendizaje de m\'aquina}{31}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Pruebas por sujeto}{31}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Pruebas entre sujetos}{31}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Prueba con conjunto}{31}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Prueba por sesi\'on}{31}{subsection.4.2.4}
 \contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{32}{chapter.5}
 \contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{33}{chapter.5}
 \contentsline {chapter}{\numberline {A}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{38}{appendix.Alph6}

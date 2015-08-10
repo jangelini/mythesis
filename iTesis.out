@@ -59,14 +59,19 @@
 \BOOKMARK [2][-]{subsection.3.5.1}{Procesamiento de video}{section.3.5}% 59
 \BOOKMARK [2][-]{subsection.3.5.2}{Observaci\363n}{section.3.5}% 60
 \BOOKMARK [2][-]{subsection.3.5.3}{Autoreportado}{section.3.5}% 61
-\BOOKMARK [2][-]{subsection.3.5.4}{Pre-procesado de GSR}{section.3.5}% 62
-\BOOKMARK [2][-]{subsection.3.5.5}{Pre-procesamiento de HR e IBI}{section.3.5}% 63
-\BOOKMARK [0][-]{chapter.4}{Evaluacion}{}% 64
-\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 65
-\BOOKMARK [1][-]{section.4.2}{Codificaci\363n}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.3}{Extracci\363n de caracter\355sticas}{chapter.4}% 67
-\BOOKMARK [1][-]{section.4.4}{Resultados de aprendizaje de m\341quina}{chapter.4}% 68
-\BOOKMARK [0][-]{chapter.5}{Conclusiones y trabajo a futuro}{}% 69
-\BOOKMARK [0][-]{chapter.5}{Lista de referencias}{}% 70
-\BOOKMARK [0][-]{appendix.Alph6}{Carta de consentimiento informado de participantes en el proyecto de investigaci\363n}{}% 71
-\BOOKMARK [0][-]{appendix.Alph7}{Carta de no divulgaci\363n de participantes en el proyecto de investigaci\363n}{}% 72
+\BOOKMARK [2][-]{subsection.3.5.4}{Unificaci\363n de ``ground truth''}{section.3.5}% 62
+\BOOKMARK [1][-]{section.3.6}{Preprocesamiento de GSR}{chapter.3}% 63
+\BOOKMARK [1][-]{section.3.7}{Preprocesamiento de HR e IBI}{chapter.3}% 64
+\BOOKMARK [1][-]{section.3.8}{Extracci\363n de caracter\355sticas}{chapter.3}% 65
+\BOOKMARK [1][-]{section.3.9}{Conclusi\363n}{chapter.3}% 66
+\BOOKMARK [0][-]{chapter.4}{Detecci\363n de ansiedad y resultados}{}% 67
+\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 68
+\BOOKMARK [1][-]{section.4.2}{Resultados de aprendizaje de m\341quina}{chapter.4}% 69
+\BOOKMARK [2][-]{subsection.4.2.1}{Pruebas por sujeto}{section.4.2}% 70
+\BOOKMARK [2][-]{subsection.4.2.2}{Pruebas entre sujetos}{section.4.2}% 71
+\BOOKMARK [2][-]{subsection.4.2.3}{Prueba con conjunto}{section.4.2}% 72
+\BOOKMARK [2][-]{subsection.4.2.4}{Prueba por sesi\363n}{section.4.2}% 73
+\BOOKMARK [0][-]{chapter.5}{Conclusiones y trabajo a futuro}{}% 74
+\BOOKMARK [0][-]{chapter.5}{Lista de referencias}{}% 75
+\BOOKMARK [0][-]{appendix.Alph6}{Carta de consentimiento informado de participantes en el proyecto de investigaci\363n}{}% 76
+\BOOKMARK [0][-]{appendix.Alph7}{Carta de no divulgaci\363n de participantes en el proyecto de investigaci\363n}{}% 77
