@@ -190,7 +190,7 @@ Un reto del experimento fue identificar cuando los participantes sent\'ian ansie
 %\end{figure}
 
 	\subsection{Observaci\'on}
-	Dos investigadores realizaron observaci\'on en el sitio, tomando nota del tiempo, nivel del comportamiento de la persona con demencia, y una descripci\'on del evento. Esta descripci\'on fue escrita en base a lo que el participante y/o la persona con demencia dijo o hizo en el momento. El nivel de comportamiento fue codificado en base a la tabla ~\ref{table:anxilevels}. La figura ~\ref{fig:imgobservation} ejemplifica la observaci\'on correspondiente a una sesi\'on.
+	Dos investigadores realizaron observaci\'on en el sitio, tomando nota del tiempo, nivel del comportamiento de la persona con demencia, y una descripci\'on del evento. Esta descripci\'on fue escrita en base a lo que el participante y/o la persona con demencia dijo o hizo en el momento. El nivel de comportamiento fue codificado en base a la tabla ~\ref{table:anxilevels}. Un evento etiquetado como ``0'' corresponde cuando la persona con demencia se encuentra realizando la tarea como se le pidi\'o. En esta situaci\'on el cuidador puede estar totalmente relajado o bien ligeramente estresado. En un evento con la etiqueta ``1'' la PcD se encuentra en un estado renuente diciendo cosas como ``No me gusta esta tarea'' o ``Hazlo tu, yo no quiero''. La PcD podr\'ia estar realizando la tarea con bajo rendimiento o podr\'ia no prestar atenci\'on del todo. En un nivel ``2'', la PcD realiza situaciones no esperadas como preguntar al participante por su madre o cualquier otra pregunta que lo ponga inc\'omodo. La atenci\'on hacia la tarea puede ser muy baja. En el nivel ``3'', la PcD realiza acciones como tratar de golpear al participante, levantarse de la silla y querer salir de la habitaci\'on o gritar. La atenci\'on a la tarea suele ser nula. La figura ~\ref{fig:imgobservation} ejemplifica la observaci\'on correspondiente a una sesi\'on.
 
 \begin{figure}[h]
         \centering
@@ -221,7 +221,7 @@ No fue necesario remuestrear los datos de HR e IBI debido a la naturaleza de la 
 \section{Extracci\'on de caracter\'isticas}
 Una vez segmentadas y etiquetadas las sesiones, se tomaron varias caracter\'isticas por cada tipo de se\~nal. Estas caracter\'isticas generalizan al evento completo. La tabla ~\ref{tab:features} describe dichas caracter\'isticas.
 
-	\begin{table}[h!]
+	\begin{table}[t]
 		\footnotesize
 		\centering
         	\caption{Caracter\'isticas usadas como entrada para el clasificador de SVM}
@@ -234,27 +234,24 @@ Una vez segmentadas y etiquetadas las sesiones, se tomaron varias caracter\'isti
                 \textbf{Se\~nal} & \textbf{Caracter\'istica} & \textbf{Descripci\'on} & \textbf{Unidad} \\
 		\hline
 			\\ \noalign{\smallskip}
-                GSR& \pbox{12cm}{\textit{Valor en el pico}}                &  \pbox{12cm}{Valor absoluto en el pico.}             &      \pbox{12cm}{$\mu S$} \\
-                GSR   & \pbox{12cm}{\textit{Amplitud del pico}}                & \pbox{12cm}{Distancia desde el punto\\ de crecimiento hacia el pico}             & \pbox{12cm}{$\mu S$}        \\
-                GSR   &\textit{Valor en el punto de crecimiento}                &  \pbox{12cm}{Valor absoluto en el punto\\ de crecimiento}            &$\mu S$  \\
-                GSR   &\textit{Indice de media recuperac\'on}                &  \pbox{12cm}{Distancia en segundos desde\\ el pico hacia el punto de \\media recuperaci\'on}            &Segundos         \\
-                GSR   &\textit{Valor de media recuperac\'on}                &  \pbox{12cm}{Valor absoluto en el punto\\ de media recuperac\'on}              &$\mu S$    \\
-                GSR   &\textit{Distancia al pico anterior}                &  \pbox{12cm}{Distancia en segundos (si existe)\\ hacia el pico anterior}            &Segundos        \\
-                HR   &\textit{M\'aximo}                & Valor m\'aximo del segmento            &BPM     \\
-                HR   &\textit{Promedio}                & Valor promedio del segmento            &BPM     \\
+                GSR   & \pbox{12cm}{\textit{Amplitud de los picos}}                & \pbox{12cm}{Distancias promedio \\desde el punto de crecimiento\\ hacia el pico}             & \pbox{12cm}{$\mu S$}        \\
+                GSR   & \pbox{12cm}{\textit{Amplitud m\'axima de los picos}}                & \pbox{12cm}{Amplitud mas grande \\ de los picos}             & \pbox{12cm}{$\mu S$}        \\
+                GSR   & \pbox{12cm}{\textit{Amplitud m\'inima de los picos}}                & \pbox{12cm}{Amplitud mas chica \\ de los picos}             & \pbox{12cm}{$\mu S$}        \\
+                GSR   & \pbox{12cm}{\textit{Varianza de los picos}}                & \pbox{12cm}{Varianza total de todos\\ los picos}             & \pbox{12cm}{$\mu S$}        \\
+			GSR   & \pbox{12cm}{\textit{Tiempo promedio de} \\\textit{media recuperaci\'on de los picos}}                & \pbox{12cm}{Varianza total de todos\\ los picos}             & \pbox{12cm}{$\mu S$}        \\
                 IBI   &\textit{M\'inimo}                & Valor m\'inimo del segmento            &Segundos       \\
+                IBI   &\textit{M\'aximo}                & Valor m\'aximo del segmento            &Segundos       \\
                 IBI   &\textit{Promedio}                & Valor promedio del segmento            &Segundos       \\
                 IBI   &\textit{Desviaci\'on estandar}                &  \pbox{12cm}{Desviaci\'on estandar de todos\\ los datos del segmento}            &Segundos        \\
-                TEMP   &\textit{M\'aximo}                & Valor m\'aximo del segmento             &$\degree C$  \\
-                TEMP   &\textit{Promedio}                & Valor promedio del segmento            &$\degree C$ \\
 
 
         \end{tabular}
 \end{table}
 %TODO:UPDATE THIS 
-Para este trabajo, se tuvo un total de 51 segmentos del nivel 0, 177 del nivel 1, 145 del nivel 2 y 106 del nivel 3. Los datos corresponden a 5 del total de 10 de participantes. Utilizando 15 sesiones. No se procesaron todas las sesiones en su totalidad, debido al extenso tiempo necesario para transcribir los videos. Todos los segmentos fueron luego codificados en forma de vectores descriptores. Estos vectores fueron guardados en formato .csv, con la primera columna correspondiente a la etiqueta de nivel de ansiedad.
+%Para este trabajo, se tuvo un total de 51 segmentos del nivel 0, 177 del nivel 1, 145 del nivel 2 y 106 del nivel 3. Los datos corresponden a 5 del total de 10 de participantes. Utilizando 15 sesiones. No se procesaron todas las sesiones en su totalidad, debido al extenso tiempo necesario para transcribir los videos. Todos los segmentos fueron luego codificados en forma de vectores descriptores. Estos vectores fueron guardados en formato .csv, con la primera columna correspondiente a la etiqueta de nivel de ansiedad.
 \section{Conclusi\'on}
-En la siguiente secci\'on se utiliza una t\'ecnica de aprendizaje de m\'aquina para clasificar los eventos de ansiedad y se muestran los resultados de este experimento.
+El dise\~no de este experimento permite recabar datos de cuidadores de personas con demencia en situaciones naturalistas. El riesgo es reducido al utilizar situaciones simuladas que los participantes piensan que son reales. Esto abre la posibilidad de analizar por medio de tecnolog\'ia los efectos de ansiedad en los cuidadores.
+En la siguiente secci\'on se utiliza una t\'ecnica de aprendizaje de m\'aquina para clasificar los eventos de ansiedad. Se explican las diferentes pruebas realizadas, y los resultados generales de este experimento.
 \newpage
 %%=====================================================
 
