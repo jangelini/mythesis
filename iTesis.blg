@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: iTesis.aux
 The style file: cicese.bst
 Database file #1: iTesis.bib
-Repeated entry---line 712 of file iTesis.bib
+Repeated entry---line 692 of file iTesis.bib
  : @article{Sharma20121287
  :                        ,
 I'm skipping whatever remains of this entry
@@ -13,45 +13,45 @@ Warning--there's a number but no volume in Joling2014
 Warning--empty publisher in psychologyapa
 Warning--empty journal in picard1997affective
 Warning--empty year in prince15; set to ????
-You've used 54 entries,
+You've used 53 entries,
             2727 wiz_defined-function locations,
-            1105 strings with 17544 characters,
-and the built_in function-call counts, 29078 in all, are:
-= -- 2696
-> -- 1866
+            1099 strings with 17350 characters,
+and the built_in function-call counts, 28559 in all, are:
+= -- 2648
+> -- 1835
 < -- 36
-+ -- 560
-- -- 559
-* -- 3046
-:= -- 4399
-add.period$ -- 177
-call.type$ -- 54
-change.case$ -- 365
++ -- 550
+- -- 550
+* -- 2985
+:= -- 4320
+add.period$ -- 173
+call.type$ -- 53
+change.case$ -- 359
 chr.to.int$ -- 53
-cite$ -- 168
-duplicate$ -- 1048
-empty$ -- 1855
-format.name$ -- 625
-if$ -- 5934
-int.to.chr$ -- 2
+cite$ -- 165
+duplicate$ -- 1031
+empty$ -- 1820
+format.name$ -- 615
+if$ -- 5830
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 57
-newline$ -- 276
-num.names$ -- 219
-pop$ -- 553
+missing$ -- 56
+newline$ -- 270
+num.names$ -- 215
+pop$ -- 546
 preamble$ -- 1
-purify$ -- 293
+purify$ -- 288
 quote$ -- 0
-skip$ -- 956
+skip$ -- 943
 stack$ -- 0
-substring$ -- 1416
-swap$ -- 395
+substring$ -- 1386
+swap$ -- 389
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 471
+type$ -- 462
 warning$ -- 6
-while$ -- 243
+while$ -- 239
 width$ -- 0
-write$ -- 734
+write$ -- 719
 (There was 1 error message)

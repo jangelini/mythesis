@@ -1,0 +1,14 @@
+\begin{table}[t]
+	\footnotesize
+	\centering
+	\caption{Caracter\'isticas usadas como entrada para el clasificador de SVM}
+       \label{tab:features}
+
+	%\rotatebox{90}{
+	\begin{tabular}{m{2.5cm}m{5.0cm}m{5.0cm}m{2.5cm}}
+		\hline\noalign{\smallskip}
+
+	\textbf{Se\~nal} & \textbf{Caracter\'istica} & \textbf{Descripci\'on} & \textbf{Unidad} \\
+	\hline
+		\\ \noalign{\smallskip}
+
