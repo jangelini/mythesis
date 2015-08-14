@@ -1,0 +1,13 @@
+\contentsline {chapter}{\numberline {I.}Introducci\'on}{2}{chapter.1}
+\contentsline {chapter}{\numberline {II.}Objetivos}{4}{chapter.2}
+\contentsline {section}{\numberline {II.1}\textbf {Objetivo general:}}{4}{section.2.1}
+\contentsline {section}{\numberline {II.2}\textbf {Objetivos espec\'ificos:}}{4}{section.2.2}
+\contentsline {chapter}{\numberline {III.}Fundamentos te\'oricos}{5}{chapter.3}
+\contentsline {section}{\numberline {III.1}Qu\'e es la ansiedad?}{5}{section.3.1}
+\contentsline {subsection}{\numberline {III.1.1}Ansiedad y estr\'es}{5}{subsection.3.1.1}
+\contentsline {section}{\numberline {III.2}M\'etodos para la deteccion de ansiedad tradicionales}{6}{section.3.2}
+\contentsline {section}{\numberline {III.3}Estrategias para el afrontamiento (coping strategies) de la ansiedad en cuidadores}{6}{section.3.3}
+\contentsline {section}{\numberline {III.4}M\'etodos para la deteccion de ansiedad por medio de computadoras}{7}{section.3.4}
+\contentsline {section}{\numberline {III.5}M\'aquinas de soporte vectorial}{7}{section.3.5}
+\contentsline {chapter}{\numberline {IV.}Metodolog\'ia}{8}{chapter.4}
+\contentsline {chapter}{\numberline {V.}Mis notas}{9}{chapter.5}

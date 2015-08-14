@@ -30,9 +30,9 @@
 \contentsline {subsection}{\numberline {2.4.5}Estrategias de afrontamiento}{8}{subsection.2.4.5}
 \contentsline {subsection}{\numberline {2.4.6}Cuidadores formales e informales}{9}{subsection.2.4.6}
 \contentsline {section}{\numberline {2.5}Se\~nales fisiol\'ogicas relacionadas con la ansiedad}{9}{section.2.5}
-\contentsline {subsubsection}{\numberline {2.5.0.1}Respuesta Galv\'anica de la Piel (GSR)}{10}{subsubsection.2.5.0.1}
-\contentsline {subsubsection}{\numberline {2.5.0.2}Se\~nales relacionadas con el coraz\'on}{11}{subsubsection.2.5.0.2}
-\contentsline {subsubsection}{\numberline {2.5.0.3}Electroencefalograma (EEG)}{12}{subsubsection.2.5.0.3}
+\contentsline {subsection}{\numberline {2.5.1}Respuesta Galv\'anica de la Piel (GSR)}{10}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Se\~nales relacionadas con el coraz\'on}{11}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Electroencefalograma (EEG)}{12}{subsection.2.5.3}
 \contentsline {section}{\numberline {2.6}Instrumentos tradicionales para la medici\'on de la ansiead}{12}{section.2.6}
 \contentsline {section}{\numberline {2.7}C\'omputo vestible}{13}{section.2.7}
 \contentsline {section}{\numberline {2.8}Trabajo previo en detecci\'on autom\'atica de ansiedad}{13}{section.2.8}
@@ -64,12 +64,12 @@
 \contentsline {section}{\numberline {4.5}Resultados de aprendizaje de m\'aquina}{38}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Pruebas por sujeto}{39}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Prueba en conjunto}{40}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Pruebas entre sujetos}{40}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.3}Pruebas entre sujetos}{41}{subsection.4.5.3}
 \contentsline {subsection}{\numberline {4.5.4}Prueba por sesi\'on}{42}{subsection.4.5.4}
 \contentsline {section}{\numberline {4.6}Conclusi\'on}{42}{section.4.6}
 \contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{44}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introducci\'on}{44}{section.5.1}
-\contentsline {section}{\numberline {5.2}Contribuci\'on}{45}{section.5.2}
+\contentsline {section}{\numberline {5.2}Contribuci\'on}{44}{section.5.2}
 \contentsline {section}{\numberline {5.3}Aplicaciones}{45}{section.5.3}
 \contentsline {section}{\numberline {5.4}Limitaciones}{45}{section.5.4}
 \contentsline {section}{\numberline {5.5}Trabajo a futuro}{46}{section.5.5}
