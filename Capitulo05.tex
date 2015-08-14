@@ -6,5 +6,39 @@
 \vspace{-5.5ex}% 
 \newcommand{\pushline}{\Indp}% Indent puede ir o no :p
 
-\newpage
+\section{Introducci\'on}
+	La tendencia de la poblaci\'on de adultos mayores en nuesta sociedad va en aumento. Sus necesidades han sido reconocidas poco a poco y las tecnolog\'ias para asisitirlos se vuelve cada vez m\'as accesible. La responsabilidades del cuidador para cubrir las necesidades del adulto mayor son muy variadas y complejas. Con estas responsabilidades vienen problemas como la depresi\'on y la ansiedad por lo que debemos de reconocer sus necesidades con la misma importancia que las del adulto mayor.
+
+	Las tecnolog\'ias ubicuas como el c\'omputo vestible permiten sensar la situaci\'on en la que se encuentra el usuario. Esto las hace una herramienta \'util para mejorar la calidad de vida del cuidador. Sin embargo, el entorno en donde se desenvuelve el cuidador puede ser muy cambiante y ruidoso. Este estudio realiza un primer acercamiento desde el punto de vista de las ciencias de la computaci\'on para asistir estos problemas.
+
+	Se mostr\'o el dise\~no de un experimento para recabar informaci\'on de cuidadores de personas con demencia en situaciones parecidas a las realas a trav\'es de una t\'ecnica llamada ``Naturalist Enactment'' resultando en una base de datos fisiol\'ogicos de 10 personas diferentes bajo situaciones de ansiedad. Se describi\'o como la obtenci\'on de ``Ground truth'' y el procesamiento de se\~nales fisiol\'ogicas de diferentes dispositivos vestibles. Por \'ultimo, se mostr\'o que el uso de c\'omputo vestible para la detecci\'on de ansiedad en situaciones naturalistas es posible.
+
+Los m\'etodos de investigaci\'on aqu\'i expuestos y los resultados obtenidos muestran que el c\'omputo vestible es una herramienta apta para la detecci\'on de ansiedad en cuidadores de personas con demencia. En el futuro, el c\'omputo vestible pasar\'a a ser parte tan importante para nuestra salud como los servicios de un m\'edico y podr\'ian ser incluidos en un sistema de salud. Padecimientos que en el presente son mortales podr\'an ser detectados y controlados a tiempo. Los descubrimientos aqu\'i hechos contribuyen a esa visi\'on de una sociedad mas saludable.
+
+\section{Contribuci\'on}
+	Como resultados de este estudio, se pueden indicar las siguientes contribuciones:
+
+	\begin{itemize}
+		\item \textbf{Estudio naturalista:} Una de las tendencias actuales en las ciencias de la computaci\'on es realizar experimentos fuera del laboratio. Este ambiente con menos controles, ruidosos, impredecibles y dif\'iciles de analizar permiten descrubir situaciones mas parecidas a la vida real. En este estudio se mostr\'o como se pueden realizar experimentos en estos ambientes y obtener resultados cuantificables.
+
+	\item \textbf{Base de datos:} Se gener\'o una base de datos fisiol\'ogicas de personas bajo condiciones parecidas a las de los cuidadores de personas con demencia. Con esta base de datos es posible hacer pruebas de nuevos m\'etodos de detecci\'on de ansiedad sin necesidad de realizar un experimento nuevo. La base de datos abre tambi\'en la posibilidad de analizar aspectos no considerados originalmente de las reacciones de los individuos bajo las condiciones de estr\'es con los datos de EEG.
+
+		\item \textbf{T\'ecnicas de detecci\'on:} Se indic\'o una t\'ecnica para la detecci\'on de ansiedad con resultados preliminares favorables. Otras t\'ecnicas futuras podr\'ian basarse o compararse con los resultados aqu\'i reportados.
+	\end{itemize}
+\section{Aplicaciones}
+	La intenci\'on original de aplicaci\'on de este estudio es la de detecci\'on de ansiedad en situaciones de cuidadores de personas con demencia. Sin embargo, las t\'ecnicas usadas podr\'ian ser adecuadas para situaciones de ansiedad general, como situaciones de ansiedad social.
+\section{Limitaciones}
+        Los estudios realizados bajo entornos naturalistas tienen diferentes riesgos. Con el uso de la t\'ecnica de ``naturalistic enactment'' estos se redujeron a un nivel considerable. Sin embargo, este estudio no estuvo libre de ellos. Un problema muy notable es el desvalance entre las muestras de ansiedad y de no ansiedad. Muchos participantes contaron con muchas mas muestras de ansiedad dificultando las pruebas realizadas con SVM, que requiere de una cantidad equitativa de muestras.
+	Otra dificultad es la obtener informaci\'on de ``ground truth''. A pesar de que se obtuvieron buenos resultados con el m\'etodo de etiquetado, se necesitaron varios d\'ias por participante para completarlos. En general, se requieren maneras confiables no exhaustivas para las aplicaciones conscientes de la ansiedad.
+\section{Trabajo a futuro}
+Algunas consideraciones de trabajo a futuro son las siguientes:
+
+\begin{itemize}
+	\item \textbf{Obtenci\'on de ``ground truth'':} El m\'etodo actual para la obtenci\'on de ``ground truth'' requiere recursos de tiempo exahustivos. Las aplicaciones conscientes de la ansiedad deben de tener una entrada f\'acil de obtener para poder funcionar en situaciones del d\'ia a d\'ia. Los datos de EEG recabados podr\'ian ayudar en esta tarea.
+
+	\item \textbf{Algortimos de clasificaci\'on:} Las pruebas realizadas a los datos son preliminares. Se deben de considerar t\'ecnicas diferentes que se adapten mejor a estos tipos de situaciones y que reporten mayor precisi\'on y exhaustividad como los clasificadores de una sola clase.
+	\item \textbf{Pruebas en situaciones reales:} En este estudio participaron personas que no eran cuidadores en el momento de las pruebas. Los cuidadores reales tienen necesidades complejas y su sensibilidad a los est\'imulos de la persona a quienes cuidan son diferentes. Un estudio de este tipo deber\'ia tomar un tiempo mucho mayor.
+	\item \textbf{Detecci\'on en tiempo real:} La tendencia actual de los dispositivos vestibles siempre encendidos, conscientes del contexto y capaces de comunicarse con el usuario es que brinden informaci\'on al instante en el que se necesita. Para lograr esto, se deben de utilizar infraestructuras aptas como el c\'omputo en la nube.
+
+\end{itemize}
 %%=====================================================

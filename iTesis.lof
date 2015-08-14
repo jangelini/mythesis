@@ -44,27 +44,32 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{35}{figure.caption.31}
 \contentsline {figure}{\numberline {20}{\ignorespaces Se\~nal de IBI del participante 7, sesi\'on 1. Los valores son mas bajos durante la actividad que durante el periodo de relajaci\'on. Los colores de fondo fueron aclarados para facilitar la observaci\'on.\relax }}{36}{figure.caption.32}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{36}{figure.caption.32}
-\contentsline {figure}{\numberline {21}{\ignorespaces Comparaci\'on de los eventos de ansiedad predichos (gr\'afica inferior) por el modelo de SVM con ground truth (gr\'afica inferior).\relax }}{40}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{40}{figure.caption.38}
+\contentsline {figure}{\numberline {21}{\ignorespaces Se\~nal de GSR de tres diferentes participantes. Cada participante muestra una reacci\'on diferente a los est\'imulos de ansiedad.\relax }}{37}{figure.caption.33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{37}{figure.caption.33}
+\contentsline {figure}{\numberline {22}{\ignorespaces Se\~nal de GSR del participante 6, sesi\'on 2. Se pueden observar m\'ultiples variaciones durante el periodo de relajaci\'on producto del estado emocional del participante y el ajuste del dispositivo. El pico s\'ubito del segundo 1100 corresponde al aviso de inicio de actividad.\relax }}{38}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {23}{\ignorespaces Comparaci\'on de los eventos de ansiedad predichos (gr\'afica inferior) por el modelo de SVM con ground truth (gr\'afica inferior).\relax }}{42}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{42}{figure.caption.40}
 \addvspace {0\p@ }
 \addvspace {0\p@ }
-\contentsline {figure}{\numberline {22}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 1 durante las 3 sesiones.\relax }}{48}{figure.caption.40}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{48}{figure.caption.40}
-\contentsline {figure}{\numberline {23}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 2 durante las 3 sesiones.\relax }}{49}{figure.caption.41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{49}{figure.caption.41}
-\contentsline {figure}{\numberline {24}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 3 durante las 3 sesiones.\relax }}{50}{figure.caption.42}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{50}{figure.caption.42}
-\contentsline {figure}{\numberline {25}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 4 durante las 2 sesiones.\relax }}{51}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{51}{figure.caption.43}
-\contentsline {figure}{\numberline {26}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 5 durante las 3 sesiones.\relax }}{52}{figure.caption.44}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}{figure.caption.44}
-\contentsline {figure}{\numberline {27}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 6 durante las 3 sesiones.\relax }}{53}{figure.caption.45}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{53}{figure.caption.45}
-\contentsline {figure}{\numberline {28}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 7 durante las 3 sesiones.\relax }}{54}{figure.caption.46}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}{figure.caption.46}
-\contentsline {figure}{\numberline {29}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 8 durante las 3 sesiones.\relax }}{55}{figure.caption.47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}{figure.caption.47}
-\contentsline {figure}{\numberline {30}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 9 durante las 3 sesiones.\relax }}{56}{figure.caption.48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{56}{figure.caption.48}
-\contentsline {figure}{\numberline {31}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 10 durante las 3 sesiones.\relax }}{57}{figure.caption.49}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{57}{figure.caption.49}
+\addvspace {0\p@ }
+\contentsline {figure}{\numberline {24}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 1 durante las 3 sesiones.\relax }}{54}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}{figure.caption.42}
+\contentsline {figure}{\numberline {25}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 2 durante las 3 sesiones.\relax }}{55}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}{figure.caption.43}
+\contentsline {figure}{\numberline {26}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 3 durante las 3 sesiones.\relax }}{56}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{56}{figure.caption.44}
+\contentsline {figure}{\numberline {27}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 4 durante las 2 sesiones.\relax }}{57}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{57}{figure.caption.45}
+\contentsline {figure}{\numberline {28}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 5 durante las 3 sesiones.\relax }}{58}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{58}{figure.caption.46}
+\contentsline {figure}{\numberline {29}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 6 durante las 3 sesiones.\relax }}{59}{figure.caption.47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{59}{figure.caption.47}
+\contentsline {figure}{\numberline {30}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 7 durante las 3 sesiones.\relax }}{60}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{60}{figure.caption.48}
+\contentsline {figure}{\numberline {31}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 8 durante las 3 sesiones.\relax }}{61}{figure.caption.49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{61}{figure.caption.49}
+\contentsline {figure}{\numberline {32}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 9 durante las 3 sesiones.\relax }}{62}{figure.caption.50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{62}{figure.caption.50}
+\contentsline {figure}{\numberline {33}{\ignorespaces GSR,HR,IBI y Temperatura obtenidos del participante 10 durante las 3 sesiones.\relax }}{63}{figure.caption.51}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{63}{figure.caption.51}

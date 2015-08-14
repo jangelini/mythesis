@@ -3,8 +3,8 @@
 \contentsline {chapter}{Resumen en ingl\'es}{iv}{figure.caption.1}
 \contentsline {chapter}{Dedicatoria}{v}{chapter*.2}
 \contentsline {chapter}{Agradecimientos}{vi}{chapter*.3}
-\contentsline {chapter}{Lista de figuras}{ix}{chapter*.5}
-\contentsline {chapter}{Lista de tablas}{xi}{chapter*.6}
+\contentsline {chapter}{Lista de figuras}{x}{chapter*.5}
+\contentsline {chapter}{Lista de tablas}{xii}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Plantamiento del problema}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objectivos}{1}{section.1.2}
@@ -60,16 +60,21 @@
 \contentsline {section}{\numberline {4.1}Introducci\'on}{31}{section.4.1}
 \contentsline {section}{\numberline {4.2}Resultados generales}{31}{section.4.2}
 \contentsline {section}{\numberline {4.3}Observaciones generales}{32}{section.4.3}
-\contentsline {section}{\numberline {4.4}Resultados de aprendizaje de m\'aquina}{35}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Pruebas por sujeto}{37}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Prueba en conjunto}{37}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Pruebas entre sujetos}{38}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Prueba por sesi\'on}{39}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}Limitaciones}{39}{section.4.5}
-\contentsline {section}{\numberline {4.6}Conclusi\'on}{40}{section.4.6}
-\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{41}{chapter.5}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{42}{chapter.5}
-\contentsline {chapter}{\numberline {A}intrumentos para el dise\~no del experimento}{46}{appendix.Alph6}
-\contentsline {subsection}{\numberline {A.0.1}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{46}{subsection.Alph6.0.1}
-\contentsline {subsection}{\numberline {A.0.2}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{47}{subsection.Alph6.0.2}
-\contentsline {section}{\numberline {B.1}Datos recabados por participante}{47}{section.Alph6.1}
+\contentsline {section}{\numberline {4.4}Variaci\'on entre participantes}{36}{section.4.4}
+\contentsline {section}{\numberline {4.5}Resultados de aprendizaje de m\'aquina}{38}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Pruebas por sujeto}{39}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Prueba en conjunto}{40}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Pruebas entre sujetos}{40}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Prueba por sesi\'on}{42}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Conclusi\'on}{42}{section.4.6}
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{44}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introducci\'on}{44}{section.5.1}
+\contentsline {section}{\numberline {5.2}Contribuci\'on}{45}{section.5.2}
+\contentsline {section}{\numberline {5.3}Aplicaciones}{45}{section.5.3}
+\contentsline {section}{\numberline {5.4}Limitaciones}{45}{section.5.4}
+\contentsline {section}{\numberline {5.5}Trabajo a futuro}{46}{section.5.5}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{47}{section.5.5}
+\contentsline {chapter}{\numberline {A}intrumentos para el dise\~no del experimento}{51}{appendix.Alph6}
+\contentsline {subsection}{\numberline {A.0.1}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{51}{subsection.Alph6.0.1}
+\contentsline {subsection}{\numberline {A.0.2}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{52}{subsection.Alph6.0.2}
+\contentsline {chapter}{\numberline {B}Datos recabados por participante}{53}{appendix.Alph7}
