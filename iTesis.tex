@@ -7,7 +7,7 @@
 \usepackage{ marvosym }
 \usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 %%\usepackage[ansinew]{inputenc}   %este paquete es para poner acentos directamente en el codigo de latex. sin barra
-%%\usepackage[T1]{fontenc}
+%\usepackage[T1]{fontenc}
 %\usepackage[spanish,english]{babel}
 %%\usepackage[spanish,mexico,es-lcroman]{babel}
 %paquete para insertar hipervinculos en referencias a capitulos, figuras, etc.
@@ -32,7 +32,8 @@
 \usepackage{emptypage} 
 \usepackage{textcomp}
 %\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-
+\DeclareMathAlphabet{\mathantt}{OT1}{antt}{li}{it}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
 \setlength{\parskip}{12pt plus 1pt minus 1pt}
 
 
@@ -162,23 +163,28 @@
 % Nombres de los sinodales, en el orden que aparecerán en la
 % página de firmas
 %%NO UTILIZAR ABREVIATURAS
-<<<<<<< HEAD
-\sinodal{Dra. Tentori Espinosa M\'onica Elizabeth}
-\sinodal{Dr. Chavez Gonz\'alez Edgar Leonel}
-\sinodal{Dra. Herzka Llona Sharon Zinah}
-\sinodal{Dra. Cordero Esquivel Beatriz}
-=======
 \sinodal{Dra. M\'onica Elizabeth Tentori Espinosa}
 \sinodal{Dr. Edgar Leonel Chavez Gonz\'alez Edgar}
 \sinodal{Dra. Sharon Zinah Herzka Llona}
 \sinodal{Dra. Beatriz Cordero Esquivel}
->>>>>>> e1897904956abcda3e19902fe2f7a2edb2abf203
 %\sinodal{Dr. 4}
 %\sinodal{Dr. 5}
 %\sinodal{Dr. 6}
 
 % Nombre del Director de Estudios de Posgrado
 \dirposgrado{Dr. Jesús Favela Vara}
+
+% Para mostrar el logotipo de su programa, elimine el simbolo de comentario del nombre del posgrado correspondiente
+
+%\logotipo{0} %% Ciencias de la vida
+%\logotipo{1} %% Acuicultura
+%\logotipo{2} %% Ecologia marina
+%\logotipo{3} %% Oceanografia marina
+\logotipo{4} %% Ciencias de la computacion
+%\logotipo{5} %% Electronica y computacion
+%\logotipo{6} %% Optica
+%\logotipo{7} %% Ciencias de la tierra
+%\logotipo{8} %% Fisica de materias
 % Nombre del Coordinador del Programa de Posgrado
 \cpp{Dra. Ana Isabel Martínez García}
 

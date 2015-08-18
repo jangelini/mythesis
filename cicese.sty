@@ -1,6 +1,6 @@
+
 \usepackage{natbib}
 \usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-
 \linespread{1.5}\small\normalsize
 
 \renewcommand{\tablename}{\sf Tabla}
@@ -25,6 +25,7 @@
 
 
 \def\autor#1{\gdef\@autor{#1}}
+\def\logotipo#1{\gdef\@logotipo{#1}}
 \def\titulo#1{\gdef\@titulo{#1}}
 \def\posgrado#1{\gdef\@posgrado{#1}}
 \def\posgradoUP#1{\gdef\@posgradoUP{#1}}
@@ -55,6 +56,7 @@
 \def\dc{\grado{Doctor en Ciencias}}
 \def\@titulo{}
 \def\@autor{}
+\def\@logotipo{}
 \def\anioDefensa#1{\gdef\@anioDefensa{#1}}
 
 
@@ -99,8 +101,9 @@
 \parbox[bt]{2.8in}{\shortstack{\vrule width 2.8in height 0.4pt\\
                 \\ #1 \\ \\ \\ \\ {\small#2}}}}
 \def\signatureDept#1#2#3{\parbox[b]{1in}{}
-    \parbox[bt]{2.8in}{\shortstack{\vrule width 2.8in height 0.4pt\\
-                \\ #1 \\ \\ \\ \\ {\it \small#2}\\ \\ {\it \small #3}}}}
+    \parbox[bt]{4.8in}{\shortstack{\vrule width 2.8in height 0.4pt\\
+	    \\ #1 \\ \\ \\ \\ { \small#2}\\ \\ { \small #3}}}}
+%                \\ #1 \\ \\ \\ \\ {\it \small#2}\\ \\ {\it \small #3}}}}
 
 %%%%SINODALES
 
@@ -161,8 +164,9 @@
 %\large
 %\textsf{\textbf{CENTRO DE INVESTIGACI\'ON CIENT\'IFICA Y DE EDUCACI\'ON SUPERIOR DE ENSENADA, BAJA CALIFORNIA}}
 \fontsize{15.84pt}{18}\selectfont
-\textsf{\textbf{CENTRO DE INVESTIGACI\'ON CIENT\'IFICA Y DE EDUCACI\'ON SUPERIOR DE ENSENADA, BAJA CALIFORNIA}}
+%\textbf{CENTRO DE INVESTIGACI\'ON CIENT\'IFICA Y DE EDUCACI\'ON SUPERIOR DE ENSENADA, BAJA CALIFORNIA}
 
+\textbf{Centro de Investigaci\'on Cient\'ifica y de Educaci\'on Superior de Ensenada, Baja California}
 
 
 %\normalsize
@@ -181,8 +185,10 @@
 
 %\Large
 \fontsize{15.84pt}{18}\selectfont
-\textsf{\textbf{\uppercase{Programa de Posgrado en Ciencias\\
-en \expandafter{\@posgradoUP}}}}
+%\textbf{\uppercase{Programa de Posgrado en Ciencias\\
+%en \expandafter{\@posgradoUP}}}
+\textbf{Programa de Posgrado en Ciencias\\
+en \expandafter{\@posgrado}}
 \vrule width 15.5cm height .1pt
 
 % El espacio de 1.7cm es para un titulo con 2 renglones
@@ -193,29 +199,29 @@ en \expandafter{\@posgradoUP}}}}
 
 % Titulo de la tesis
 \fontsize{15.84pt}{18}\selectfont
-\textsf{\textbf{\expandafter{\@titulo}}}
+\textbf{\expandafter{\@titulo}}
 
 % El espacio de 1.7cm es para un titulo con 2 renglones
 % El espacio de 1.27cm es para un titulo con 3 renglones
 \vspace{0.7cm}
 
 \normalsize
-\textsf{Tesis
+Tesis
 \\ para cubrir parcialmente los requisitos necesarios para obtener el grado de
 \\ 
-\expandafter{\@grado}}
+\expandafter{\@grado}
 \end{center}
 \begin{center}
 
 \vspace{0.35cm}
-\textsf{
+%\textsf{
 Presenta: \\
 \textbf{\expandafter{\@autor}}
-}
+%}
 \vfill
-\textsf{
+%\textsf{
 Ensenada, Baja California, M\'exico
-}
+%}
 \\
 \@anioDefensa
 
@@ -235,8 +241,8 @@ Ensenada, Baja California, M\'exico
         \Large\bfseries\@autor
         \vspace{0.5cm}
 
-        \normalsize\normalfont y aprobada por el comit\'e
-        \vspace{2.5cm}
+        \normalsize\normalfont y aprobada por el siguiente Comit\'e
+        \vspace{1.5cm}
 
 % DIRECTORES
 %*********************************************************************************
@@ -244,15 +250,19 @@ Ensenada, Baja California, M\'exico
 
         %con un solo director
         \ifnum\value{dal@supervisornum}=1%
-                \signature{\vspace{-1.5mm}\@firstsupervisor}{\emph{Director del Comit\'e}}
+%                \signature{\vspace{-1.5mm}\@firstsupervisor}{\emph{Director del Comit\'e}}
+                \signature{\vspace{-1.5mm}\@firstsupervisor}{Director del Comit\'e}
         \fi
         
         %con dos directores
         \ifnum\value{dal@supervisornum}=2%
         \hskip -0.5in
-                \signature{\@firstsupervisor}{\emph{Codirector del Comit\'e}}
+%                \signature{\@firstsupervisor}{\emph{Codirector del Comit\'e}}
+                \signature{\@firstsupervisor}{Codirector del Comit\'e}
         \hskip 0.5in
-                \signature{\@secondsupervisor}{\emph{Codirector del Comit\'e}}
+%                \signature{\@secondsupervisor}{\emph{Codirector del Comit\'e}}
+                \signature{\@secondsupervisor}{Codirector del Comit\'e}
+                
         \fi
 
 % SINODALES
@@ -260,106 +270,207 @@ Ensenada, Baja California, M\'exico
 %*********************************************************************************
 
         %con solo 2 sinodales
-        \vspace{1.5cm}
+        %\vspace{1cm}
         \ifnum\value{dal@readernum}=2%
-
-	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
+        \vspace{1.5cm}
+        \hskip -0.1cm
+%                \signature{\vspace{-1.5mm}\@firstreader}{\emph{Miembro del Comit\'e}}
+                \@firstreader
+        %\hfill
+		\ \\ \ \\
+ %               \signature{\vspace{-1.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+                 \@secondreader
+                 \vspace{3.2cm}
         \fi
        
         %con tres sinodales
         \ifnum\value{dal@readernum}=3%
-
-	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@thirdreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
+        \vspace{1.5cm}
+        \hskip -0.1cm
+%                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+			\@firstreader
+       % \hfill
+       \ \\ \ \\
+%                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+			\@secondreader
+					\ \\ \ \\
+        %\vspace{1.5cm}
+%                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+			\@thirdreader
+			\vspace{2.2cm}
         \fi
 
         %con cuatro sinodales
-
-        %con un solo director
-        %\ifnum\value{dal@supervisornum}=1%
-        %        \signature{\vspace{-1.5mm}\@firstsupervisor}{\emph{Director del Comit\'e}}
-        %\fi
         \ifnum\value{dal@readernum}=4%
+        \vspace{1cm}
+        \hskip -0.1cm
+%                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+			\@firstreader
+       % \hfill
+       \ \\ \ \\
+%                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+			\@secondreader
+        %\vspace{1cm}
+        \ \\ \ \\
 
-	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@thirdreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@fourthreader} \textbf{(Miembro del comit\'e)}
-
+        %\hskip -0.1cm
+%                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+			\@thirdreader
+        %\hfill
+        \ \\ \ \\
+%                \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
+			\@fourthreader
+			\vspace{2.2cm}
         \fi
 
 		%con cinco sinodales
         \ifnum\value{dal@readernum}=5%
+        \vspace{1cm}
+        \hskip -0.1cm
+%                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+			\@firstreader
+        %\hfill
+        \ \\ \ \\
+%                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+			\@secondreader
+       % \vspace{1cm}
+       \ \\ \ \\
 
-
-	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@thirdreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@fourthreader} \textbf{(Miembro del comit\'e)}
-        \vspace{0.3cm}
-	\textbf{\@fifthreader} \textbf{(Miembro del comit\'e)}
+       % \hskip -0.1cm
+%                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+			\@thirdreader
+        %\hfill
+        \ \\ \ \\
+%                \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
+			\@fourthreader
+       % \vspace{1.5cm}
+       \ \\ \ \\
+%                \signature{\@fifthreader}{\emph{Miembro del Comit\'e}}
+			\@fifthreader
+       % \vspace{-1.5cm}
+      		 \vspace{1.2cm}
         \fi
         
         %con seis sinodales
         \ifnum\value{dal@readernum}=6%
-
-	\textbf{\@firstreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@secondreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@thirdreader} \textbf{(Miembro del comit\'e)}\\
-        \vspace{0.3cm}
-	\textbf{\@fourthreader} \textbf{(Miembro del comit\'e)}
-        \vspace{0.3cm}
-	\textbf{\@sixthreader} \textbf{(Miembro del comit\'e)}
+        \vspace{.5cm}
+        \hskip -0.1cm
+%                \signature{\@firstreader}{\emph{Miembro del Comit\'e}}
+			\@firstreader
+       % \hfill
+      	\ \\ \ \\
+%                \signature{\vspace{-0.5mm}\@secondreader}{\emph{Miembro del Comit\'e}}
+			\@secondreader
+       % \vspace{1cm}
+		\ \\ \ \\
+        %\hskip -0.1cm
+%                \signature{\@thirdreader}{\emph{Miembro del Comit\'e}}
+			\@thirdreader
+        %\hfill
+        \ \\ \ \\
+%                \signature{\vspace{0.8mm}\@fourthreader}{\emph{Miembro del Comit\'e}}
+			\@fourthreader
+        %\vspace{1.5cm}
+        \ \\ \ \\
+%                \signature{\@fifthreader}{\emph{Miembro del Comit\'e}}
+			\@fifthreader
+       % \hfill
+       \ \\ \ \\
+%                \signature{\vspace{0.8mm}\@sixthreader}{\emph{Miembro del Comit\'e}}
+			\@sixthreader
+			\vspace{0.5cm}
+       % \vspace{-1.5cm}
         \fi
-    
+        
+ % LOGOTIPOS
+%*********************************************************************************
+%*********************************************************************************    
+    \ifcase\@logotipo
+    %% Ciencias de la vida
+		\def \path{Figures/logotipos/CienciasVida}
+		\def \setup{1.5cm}
+	\or
+	%% Acuicultura
+	  	\def \path{Figures/logotipos/acui}
+		\def \setup{1.5cm}
+	\or
+	%% Ecologia marina
+		\def \path{Figures/logotipos/ecolog}
+		\def \setup{1.5cm}
+	\or
+	%% Oceanografia marina
+		\def \path{Figures/logotipos/oceano}
+		\def \setup{1.5cm}
+	\or
+	%% Ciencias de la computacion
+		\def \path{Figures/logotipos/compu}
+		\def \setup{1.5cm}
+	\or
+	%% Electronica y computacion
+		\def \path{Figures/logotipos/elec}
+		\def \setup{1.5cm}
+	\or
+	%% Optica
+		\def \path{Figures/logotipos/optica}
+		\def \setup{1.5cm}
+	\or
+	%% Ciencias de la tierra
+		\def \path{Figures/logotipos/cientie}
+		\def \setup{1.5cm}
+	\or
+	%% Fisica de materias   
+		\def \path{Figures/logotipos/fisica}
+		\def \setup{1.5cm}
+	\else
+	%% Departamento de posgrados
+	  	\def \path{Figures/logotipos/pos}
+		\def \setup{1.5cm}
+	\fi
+
+   	\vspace{.10cm}
+   \begin{figure}[h]
+		\centering
+		\includegraphics[height=\setup]{\path}
+	\end{figure}
+	
+	\vspace{.10cm}
+%	 \begin{center}
+		%\textbf{Autoridades}	 
+%	 \end{center}
+
+   	 
+   
+   
 % DIRECTIVOS
 %*********************************************************************************
 %*********************************************************************************    
-	\vspace{1.0cm}
-%	\begin{figure}[!h]
-%	   \begin{center}
-	     \includegraphics[width=1.0cm]{./Figures/cc.jpg}\\
-	     % \includegraphics[width=1.55in]{figures/logoCiceseAniv.jpg}\\
-%	   \end{center}
-%	\end{figure}
-	\textbf{Autoridades}
 
-        \vspace{1.0cm}
-        %\hskip -0.1cm
-        \signatureDept{\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}\\
-        \vspace{1.5cm}
-        \signature{\@dirposgrado}{\emph{Director de Estudios de Posgrado}}
-        %\signatureDept{\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}
-        %\signatureDept{\vspace{-1.5mm}\@cpp}{Coordinador del Programa de}{Posgrado en \@posgrado}
+\vfill
+        \vspace{1.50cm}
+       % \hskip -0.1cm
+        \signatureDept{\vspace{-1.5mm}\@cpp}{Coordinador del Programa de Posgrado en \@posgrado}{}
+        %\hfill
+        \ \\ \ \\ \ \\ \ \\ \ \\ 
+%        \signature{\vspace{-1.5mm}\@dirposgrado}{\vspace{6.5mm}\emph{Director de Estudios de Posgrado}}
+        \signature{\vspace{-1.5mm}\@dirposgrado}{\vspace{6.5mm}Director de Estudios de Posgrado}
+\end{center}
 %%%CORREGIDO PARA QUE APAREZCA LA FECHA
 %\vspace{1cm}
 
-%\hfill
-%\vfill
-%\begin{flushright}
-%        \@fechaexamencompleta
-%\end{flushright}
+
+\vfill
+\hfill
+\vspace{-2.5mm}
+\begin{center}
+        %\@fechaexamencompleta
+       \footnotesize
+%        $ \textrm{ \@autor{ }   \textcopyright{ }  \@anioDefensa{ } }$
+        \textit{ \@autor{ } $\textcopyright$  \@anioDefensa }
+		\\
+      	\textit{Queda prohibida la reproducción parcial o total de esta obra sin el permiso formal y explícito del autor}
+\end{center}
 
 %\linespread{1.75}\small\normalsize
-\vspace{0.5cm}
-\@autor\ \textregistered\ \@anioDefensa
-\vspace{0.3cm}
-\\\footnotesize{Queda prohibida la reproducci\'on parcial o total de esta obra sin el permiso del autor}
-\end{center}
 \newpage
 
 
