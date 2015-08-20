@@ -5,9 +5,9 @@
 \documentclass[letterpaper,12pt]{cicese}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{ marvosym }
-\usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=1.3cm]{geometry}
 %%\usepackage[ansinew]{inputenc}   %este paquete es para poner acentos directamente en el codigo de latex. sin barra
-%%\usepackage[T1]{fontenc}
+%\usepackage[T1]{fontenc}
 %\usepackage[spanish,english]{babel}
 %%\usepackage[spanish,mexico,es-lcroman]{babel}
 %paquete para insertar hipervinculos en referencias a capitulos, figuras, etc.
@@ -32,7 +32,8 @@
 \usepackage{emptypage} 
 \usepackage{textcomp}
 %\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-
+\DeclareMathAlphabet{\mathantt}{OT1}{antt}{li}{it}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
 \setlength{\parskip}{12pt plus 1pt minus 1pt}
 
 
@@ -147,10 +148,10 @@
 \mc
 
 % Fecha (mes y año) de la defensa de tesis, en español y en ingles
-\fechaexamen{Septiembre, 2015}\fechaexamenIN{September, 2015}
+\fechaexamen{Agisto, 2015}\fechaexamenIN{Agosto, 2015}
 
 % Fecha (dia, mes y año) de la defensa de tesis para la hoja de firmas
-\fechaexamencompleta{Septiembre, 2015}
+\fechaexamencompleta{Agosto, 2015}
 
 % Año de la defensa //Este valor a aparecerá en la parte inferior de la primer página de la tesis
 \anioDefensa{2015}
@@ -172,6 +173,18 @@
 
 % Nombre del Director de Estudios de Posgrado
 \dirposgrado{Dr. Jesús Favela Vara}
+
+% Para mostrar el logotipo de su programa, elimine el simbolo de comentario del nombre del posgrado correspondiente
+
+%\logotipo{0} %% Ciencias de la vida
+%\logotipo{1} %% Acuicultura
+%\logotipo{2} %% Ecologia marina
+%\logotipo{3} %% Oceanografia marina
+\logotipo{4} %% Ciencias de la computacion
+%\logotipo{5} %% Electronica y computacion
+%\logotipo{6} %% Optica
+%\logotipo{7} %% Ciencias de la tierra
+%\logotipo{8} %% Fisica de materias
 % Nombre del Coordinador del Programa de Posgrado
 \cpp{Dra. Ana Isabel Martínez García}
 
@@ -237,7 +250,7 @@
 
 
 \linespread{1.0}
-\addcontentsline{toc}{chapter}{\normalsize\expandafter{Lista de referencias}}
+\addcontentsline{toc}{chapter}{\normalsize\expandafter{Lista de referencias bibliogr\'aficas}}
 {\normalsize
 \bibliographystyle{cicese}%cicese, ieeetr, plain, unsrt, alpha, abbrv, acm, apalike 
 \nocite{*}
