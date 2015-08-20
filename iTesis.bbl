@@ -151,22 +151,24 @@ Ishimaru, S., Kunze, K., Kise, K., Weppner, J., Dengel, A., Lukowicz, P., y
 John R.~Hampton, D. M. D. F. F.~F. (2009).
 \newblock {\em ECG en la pr\'actica - (5a ed.)\/}.
 
-\bibitem[Joling {\em \mbox{et al.}\/}(2014)Joling, van Marwijk, Veldhuijzen,
+\bibitem[Joling {\em \mbox{et al.}\/}(2015)Joling, van Marwijk, Veldhuijzen,
   van~der Horst, Scheltens, Smit, y van Hout]{Joling2014}
 Joling, K.~J., van Marwijk, H.~W., Veldhuijzen, A.~E., van~der Horst, H.~E.,
-  Scheltens, P., Smit, F., y van Hout, H.~P. (2014).
+  Scheltens, P., Smit, F., y van Hout, H.~P. (2015).
 \newblock The two-year incidence of depression and anxiety disorders in spousal
   caregivers of persons with dementia: Who is at the greatest risk?
-\newblock {\em The American Journal of Geriatric Psychiatry\/}, (0): --.
+\newblock {\em The American Journal of Geriatric Psychiatry\/}, {\bf 23}(3):
+  293--303.
 
-\bibitem[JULIAN(2011)JULIAN]{julian11}
-JULIAN, L.~J. (2011).
-\newblock Measures of anxiety.
-\newblock {\em Arthritis care \& research\/}, {\bf 63}(0 11):
-  10.1002/acr.20561.
+\bibitem[Julian(2011a)Julian]{julian2011measures}
+Julian, L.~J. (2011a).
+\newblock Measures of anxiety: State-trait anxiety inventory (stai), beck
+  anxiety inventory (bai), and hospital anxiety and depression scale-anxiety
+  (hads-a).
+\newblock {\em Arthritis care \& research\/}, {\bf 63}(S11): S467--S472.
 
-\bibitem[Julian(2011)Julian]{julian2011measures}
-Julian, L.~J. (2011).
+\bibitem[Julian(2011b)Julian]{julian211}
+Julian, L.~J. (2011b).
 \newblock Measures of anxiety: State-trait anxiety inventory (stai), beck
   anxiety inventory (bai), and hospital anxiety and depression scale-anxiety
   (hads-a).
@@ -242,14 +244,14 @@ Picard, R.~W. (1997).
 \newblock Affective computing.
 \newblock {\bf 252}.
 
-\bibitem[Prince {\em \mbox{et al.}\/}(????)Prince, Bryce, Albanese, Wimo,
+\bibitem[Prince {\em \mbox{et al.}\/}(2013)Prince, Bryce, Albanese, Wimo,
   Ribeiro, y Ferri]{prince15}
 Prince, M., Bryce, R., Albanese, E., Wimo, A., Ribeiro, W., y Ferri, C.~P.
-  (????).
+  (2013).
 \newblock The global prevalence of dementia: A systematic review and
   metaanalysis.
 \newblock {\em Alzheimer's \& Dementia: The Journal of the Alzheimer's
-  Association\/}, {\bf 9}(1): 63--75.e2.
+  Association\/}, {\bf 9}(1): 63--75.
 
 \bibitem[Ramos {\em \mbox{et al.}\/}(2014)Ramos, Hong, y Dey]{RamosHD14}
 Ramos, J., Hong, J.-H., y Dey, A.~K. (2014).
@@ -327,6 +329,8 @@ Sharma, N. y Gedeon, T. (2012).
 Starner, T., Mann, S., Rhodes, B., Levine, J., Healey, J., Kirsch, D., Picard,
   R.~W., y Pentland, A. (1997).
 \newblock Augmented reality through wearable computing.
+\newblock {\em Presence: Teleoperators and Virtual Environments\/}, {\bf 6}(4):
+  386--398.
 
 \bibitem[Sturm {\em \mbox{et al.}\/}(2013)Sturm, Yokoyama, Seeley, Kramer,
   Miller, y Rankin]{sturm13}

@@ -1,6 +1,6 @@
 
 \usepackage{natbib}
-\usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=1.3cm]{geometry}
 \linespread{1.5}\small\normalsize
 
 \renewcommand{\tablename}{\sf Tabla}
@@ -10,7 +10,7 @@
 \renewcommand{\contentsname}{Tabla de contenido}
 \renewcommand{\chaptername}{Cap\'{i}tulo}
 \addto\captionsspanish{%
-\renewcommand{\bibname}{Lista de referencias}%
+\renewcommand{\bibname}{Lista de referencias bibliogr\'aficas}%
 }
 %\renewcommand{\bibname}{Referencias}
 \renewcommand{\appendixname}{Ap\'endice}
@@ -19,7 +19,6 @@
 \renewcommand{\thetable}{\arabic{table}}
 \renewcommand{\thepage}{\arabic{page}}
 \renewcommand{\theequation}{\arabic{equation}}
-
 
 
 
@@ -158,7 +157,6 @@
 %------------------------------ portada ------------------------------------------
 
 \thispagestyle{empty}
-\setcounter{page}{1}\pagenumbering{roman}
 \begin{center}
 
 %\large
@@ -232,6 +230,7 @@ Ensenada, Baja California, M\'exico
 
 %----------------------- hoja de firmas -----------------------------------------
 
+\setcounter{page}{1}\pagenumbering{roman}
 \thispagestyle{empty}
 \begin{center}
 
@@ -457,9 +456,14 @@ Ensenada, Baja California, M\'exico
 %\vspace{1cm}
 
 
+%\vfill
+%\hfill
+%\vspace{-2.5mm}
+
+%\vspace{1.0cm}
+
 \vfill
-\hfill
-\vspace{-2.5mm}
+
 \begin{center}
         %\@fechaexamencompleta
        \footnotesize
@@ -489,11 +493,11 @@ obtenci\'on del grado de \expandafter{\@grado} en
    \textbf{\@titulo}\\
 \end{center}
 %\vspace{.5cm}
-Resumen elaborado por:
+Resumen aprobado por:
 \begin{flushright}
         \ifnum\value{dal@supervisornum}>0%
 %           \vspace{.25cm}
-            \signatureRes{\vspace{-1.5mm}\@autor}{}\\
+            \signatureRes{\vspace{-1.5mm}\@firstsupervisor}{}\\
         \fi
         %\ifnum\value{dal@supervisornum}=2%
         %    \vspace{.5cm}
@@ -525,11 +529,11 @@ in \expandafter{\@posgradoIN}.
        \textbf{\@tituloIN}\\
 \end{center}
 %\vspace{0.5cm}
-Abstract by:
+Abstract approved by:
 \begin{flushright}
         \ifnum\value{dal@supervisornum}>0%
 %           \vspace{.25cm}
-            \signatureRes{\vspace{-1.5mm}\@autor}{}\\
+            \signatureRes{\vspace{-1.5mm}\@firstsupervisor}{}\\
         \fi
         %\ifnum\value{dal@supervisornum}=2%
          %   \vspace{.5cm}
