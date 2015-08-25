@@ -7,7 +7,7 @@
 \contentsline {chapter}{Lista de tablas}{xi}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Plantamiento del problema}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Objectivos}{1}{section.1.2}
+\contentsline {section}{\numberline {1.2}Objetivos}{1}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Objetivo general}{1}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Objetivos espec\'ificos}{2}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Pregunta de investigaci\'on}{2}{subsection.1.2.3}
@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {1.3}Metodolog\'ia }{2}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Contribuci\'on}{3}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Organizaci\'on de la tesis}{3}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Conclusi\'on}{4}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Conclusi\'on del cap\'itulo}{4}{subsection.1.3.3}
 \contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introducci\'on}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Qu\'e es la Ansiedad?}{5}{section.2.2}
@@ -30,51 +30,50 @@
 \contentsline {subsection}{\numberline {2.4.5}Estrategias de afrontamiento}{8}{subsection.2.4.5}
 \contentsline {subsection}{\numberline {2.4.6}Cuidadores formales e informales}{9}{subsection.2.4.6}
 \contentsline {section}{\numberline {2.5}Se\~nales fisiol\'ogicas relacionadas con la ansiedad}{9}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Respuesta Galv\'anica de la Piel (GSR)}{9}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Respuesta Galv\'anica de la Piel (GSR)}{10}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Se\~nales relacionadas con el coraz\'on}{11}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Electroencefalograma (EEG)}{11}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Instrumentos tradicionales para la medici\'on de la ansiead}{12}{section.2.6}
+\contentsline {subsection}{\numberline {2.5.3}Electroencefalograma (EEG)}{12}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Instrumentos tradicionales para la medici\'on de la ansiedad}{12}{section.2.6}
 \contentsline {section}{\numberline {2.7}C\'omputo vestible}{13}{section.2.7}
 \contentsline {section}{\numberline {2.8}Trabajo previo en detecci\'on autom\'atica de ansiedad}{13}{section.2.8}
-\contentsline {section}{\numberline {2.9}M\'aquinas de soporte vectorial (SVM)}{14}{section.2.9}
+\contentsline {section}{\numberline {2.9}M\'aquinas de soporte vectorial (SVM)}{15}{section.2.9}
 \contentsline {section}{\numberline {2.10}Conclusi\'on}{15}{section.2.10}
-\contentsline {chapter}{\numberline {3}Dise\~no de un experimento para inducir ansiedad en cuidadores de personas con demencia}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introducci\'on}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}Un experimento para inducir ansiedad en cuidadores informales}{16}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Sujetos}{18}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Procedimiento}{18}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Entrenamiento}{18}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Tareas de terapias}{19}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Configuraci\'on}{20}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Obtenci\'on de datos}{21}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Obtenci\'on de ground truth}{22}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Procesamiento de video}{23}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Observaci\'on}{24}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Autoreportado}{26}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Unificaci\'on de ``ground truth''}{27}{subsection.3.5.4}
-\contentsline {section}{\numberline {3.6}Preprocesamiento de GSR}{27}{section.3.6}
-\contentsline {section}{\numberline {3.7}Preprocesamiento de HR e IBI}{28}{section.3.7}
-\contentsline {section}{\numberline {3.8}Extracci\'on de caracter\'isticas}{28}{section.3.8}
-\contentsline {section}{\numberline {3.9}Conclusi\'on}{28}{section.3.9}
-\contentsline {chapter}{\numberline {4}Resultados del experimento y detecci\'on de ansiedad}{30}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introducci\'on}{30}{section.4.1}
-\contentsline {section}{\numberline {4.2}Resultados generales}{30}{section.4.2}
-\contentsline {section}{\numberline {4.3}Observaciones generales}{31}{section.4.3}
-\contentsline {section}{\numberline {4.4}Variaci\'on entre participantes}{35}{section.4.4}
-\contentsline {section}{\numberline {4.5}Resultados de aprendizaje de m\'aquina}{37}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Pruebas por sujeto}{37}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Prueba en conjunto}{38}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Pruebas entre sujetos}{39}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Prueba por sesi\'on}{40}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Conclusi\'on}{41}{section.4.6}
-\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{42}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introducci\'on}{42}{section.5.1}
-\contentsline {section}{\numberline {5.2}Contribuci\'on}{42}{section.5.2}
-\contentsline {section}{\numberline {5.3}Aplicaciones}{43}{section.5.3}
-\contentsline {section}{\numberline {5.4}Limitaciones}{43}{section.5.4}
-\contentsline {section}{\numberline {5.5}Trabajo a futuro}{44}{section.5.5}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias bibliogr\'aficas}}{45}{section.5.5}
-\contentsline {chapter}{\numberline {A}intrumentos para el dise\~no del experimento}{49}{appendix.Alph6}
-\contentsline {subsection}{\numberline {A.0.1}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{49}{subsection.Alph6.0.1}
-\contentsline {subsection}{\numberline {A.0.2}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{50}{subsection.Alph6.0.2}
-\contentsline {chapter}{\numberline {B}Datos recabados por participante}{51}{appendix.Alph7}
+\contentsline {chapter}{\numberline {3}Dise\~no de un estudio de usuario para inducir ansiedad en cuidadores de personas con demencia}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\'on}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Un estudio de usuario para inducir ansiedad en cuidadores informales}{17}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Participantes}{19}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Procedimiento}{19}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Entrenamiento}{20}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Tareas de terapias}{20}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Configuraci\'on}{21}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Obtenci\'on de datos}{22}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Obtenci\'on de l\'inea base}{24}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Procesamiento de video}{25}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Observaci\'on}{25}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Autoreportado}{27}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Unificaci\'on de l\'inea base}{27}{subsection.3.5.4}
+\contentsline {section}{\numberline {3.6}Preprocesamiento de GSR}{29}{section.3.6}
+\contentsline {section}{\numberline {3.7}Preprocesamiento de HR e IBI}{29}{section.3.7}
+\contentsline {section}{\numberline {3.8}Extracci\'on de caracter\'isticas}{30}{section.3.8}
+\contentsline {section}{\numberline {3.9}Conclusi\'on}{30}{section.3.9}
+\contentsline {chapter}{\numberline {4}Resultados preliminares del estudio de usuario y detecci\'on de ansiedad}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\'on}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Datos recolectados}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Observaciones generales}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}Variaci\'on entre participantes}{36}{section.4.4}
+\contentsline {section}{\numberline {4.5}Resultados de aprendizaje de m\'aquina}{38}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Pruebas por sujeto}{38}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Prueba en conjunto}{39}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Pruebas entre sujetos}{40}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Prueba por sesi\'on}{41}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Conclusi\'on}{42}{section.4.6}
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajo a futuro}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introducci\'on}{43}{section.5.1}
+\contentsline {section}{\numberline {5.2}Contribuci\'on}{43}{section.5.2}
+\contentsline {section}{\numberline {5.3}Limitaciones}{44}{section.5.3}
+\contentsline {section}{\numberline {5.4}Trabajo a futuro}{44}{section.5.4}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias bibliogr\'aficas}}{46}{section.5.4}
+\contentsline {chapter}{\numberline {A}intrumentos para el dise\~no del experimento}{50}{appendix.Alph6}
+\contentsline {subsection}{\numberline {A.0.1}Carta de consentimiento informado de participantes en el proyecto de investigaci\'on}{50}{subsection.Alph6.0.1}
+\contentsline {subsection}{\numberline {A.0.2}Carta de no divulgaci\'on de participantes en el proyecto de investigaci\'on}{51}{subsection.Alph6.0.2}
+\contentsline {chapter}{\numberline {B}Datos recabados por participante}{52}{appendix.Alph7}
