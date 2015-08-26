@@ -11,45 +11,45 @@ Warning--empty journal in Chen2013
 Warning--empty publisher in EcgPractica
 Warning--empty publisher in psychologyapa
 Warning--empty journal in picard1997affective
-You've used 53 entries,
+You've used 55 entries,
             2727 wiz_defined-function locations,
-            1096 strings with 17288 characters,
-and the built_in function-call counts, 28666 in all, are:
-= -- 2664
-> -- 1835
-< -- 36
-+ -- 551
-- -- 550
-* -- 2999
-:= -- 4332
-add.period$ -- 174
-call.type$ -- 53
-change.case$ -- 359
-chr.to.int$ -- 52
-cite$ -- 163
-duplicate$ -- 1036
-empty$ -- 1831
-format.name$ -- 615
-if$ -- 5851
+            1108 strings with 17599 characters,
+and the built_in function-call counts, 29580 in all, are:
+= -- 2756
+> -- 1879
+< -- 38
++ -- 563
+- -- 562
+* -- 3099
+:= -- 4468
+add.period$ -- 180
+call.type$ -- 55
+change.case$ -- 369
+chr.to.int$ -- 54
+cite$ -- 169
+duplicate$ -- 1066
+empty$ -- 1895
+format.name$ -- 633
+if$ -- 6033
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 57
-newline$ -- 271
-num.names$ -- 215
-pop$ -- 539
+missing$ -- 59
+newline$ -- 281
+num.names$ -- 223
+pop$ -- 549
 preamble$ -- 1
-purify$ -- 288
+purify$ -- 296
 quote$ -- 0
-skip$ -- 950
+skip$ -- 980
 stack$ -- 0
-substring$ -- 1404
-swap$ -- 392
+substring$ -- 1466
+swap$ -- 404
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 462
+type$ -- 480
 warning$ -- 4
-while$ -- 243
+while$ -- 253
 width$ -- 0
-write$ -- 722
+write$ -- 748
 (There was 1 error message)

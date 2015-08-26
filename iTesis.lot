@@ -2,18 +2,18 @@
 \addvspace {0\p@ }
 \addvspace {0\p@ }
 \addvspace {0\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces Participantes en el estudio\relax }}{18}{table.caption.15}
-\contentsline {table}{\numberline {2}{\ignorespaces Terapias realizadas con el adulto mayor por cada participante.\relax }}{20}{table.caption.16}
-\contentsline {table}{\numberline {3}{\ignorespaces Criterio de etiquetado de comportamiento de la PcD.\relax }}{24}{table.caption.22}
-\contentsline {table}{\numberline {4}{\ignorespaces Caracter\'isticas usadas como entrada para el clasificador de SVM\relax }}{29}{table.caption.27}
+\contentsline {table}{\numberline {1}{\ignorespaces Participantes en el estudio\relax }}{19}{table.caption.15}
+\contentsline {table}{\numberline {2}{\ignorespaces Terapias realizadas con el adulto mayor por cada participante.\relax }}{21}{table.caption.16}
+\contentsline {table}{\numberline {3}{\ignorespaces Criterio de etiquetado de comportamiento de la aPcD.\relax }}{27}{table.caption.23}
+\contentsline {table}{\numberline {4}{\ignorespaces Caracter\'isticas usadas como entrada para el clasificador de SVM\relax }}{30}{table.caption.27}
 \addvspace {0\p@ }
-\contentsline {table}{\numberline {5}{\ignorespaces Se\~nales que componen el conjunto de datos obtenido.\relax }}{30}{table.caption.28}
-\contentsline {table}{\numberline {6}{\ignorespaces Tiempo total de cada sesi\'on por participante\relax }}{32}{table.caption.29}
-\contentsline {table}{\numberline {7}{\ignorespaces Conteos de muestras de ansiedad obtenidas\relax }}{38}{table.caption.36}
-\contentsline {table}{\numberline {8}{\ignorespaces Resultados en la clasificaci\'on por participante.\relax }}{39}{table.caption.37}
-\contentsline {table}{\numberline {9}{\ignorespaces Resultados en la clasificaci\'on en conjunto.\relax }}{39}{table.caption.38}
-\contentsline {table}{\numberline {10}{\ignorespaces Resultados en la clasificaci\'on entre sujetos usando kernels lineales y RBF.\relax }}{40}{table.caption.39}
-\contentsline {table}{\numberline {11}{\ignorespaces Resultados en la clasificaci\'on entre sujetos usando un kernel polinomial.\relax }}{40}{table.caption.40}
+\contentsline {table}{\numberline {5}{\ignorespaces Se\~nales que componen el conjunto de datos obtenido.\relax }}{31}{table.caption.28}
+\contentsline {table}{\numberline {6}{\ignorespaces Tiempo total de cada sesi\'on por participante\relax }}{33}{table.caption.29}
+\contentsline {table}{\numberline {7}{\ignorespaces Conteos de muestras de ansiedad obtenidas\relax }}{39}{table.caption.36}
+\contentsline {table}{\numberline {8}{\ignorespaces Resultados en la clasificaci\'on por participante.\relax }}{40}{table.caption.37}
+\contentsline {table}{\numberline {9}{\ignorespaces Resultados en la clasificaci\'on en conjunto.\relax }}{40}{table.caption.38}
+\contentsline {table}{\numberline {10}{\ignorespaces Resultados en la clasificaci\'on entre sujetos usando kernels lineales y RBF.\relax }}{41}{table.caption.39}
+\contentsline {table}{\numberline {11}{\ignorespaces Resultados en la clasificaci\'on entre sujetos usando un kernel polinomial.\relax }}{41}{table.caption.40}
 \addvspace {0\p@ }
 \addvspace {0\p@ }
 \addvspace {0\p@ }
