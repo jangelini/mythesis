@@ -45,13 +45,6 @@ Bernier, R. y Gerdts, J. (2010).
 \newblock Contemporary world issues.
 \newblock ABC-CLIO.
 
-\bibitem[Bonsang y Bookwala(????)Bonsang y Bookwala]{bonsang282shulz}
-Bonsang, E. y Bookwala, J. (????).
-\newblock Shulz r, beach sr. 1999. caregiving as a risk factor for mortality:
-  the caregiver health effect study.
-\newblock {\em Journal of the American Medical Association\/}, {\bf 282}(23):
-  2215--9.
-
 \bibitem[Bradford {\em \mbox{et al.}\/}(2013)Bradford, Brenes, Robinson,
   Wilson, Snow, Kunik, Calleo, Petersen, Stanley, y Amspoker]{Bradford2013125}
 Bradford, A., Brenes, G.~A., Robinson, R.~A., Wilson, N., Snow, A.~L., Kunik,
@@ -322,6 +315,12 @@ Sadowsky, C.~H. y Galvin, J.~E. (2012).
   dementia.
 \newblock {\em The Journal of the American Board of Family Medicine\/}, {\bf
   25}(3): 350--366.
+
+\bibitem[Schulz y Beach(1999)Schulz y Beach]{bonsang282shulz}
+Schulz, R. y Beach, S.~R. (1999).
+\newblock Caregiving as a risk factor for mortality: the caregiver health
+  effects study.
+\newblock {\em Jama\/}, {\bf 282}(23): 2215--2219.
 
 \bibitem[Sebastian(2013)Sebastian]{Sebastian2013556}
 Sebastian, V. (2013).

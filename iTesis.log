@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  24 AUG 2015 23:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.2.21)  25 AUG 2015 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**iTesis.tex
+**iTesis
 (./iTesis.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
@@ -1095,23 +1095,8 @@ LaTeX Info: Redefining \sc on input line 651.
 \c@exercise=\count293
 \c@definition=\count294
 \c@equationnumber=\count295
-) (./iTesis.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-
-
-LaTeX Warning: Label `secc:caregivers' multiply defined.
-
-
-LaTeX Warning: Label `secc:dementia' multiply defined.
-
-
-LaTeX Warning: Label `fig:imggtlabel' multiply defined.
-
-
-LaTeX Warning: Label `table:resultsCross' multiply defined.
-
 )
+No file iTesis.aux.
 \openout1 = `iTesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
@@ -1131,7 +1116,7 @@ LaTeX Font Info:    ... okay on input line 114.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 114.
 
- (/usr/share/texmf/tex/latex/base/ts1cmr.fd
+(/usr/share/texmf/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 114.
@@ -1317,56 +1302,74 @@ Overfull \hbox (3.66335pt too wide) in paragraph at lines 214--214
 | []| 
  []
 
-(./iTesis.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [6
 
-] [7])
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write7
 \openout7 = `iTesis.toc'.
 
- [8]
+[6
+
+]
 Overfull \hbox (3.66335pt too wide) in paragraph at lines 214--214
 | []| 
  []
 
-(./iTesis.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 17.
- [9
 
-])
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write8
 \openout8 = `iTesis.lof'.
 
- [10]
+[7
+
+]
 Overfull \hbox (3.66335pt too wide) in paragraph at lines 214--214
 | []| 
  []
 
-(./iTesis.lot
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write9
 \openout9 = `iTesis.lot'.
 
- [11
+[8
 
 ] (./Capitulo01.tex
 Cap\'{\i }tulo 1
+
+Package natbib Warning: Citation `Joling2014' on page 1 undefined on input line
+ 10.
+
+
+Package natbib Warning: Citation `Cooper200615' on page 1 undefined on input li
+ne 10.
+
+
+Package natbib Warning: Citation `Joling2014' on page 1 undefined on input line
+ 25.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.33 		\item R
-              ealizar el estudio de usuario para recabar datos fisiol\'ogico...
+              ealizar el experimento para recabar datos fisiol\'ogicos que p...
 [1
 
-] <./Figures/img_metodologia.png, id=595, 766.865pt x 145.54375pt>
+]
+
+Package natbib Warning: Citation `Castro11' on page 2 undefined on input line 3
+9.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 42.
+
+LaTeX Warning: Reference `fig:metodology' on page 2 undefined on input line 42.
+
+
+<./Figures/img_metodologia.png, id=373, 766.865pt x 145.54375pt>
 File: ./Figures/img_metodologia.png Graphic file (type png)
 
 <use ./Figures/img_metodologia.png>
@@ -1377,736 +1380,9 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
  [2] [3 <./Figures/img_metodologia.png>]
 [4]) (./Capitulo02.tex
 Cap\'{\i }tulo 2
-[5
 
-] [6] <./Figures/anxiety_caregiver.png, id=625, 488.57532pt x 339.51843pt>
-File: ./Figures/anxiety_caregiver.png Graphic file (type png)
+Package natbib Warning: Citation `psychologyapa' on page 5 undefined on input l
+ine 13.
 
-<use ./Figures/anxiety_caregiver.png>
-Package pdftex.def Info: ./Figures/anxiety_caregiver.png used on input line 40.
 
-(pdftex.def)             Requested size: 491.35486pt x 341.44997pt.
-
-Overfull \hbox (19.32362pt too wide) in paragraph at lines 40--41
- [][] 
- []
-
-[7 <./Figures/anxiety_caregiver.png>] [8]
-<./Figures/img_snc.png, id=638, 1440.13031pt x 727.96968pt>
-File: ./Figures/img_snc.png Graphic file (type png)
-
-<use ./Figures/img_snc.png>
-Package pdftex.def Info: ./Figures/img_snc.png used on input line 64.
-(pdftex.def)             Requested size: 455.22563pt x 227.62326pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_gsr.png, id=639, 578.16pt x 433.62pt>
-File: ./Figures/img_gsr.png Graphic file (type png)
-
-<use ./Figures/img_gsr.png>
-Package pdftex.def Info: ./Figures/img_gsr.png used on input line 74.
-(pdftex.def)             Requested size: 284.52713pt x 227.62082pt.
- [9]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10 <./Figures/img_snc.png>] [11 <./Figures/img_gsr.png>] [12] [13]
-<./Figures/img_anxietydetection.png, id=671, 843.15pt x 301.125pt>
-File: ./Figures/img_anxietydetection.png Graphic file (type png)
-
-<use ./Figures/img_anxietydetection.png>
-Package pdftex.def Info: ./Figures/img_anxietydetection.png used on input line 
-123.
-(pdftex.def)             Requested size: 455.25562pt x 162.59128pt.
-
-<./Figures/img_svm.png, id=674, 803.0pt x 865.2325pt>
-File: ./Figures/img_svm.png Graphic file (type png)
-
-<use ./Figures/img_svm.png>
-Package pdftex.def Info: ./Figures/img_svm.png used on input line 136.
-(pdftex.def)             Requested size: 227.62204pt x 245.26039pt.
- [14 <./Figures/img_anxietydetection.png>] [15 <./Figures/img_svm.png>] [16]) (
-./Capitulo03.tex
-Cap\'{\i }tulo 3
-<./Figures/img_evalmethods.png, id=692, 844.756pt x 471.361pt>
-File: ./Figures/img_evalmethods.png Graphic file (type png)
-
-<use ./Figures/img_evalmethods.png>
-Package pdftex.def Info: ./Figures/img_evalmethods.png used on input line 19.
-(pdftex.def)             Requested size: 455.24408pt x 254.01329pt.
-LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 20.
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 20.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17
-
-] [18 <./Figures/img_evalmethods.png>] [19]
-Overfull \hbox (2.52429pt too wide) in paragraph at lines 84--84
-[]|$[]$| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Figures/img_memorama.png, id=713, 962.84718pt x 542.025pt>
-File: ./Figures/img_memorama.png Graphic file (type png)
-
-<use ./Figures/img_memorama.png>
-Package pdftex.def Info: ./Figures/img_memorama.png used on input line 99.
-(pdftex.def)             Requested size: 455.24155pt x 227.62413pt.
-
-<./Figures/img_fichas.png, id=714, 958.3303pt x 537.50812pt>
-File: ./Figures/img_fichas.png Graphic file (type png)
-
-<use ./Figures/img_fichas.png>
-Package pdftex.def Info: ./Figures/img_fichas.png used on input line 100.
-(pdftex.def)             Requested size: 455.24088pt x 227.62186pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20] <./Figures/img_exp_setup.png, id=721, 602.25pt x 388.45125pt>
-File: ./Figures/img_exp_setup.png Graphic file (type png)
-
-<use ./Figures/img_exp_setup.png>
-Package pdftex.def Info: ./Figures/img_exp_setup.png used on input line 122.
-(pdftex.def)             Requested size: 455.26112pt x 227.62537pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Figures/img_exp_pics.png, id=722, 1204.5pt x 1355.0625pt>
-File: ./Figures/img_exp_pics.png Graphic file (type png)
-
-<use ./Figures/img_exp_pics.png>
-Package pdftex.def Info: ./Figures/img_exp_pics.png used on input line 128.
-(pdftex.def)             Requested size: 455.24408pt x 512.15845pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21] [22 <./Figures/img_memorama.png> <./Figures/img_fichas.png>]
-<./Figures/img_caremetoo.png, id=736, 401.5pt x 713.66624pt>
-File: ./Figures/img_caremetoo.png Graphic file (type png)
-
-<use ./Figures/img_caremetoo.png>
-Package pdftex.def Info: ./Figures/img_caremetoo.png used on input line 140.
-(pdftex.def)             Requested size: 128.05377pt x 227.62204pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23 <./Figures/img_exp_setup.png>]
-<./Figures/img_labeling.png, id=748, 925.95938pt x 360.59718pt>
-File: ./Figures/img_labeling.png Graphic file (type png)
-
-<use ./Figures/img_labeling.png>
-Package pdftex.def Info: ./Figures/img_labeling.png used on input line 155.
-(pdftex.def)             Requested size: 455.25pt x 177.2884pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_experiment.png, id=751, 1080.035pt x 715.67375pt>
-File: ./Figures/img_experiment.png Graphic file (type png)
-
-<use ./Figures/img_experiment.png>
-Package pdftex.def Info: ./Figures/img_experiment.png used on input line 163.
-(pdftex.def)             Requested size: 429.38603pt x 284.52756pt.
- [24 <./Figures/img_exp_pics.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[25 <./Figures/img_caremetoo.png>] [26 <./Figures/img_labeling.png> <./Figures/
-img_experiment.png>]
-Overfull \hbox (1.30466pt too wide) in paragraph at lines 192--192
-[]|$[]$| 
- []
-
-<./Figures/img_observation.png, id=774, 2055.68pt x 1156.32pt>
-File: ./Figures/img_observation.png Graphic file (type png)
-
-<use ./Figures/img_observation.png>
-Package pdftex.def Info: ./Figures/img_observation.png used on input line 199.
-(pdftex.def)             Requested size: 455.23088pt x 256.06737pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_sr.png, id=777, 2055.68pt x 1156.32pt>
-File: ./Figures/img_sr.png Graphic file (type png)
-
-<use ./Figures/img_sr.png>
-Package pdftex.def Info: ./Figures/img_sr.png used on input line 206.
-(pdftex.def)             Requested size: 455.23088pt x 256.06737pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Figures/img_gtlabel.png, id=779, 863.47594pt x 231.86626pt>
-File: ./Figures/img_gtlabel.png Graphic file (type png)
-
-<use ./Figures/img_gtlabel.png>
-Package pdftex.def Info: ./Figures/img_gtlabel.png used on input line 214.
-(pdftex.def)             Requested size: 455.24211pt x 122.2446pt.
- [27]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[28 <./Figures/img_observation.png> <./Figures/img_sr.png>] [29 <./Figures/img_
-gtlabel.png>]
-Overfull \hbox (1.31451pt too wide) in paragraph at lines 243--243
-[]|$[]$| 
- []
-
-
-Overfull \hbox (2.76009pt too wide) in paragraph at lines 233--251
- [][] 
- []
-
-[30]) (./Capitulo04.tex
-Cap\'{\i }tulo 4
-
-Overfull \hbox (2.85167pt too wide) in paragraph at lines 2--2
- |[] \OT1/phv/b/n/17.28 Re-sul-ta-dos pre-li-mi-na-res del es-tu-dio de usua-
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 32--32
-[]|\OT1/phv/m/n/10 Resistencia galv[]ani-ca de la piel
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\OT1/phv/m/n/10 Electroencefalograma (EEG), 4
- []
-
-[31
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]|\OT1/phv/b/n/10 Tiempo to-tal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-[]|\OT1/phv/b/n/10 Tiempo de re-la-ja-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Figures/img_SR_anxietyinduction.png, id=812, 578.16pt x 433.62pt>
-File: ./Figures/img_SR_anxietyinduction.png Graphic file (type png)
-
-<use ./Figures/img_SR_anxietyinduction.png>
-Package pdftex.def Info: ./Figures/img_SR_anxietyinduction.png used on input li
-ne 103.
-(pdftex.def)             Requested size: 303.49443pt x 227.62204pt.
- [32]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33] <./Figures/img_synth.png, id=824, 578.16pt x 433.62pt>
-File: ./Figures/img_synth.png Graphic file (type png)
-
-<use ./Figures/img_synth.png>
-Package pdftex.def Info: ./Figures/img_synth.png used on input line 114.
-(pdftex.def)             Requested size: 265.55983pt x 199.16928pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Figures/img_p7s1.png, id=825, 578.16pt x 433.62pt>
-File: ./Figures/img_p7s1.png Graphic file (type png)
-
-<use ./Figures/img_p7s1.png>
-Package pdftex.def Info: ./Figures/img_p7s1.png used on input line 119.
-(pdftex.def)             Requested size: 265.55983pt x 199.16928pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[34 <./Figures/img_SR_anxietyinduction.png>] [35 <./Figures/img_synth.png> <./F
-igures/img_p7s1.png>] <./Figures/img_p7s1IBI.png, id=841, 578.16pt x 433.62pt>
-File: ./Figures/img_p7s1IBI.png Graphic file (type png)
-
-<use ./Figures/img_p7s1IBI.png>
-Package pdftex.def Info: ./Figures/img_p7s1IBI.png used on input line 127.
-(pdftex.def)             Requested size: 303.49443pt x 227.62204pt.
-
-<./Figures/img_gsrparticipants.png, id=843, 578.16pt x 1300.86pt>
-File: ./Figures/img_gsrparticipants.png Graphic file (type png)
-
-<use ./Figures/img_gsrparticipants.png>
-Package pdftex.def Info: ./Figures/img_gsrparticipants.png used on input line 1
-44.
-(pdftex.def)             Requested size: 202.33257pt x 455.24828pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[36 <./Figures/img_p7s1IBI.png>]
-<./Figures/img_longrelax.png, id=851, 578.16pt x 433.62pt>
-File: ./Figures/img_longrelax.png Graphic file (type png)
-
-<use ./Figures/img_longrelax.png>
-Package pdftex.def Info: ./Figures/img_longrelax.png used on input line 152.
-(pdftex.def)             Requested size: 369.88582pt x 277.40999pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[37 <./Figures/img_gsrparticipants.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-[]|\OT1/phv/b/n/10 Segmentos
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38 <./Figures/img_longrelax.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\OT1/phv/b/n/10 Mtras.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\OT1/phv/b/n/10 Mtras.
- []
-
-
-Overfull \hbox (2.34026pt too wide) in paragraph at lines 195--195
-[]|\OT1/phv/b/n/10 Precisi[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\OT1/phv/b/n/10 Recall
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\OT1/phv/b/n/10 Precis[]on
- []
-
-
-Overfull \hbox (11.54497pt too wide) in paragraph at lines 193--214
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\OT1/phv/b/n/10 Mtras.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\OT1/phv/b/n/10 Mtras.
- []
-
-
-Overfull \hbox (2.34026pt too wide) in paragraph at lines 227--227
-[]|\OT1/phv/b/n/10 Precisi[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\OT1/phv/b/n/10 Recall
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\OT1/phv/b/n/10 Precis[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-[]|\OT1/phv/b/n/10 Recall
- []
-
-
-Overfull \hbox (25.77135pt too wide) in paragraph at lines 225--236
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-[]|\OT1/phv/b/n/10 Sujeto
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-\OT1/phv/b/n/10 de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-[]|\OT1/phv/b/n/10 Mtras.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-\OT1/phv/b/n/10 En-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-[]|\OT1/phv/b/n/10 Mtras.
- []
-
-
-Overfull \hbox (10.87616pt too wide) in paragraph at lines 248--248
-[]|\OT1/phv/b/n/10 Precisi[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-[]|\OT1/phv/b/n/10 Recall
- []
-
-
-Overfull \hbox (8.09627pt too wide) in paragraph at lines 248--248
-[]|\OT1/phv/b/n/10 Precis[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
-[]|\OT1/phv/b/n/10 Recall
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 251--251
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 254--254
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 257--257
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 260--260
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 263--263
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[]|\OT1/phv/b/n/10 Sujeto
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-\OT1/phv/b/n/10 de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[]|\OT1/phv/b/n/10 Mtras.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-\OT1/phv/b/n/10 En-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[]|\OT1/phv/b/n/10 Mtras.
- []
-
-
-Overfull \hbox (10.87616pt too wide) in paragraph at lines 278--278
-[]|\OT1/phv/b/n/10 Precisi[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-[]|\OT1/phv/b/n/10 Recall
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 281--281
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 284--284
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 287--287
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 290--290
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-Overfull \hbox (5.59624pt too wide) in paragraph at lines 293--293
-[]|\OT1/phv/m/n/10 GSR+IBI| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[40] <./Figures/img_prediction.png, id=878, 578.16pt x 867.24pt>
-File: ./Figures/img_prediction.png Graphic file (type png)
-
-<use ./Figures/img_prediction.png>
-Package pdftex.def Info: ./Figures/img_prediction.png used on input line 304.
-(pdftex.def)             Requested size: 246.59253pt x 369.88582pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[41] [42 <./Figures/img_prediction.png>]) (./Capitulo05.tex
-Cap\'{\i }tulo 5
-
-Overfull \hbox (0.17331pt too wide) in paragraph at lines 13--14
-[]\OT1/phv/m/n/12 Los m[]eto-dos de in-ves-ti-ga-ci[]on ex-pues-tos y los re-su
-l-ta-dos pre-li-mi-na-res ob-te-ni-dos mues-
- []
-
-[43
-
-] [44]) [45] (./iTesis.bbl (/usr/share/texmf/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-Underfull \hbox (badness 1082) in paragraph at lines 35--41
-[]\OT1/phv/m/n/12 Bakker, J., Ho-len-ders-ki, L., Ko-ciel-nik, R., Pe-che-niz-k
-iy, M., y Si-do-ro-va, N. (2012).
- []
-
-[46
-
-]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 191.
-
- (/usr/share/texmf/tex/latex/psnfss/omsphv.fd
-File: omsphv.fd 
-)
-LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 191.
- [47] [48]) (./Apendice.tex
-[49]
-Ap\'{e}ndice A
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3.
-
-[50
-
-]) (./ApendiceB.tex [51]
-Ap\'{e}ndice B
-<./Figures/img_p1.png, id=929, 1204.5pt x 2140.99875pt>
-File: ./Figures/img_p1.png Graphic file (type png)
-
-<use ./Figures/img_p1.png>
-Package pdftex.def Info: ./Figures/img_p1.png used on input line 5.
-(pdftex.def)             Requested size: 369.88582pt x 657.463pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[52
-
-] <./Figures/img_p2.png, id=935, 1355.0625pt x 2409.0pt>
-File: ./Figures/img_p2.png Graphic file (type png)
-
-<use ./Figures/img_p2.png>
-Package pdftex.def Info: ./Figures/img_p2.png used on input line 11.
-(pdftex.def)             Requested size: 369.88582pt x 657.56982pt.
-
-
-LaTeX Warning: Float too large for page by 0.07896pt on input line 13.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_p3.png, id=936, 1355.0625pt x 2409.0pt>
-File: ./Figures/img_p3.png Graphic file (type png)
-
-<use ./Figures/img_p3.png>
-Package pdftex.def Info: ./Figures/img_p3.png used on input line 18.
-(pdftex.def)             Requested size: 369.88582pt x 657.56982pt.
-
-
-LaTeX Warning: Float too large for page by 0.07896pt on input line 20.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_p4.png, id=937, 903.375pt x 2409.0pt>
-File: ./Figures/img_p4.png Graphic file (type png)
-
-<use ./Figures/img_p4.png>
-Package pdftex.def Info: ./Figures/img_p4.png used on input line 25.
-(pdftex.def)             Requested size: 192.0577pt x 512.15385pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_p5.png, id=938, 1355.0625pt x 2409.0pt>
-File: ./Figures/img_p5.png Graphic file (type png)
-
-<use ./Figures/img_p5.png>
-Package pdftex.def Info: ./Figures/img_p5.png used on input line 32.
-(pdftex.def)             Requested size: 369.88582pt x 657.56982pt.
-
-
-LaTeX Warning: Float too large for page by 0.07896pt on input line 34.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_p6.png, id=939, 1355.0625pt x 2409.0pt>
-File: ./Figures/img_p6.png Graphic file (type png)
-
-<use ./Figures/img_p6.png>
-Package pdftex.def Info: ./Figures/img_p6.png used on input line 39.
-(pdftex.def)             Requested size: 369.88582pt x 657.56982pt.
-
-
-LaTeX Warning: Float too large for page by 0.07896pt on input line 41.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_p7.png, id=940, 1355.0625pt x 2409.0pt>
-File: ./Figures/img_p7.png Graphic file (type png)
-
-<use ./Figures/img_p7.png>
-Package pdftex.def Info: ./Figures/img_p7.png used on input line 46.
-(pdftex.def)             Requested size: 369.88582pt x 657.56982pt.
-
-
-LaTeX Warning: Float too large for page by 0.07896pt on input line 48.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_p8.png, id=941, 1355.0625pt x 2409.0pt>
-File: ./Figures/img_p8.png Graphic file (type png)
-
-<use ./Figures/img_p8.png>
-Package pdftex.def Info: ./Figures/img_p8.png used on input line 53.
-(pdftex.def)             Requested size: 369.88582pt x 657.56982pt.
-
-
-LaTeX Warning: Float too large for page by 0.07896pt on input line 55.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_p9.png, id=942, 1355.0625pt x 2409.0pt>
-File: ./Figures/img_p9.png Graphic file (type png)
-
-<use ./Figures/img_p9.png>
-Package pdftex.def Info: ./Figures/img_p9.png used on input line 60.
-(pdftex.def)             Requested size: 369.88582pt x 657.56982pt.
-
-
-LaTeX Warning: Float too large for page by 0.07896pt on input line 62.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/img_p10.png, id=943, 1355.0625pt x 2409.0pt>
-File: ./Figures/img_p10.png Graphic file (type png)
-
-<use ./Figures/img_p10.png>
-Package pdftex.def Info: ./Figures/img_p10.png used on input line 67.
-(pdftex.def)             Requested size: 369.88582pt x 657.56982pt.
-
-
-LaTeX Warning: Float too large for page by 0.07896pt on input line 69.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
-
-Package glossaries Warning: No \printglossary or \printglossaries found.
-This document will not have a glossary.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-[53 <./Figures/img_p1.png>] [54 <./Figures/img_p2.png>] [55 <./Figures/img_p3.p
-ng>] [56 <./Figures/img_p4.png>] [57 <./Figures/img_p5.png>] [58 <./Figures/img
-_p6.png>] [59 <./Figures/img_p7.png>] [60 <./Figures/img_p8.png>] [61 <./Figure
-s/img_p9.png>] [62 <./Figures/img_p10.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
- (./iTesis.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
-Package rerunfilecheck Info: File `iTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 14B06D8B3F3F1F1A8AE6919C1AA8DF72;5910.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
-Here is how much of TeX's memory you used:
- 21921 strings out of 493315
- 337354 string characters out of 6145893
- 549095 words of memory out of 5000000
- 24584 multiletter control sequences out of 15000+600000
- 40441 words of font info for 85 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 53i,25n,92p,1681b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/s
-hare/texmf/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf/fonts/type1/ur
-w/helvetic/uhvbo8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb></
-usr/share/texmf/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on iTesis.pdf (74 pages, 18003031 bytes).
-PDF statistics:
- 1100 PDF objects out of 1200 (max. 8388607)
- 940 compressed objects within 10 object streams
- 238 named destinations out of 1000 (max. 500000)
- 805 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package natbib Warning: Citation `repetto2

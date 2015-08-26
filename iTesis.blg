@@ -7,49 +7,48 @@ Repeated entry---line 673 of file iTesis.bib
  : @article{Sharma20121287
  :                        ,
 I'm skipping whatever remains of this entry
-Warning--empty year in bonsang282shulz; set to ????
 Warning--empty journal in Chen2013
 Warning--empty publisher in EcgPractica
 Warning--empty publisher in psychologyapa
 Warning--empty journal in picard1997affective
 You've used 55 entries,
             2727 wiz_defined-function locations,
-            1107 strings with 17623 characters,
-and the built_in function-call counts, 29557 in all, are:
-= -- 2753
+            1108 strings with 17599 characters,
+and the built_in function-call counts, 29580 in all, are:
+= -- 2756
 > -- 1879
 < -- 38
 + -- 563
 - -- 562
-* -- 3098
-:= -- 4465
+* -- 3099
+:= -- 4468
 add.period$ -- 180
 call.type$ -- 55
 change.case$ -- 369
 chr.to.int$ -- 54
-cite$ -- 170
+cite$ -- 169
 duplicate$ -- 1066
-empty$ -- 1892
+empty$ -- 1895
 format.name$ -- 633
-if$ -- 6027
+if$ -- 6033
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 59
 newline$ -- 281
 num.names$ -- 223
-pop$ -- 552
+pop$ -- 549
 preamble$ -- 1
 purify$ -- 296
 quote$ -- 0
-skip$ -- 977
+skip$ -- 980
 stack$ -- 0
-substring$ -- 1457
+substring$ -- 1466
 swap$ -- 404
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 480
-warning$ -- 5
+warning$ -- 4
 while$ -- 253
 width$ -- 0
 write$ -- 748

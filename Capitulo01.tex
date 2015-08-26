@@ -7,9 +7,9 @@
 \newcommand{\pushline}{\Indp}
 
 
-Cuando un adulto mayor sufre de enfermedades o padecimientos es com\'un que necesiten de servicios de cuidadores. Los cuidadores por su parte, sufren de problemas derivados de su labor. En un estudio reciente, 60\% de los cuidadores desarrollaron un desorden depresivo y/o de ansiedad en los primeros 24 meses: 37\% de depresi\'on, 55\% desorden de ansiedad y 32\% ambos \citep{Joling2014}. Este mismo problema es mas pronunciado en los cuidadores de personas con demencia.  Casi un cuarto de ellos tienen un nivel de ansiedad cl\'inico significante \citep{Cooper200615}.
+Cuando un adulto mayor sufre de enfermedades o padecimientos es com\'un que necesiten de servicios de cuidadores. Los cuidadores por su parte, sufren de problemas derivados de su labor. En un estudio reciente, 60\% de los cuidadores desarrollaron un desorden depresivo y/o de ansiedad en los primeros 24 meses: 37\% de depresi\'on, 55\% desorden de ansiedad y 32\% ambos \citep{Joling2014}. Este mismo problema es m\'as pronunciado en los cuidadores de personas con demencia.  Casi un cuarto de ellos tienen un nivel de ansiedad cl\'inico significante \citep{Cooper200615}.
 
-	En este trabajo, se explora la utilidad del c\'omputo vestible (computadoras lo suficientemente peque\~nas para ser usadas como ropa) como herramienta para la detecci\'on de ansiedad en cuidadores de personas con demencia. Se presenta el dise\~no de un estudio de usuario para recabar datos que ayuden a la detecci\'on de ansiedad y los resultados preliminares de la estimaci\'on utilizando aprendizaje de m\'aquina.
+	En este trabajo, se explora la utilidad del c\'omputo vestible (computadoras lo suficientemente peque\~nas para ser usadas como ropa) como herramienta para la detecci\'on de ansiedad en cuidadores de personas con demencia. Se presenta el dise\~no de un experimento para recabar datos que ayuden a la detecci\'on de ansiedad y los resultados preliminares de la estimaci\'on utilizando aprendizaje de m\'aquina.
 	
 	
 	
@@ -22,32 +22,31 @@ Cuando un adulto mayor sufre de enfermedades o padecimientos es com\'un que nece
 
 	%La demencia es un s\'indrome del declive de las habilidades cognitivas. Los s\'intomas comunes son: problemas de memoria, dificultades para realizar tareas, mal juicio, deterioro del lenguaje hablado y cambios de humor\citep{Aziz}. Afecta alrededor del 4\% de las personas mayores de 65 a\~nos y al 40\% de las personas mayores de 90. 
 \section{Plantamiento del problema}
-Los cuidadores sufren de problemas de ansiedad, estr\'es y depresi\'on \citep{Joling2014}. A pesar de que se ha demostrado en otros estudios la capacidad de utilizar sensores de datos fisiol\'ogicos para detectar ansiedad, no se ha abordado el problema de los cuidadores de personas con demencia. Los retos para recabar datos de estas situaciones son variados. Tener certeza que la persona se encuentra en un estado ansioso y la captura de datos fisiol\'ogicos en situaciones naturales son los retos m\'as significativos. En este trabajo, se propone un estudio de un escenario intermedio entre el laboratorio y una situaci\'on real que permita la captura de datos y reduce el nivel de riesgo involucrado. Tambi\'en presenta un an\'alisis preliminar de dichos datos.
+Los cuidadores sufren de problemas de ansiedad, estr\'es y depresi\'on \citep{Joling2014}. A pesar de que se ha demostrado en otros estudios la capacidad de utilizar sensores de datos fisiol\'ogicos para detectar ansiedad, no se ha abordado el problema de los cuidadores de personas con demencia. Los retos para recabar datos de estas situaciones son variados. Tener certeza que la persona se encuentra en un estado ansioso y la captura de datos fisiol\'ogicos en situaciones naturales son los retos m\'as significativos. En este trabajo, se propone un estudio de un escenario intermedio entre el laboratorio y una situaci\'on real que permita la captura de datos. Tambi\'en presenta un an\'alisis preliminar de dichos datos.
 \section{Objetivos}
 	A continuaci\'on se listan los objetivos de este trabajo.
 \subsection{Objetivo general}
-	Generar una base de datos fisiol\'ogica bajo situaciones simuladas que permita la producci\'on de m\'etodos de detecci\'on de ansiedad en cuidadores de personas con demencia.
+	Generar una base de datos fisiol\'ogica bajo situaciones simuladas que permita proponer y comparar t\'ecnicas de detecci\'on de ansiedad en cuidadores de personas con demencia.
 \subsection{Objetivos espec\'ificos}
 	\begin{enumerate}
-		\item Dise\~nar un estudio de usuario para la detecci\'on de ansiedad en cuidadores de personas con demencia bajo situaciones simuladas.
-		\item Realizar el estudio de usuario para recabar datos fisiol\'ogicos que puedan ser usados para la detecci\'on de ansiedad.
+		\item Dise\~nar un experimento para la detecci\'on de ansiedad en cuidadores de personas con demencia bajo situaciones simuladas.
+		\item Realizar el experimento para recabar datos fisiol\'ogicos que puedan ser usados para la detecci\'on de ansiedad.
 		\item Analizar la informaci\'on fisiol\'ogica recabada para conocer si es factible estimar ansiedad a partir de estos datos.
 	\end{enumerate}
 \subsection{Pregunta de investigaci\'on}
 	?`Como pueden los dispositivos vestibles ayudar a la detecci\'on de ansiedad en cuidadores de personas con demencia?
 \subsection{Propuesta de la soluci\'on}
-	Se propone dise\~nar un estudio de usuario para recabar datos de se\~nales fisiolo\'ogicas en cuidadores de persona con demencia bajo situaciones simuladas de cuidadores de personas con demencia. Se recabar\'an los datos fisiol\'ogicos generando situaciones cercanas a las que los cuidadores enfrentan por medio de una t\'ecnica llamada ``Naturalistic Enactment (NE)'' \citep{Castro11}. Esta t\'ecnica permite dise\~nar estudios de usuario parecidos a la realidad, con alta involucramiento del usuario, alta fidelidad y un riesgo moderado. Esta t\'ecnica es explicada mas a detalle en el cap\'itulo 3. Adem\'as se utilizar\'an datos en forma de video, autoreportado y observaci\'on para determinar en que situaciones el participante siente los periodos de ansiedad. Por \'ultimo, se utilizar\'an t\'ecnicas de aprendizaje de m\'aquina para evaluar la factibilidad de utilizar estos datos para la detecci\'on de ansiedad.
+	Se propone dise\~nar un experimento para recabar datos de se\~nales fisiolo\'ogicas en cuidadores de persona con demencia bajo situaciones simuladas. Se recabar\'an los datos fisiol\'ogicos generando situaciones cercanas a las que los cuidadores enfrentan por medio de una t\'ecnica llamada ``Naturalistic Enactment (NE)'' \citep{Castro11}. Esta t\'ecnica permite dise\~nar experimentos parecidos a la realidad, con alta involucramiento del usuario, alta fidelidad y un riesgo moderado. Esta t\'ecnica es explicada en detalle en el cap\'itulo 3. Adem\'as se utilizar\'an datos en forma de video, autoreportado y observaci\'on para determinar en que situaciones el participante experimenta periodos de ansiedad. Por \'ultimo, se utilizar\'an t\'ecnicas de aprendizaje de m\'aquina para evaluar la factibilidad de utilizar estos datos para la detecci\'on de ansiedad.
 
 \section{Metodolog\'ia }\label{secc:methodology}
-Para lorgrar los objetivos se seguir\'an los siguientes tres pasos: \textit{Captura de datos}, \textit{Detecci\'on de ansiedad}, y un paso hipot\'etico de \textit{Estrategias de afrontamiento} (ver figura ~\ref{fig:metodology}). El primer paso consiste en recabar informaci\'on de cuidadores bajo situaciones de ansiedad. Esta informaci\'on es representada como datos fisiol\'ogicos, videos, e informaci\'on escrita en auto reportes y observaci\'on que ayude a etiquetar segmentos de ansiedad. El segundo paso involucra t\'ecnicas de aprendizaje de m\'aquina que usa la informaci\'on etiquetada como entrada y nos permite predecir la etiqueta de informaci\'on nueva con etiqueta desconocida. El tercer paso, se discute como las posibles aplicaciones por medio de tecnolog\'ia m\'ovil y/o pantallas ambientales.
+El desarrollo de aplicaciones de ansiedad basadas en la detecci\'on de ansiedad incluye los siguientes pasos: \textit{Captura de datos}, \textit{Detecci\'on de ansiedad}, y un paso de \textit{Estrategias de afrontamiento} (ver figura ~\ref{fig:metodology}). El primer paso consiste en recabar informaci\'on de cuidadores bajo situaciones de ansiedad. Esta informaci\'on es representada como datos fisiol\'ogicos, videos, e informaci\'on escrita en auto reportes y observaci\'on que ayude a etiquetar segmentos de ansiedad. El segundo paso involucra t\'ecnicas de aprendizaje de m\'aquina que usa la informaci\'on etiquetada como entrada y nos permite predecir la etiqueta de informaci\'on nueva con etiqueta desconocida. El tercer paso, se discute como las posibles aplicaciones por medio de tecnolog\'ia m\'ovil y/o pantallas ambientales.
 \begin{figure}[h!]
         \centering
         \subfigure[]{\includegraphics[width=160mm]{./Figures/img_metodologia}}
-        \caption{Metodolog\'ia seguida durante la investigaci\'on.} \label{fig:metodology}
+        \caption{Metodolog\'ia seguida durante la investigaci\'on. En esta t\'esis s\'olo se abarcan los dos primeros pasos, siendo la captura de datos el paso primorial y el paso de detecci\'on de ansiedad se desarroll\'o de manera preliminar.} \label{fig:metodology}
 \end{figure}
 \subsection{Contribuci\'on}
-En la actualidad, no existen intervenciones que utilicen tecnolog\'ia para detectar la ansiedad en cuidadores de personas con demencia. Estas intervenciones tradicionales se basan en el uso de encuestas y cuestionarios y actúan sobre periodos de tiempo muy largos. Este trabajo se basa en la detecci\'on de ansiedad situacional, que permite conocer con m\'as a detalle la frecuencia de estos eventos. A pesar de que los efectos de la ansiedad en cuidadores reales afectan mas a los cuidadores en periodos de tiempo largos, los cuidadores podr\'ian beneficiarse de la detecci\'on de ansiedad situacional.
-	Adem\'as, se generar\'a una base de datos de eventos de ansiedad que permitir\'a realizar pruebas de t\'ecnicas de detecci\'on de ansiedad que surjan en el futuro.
+En la actualidad no se cuenta con un conjunto de datos fisiol\'ogicos de cuidadores bajo situaciones de ansiedad. Los estudios tradicionales se basan en el uso de encuestas y cuestionarios y actúan sobre periodos de tiempo muy largos. Este trabajo se basa en la detecci\'on de ansiedad situacional, que permite conocer con m\'as a detalle la frecuencia de estos eventos. A pesar de que los efectos de la ansiedad en cuidadores reales afectan mas a los cuidadores en periodos de tiempo largos, los cuidadores podr\'ian beneficiarse de la detecci\'on de ansiedad situacional aplicando estrategias de afrontamiento que reduzcan efectos sobre la salud al largo plazo. Se generar\'a una base de datos de eventos de ansiedad que permitir\'a realizar pruebas de t\'ecnicas de detecci\'on de ansiedad que surjan en el futuro.
 %\section{Escenario}
 %	Los participantes ser\'an transportados del departamento de computaci\'on de CICESE hacia una casa donde se encontrar\'a el adulto mayor
 %	para realizar la prueba.
@@ -80,18 +79,18 @@ En la actualidad, no existen intervenciones que utilicen tecnolog\'ia para detec
 	
 	En el \textbf{CAP\'ITULO 2} \textit{(Fundamentos te\'oricos)} se abordan los temas correspondientes a la definici\'on de la ansiedad y sus efectos en el cuidador. Tambi\'en se explican las t\'ecnicas tradicionales y tecnol\'ogicas para medir la ansiedad en general.
 
-	En el \textbf{CAP\'ITULO 3} \textit{(Dise\~no de un estudio de usuario para inducir ansiedad en cuidadores de personas con demencia)} se explica el dise\~no del estudio de usuario que permiti\'o recabar datos de ansiedad en cuidadores.
+	En el \textbf{CAP\'ITULO 3} \textit{(Dise\~no de un experimento para inducir ansiedad en cuidadores de personas con demencia)} se explica el dise\~no del experimento que permiti\'o recabar datos de ansiedad en cuidadores.
 
-	En el \textbf{CAP\'ITULO 4} \textit{(Resultados del estudio de usuario y detecci\'on de ansiedad)} se muestran los resultados del estudio de usuario y los m\'etodos utilizados para la detecci\'on de ansiedad, as\'i como los resultados preliminares de clasificaci\'on.
+	En el \textbf{CAP\'ITULO 4} \textit{(Resultados del experimento y detecci\'on de ansiedad)} se muestran los resultados del experimento y los m\'etodos utilizados para la detecci\'on de ansiedad, as\'i como los resultados preliminares de clasificaci\'on.
 
 	En el \textbf{CAP\'ITULO 5} \textit{(Conclusiones y trabajo a futuro)} se presentan las conclusiones, limitaciones y direcciones para trabajos futuros.
 
-	En el \textbf{Ap\'endice A} \textit{(Instrumentos y protocolos para la detecci\'on de ansiedad)} se incluyen los formatos de consentimiento, autoreportado y carta de no divulgaci\'on utilizados durante el estudio de usuario.
+	En el \textbf{Ap\'endice A} \textit{(Instrumentos y protocolos para la detecci\'on de ansiedad)} se incluyen los formatos de consentimiento, autoreportado y carta de no divulgaci\'on utilizados durante el experimento.
 
-	En el \textbf{Ap\'endice B} \textit{(Detalles de resultados: Tablas y Figuras)} se incluyen a detalle los resultados del estudio de usuario y pruebas realizados.
+	En el \textbf{Ap\'endice B} \textit{(Detalles de resultados: Tablas y Figuras)} se incluyen a detalle los resultados del experimento y pruebas realizados.
 
 
 \subsection{Conclusi\'on del cap\'itulo}
-	Se encuentra documentada a la ansiedad como un problema que enfrentan los cuidadores de personas con demencia. Con la tendencia en el aumento de la poblaci\'on de adultos mayores, se espera que la demanda de cuidadores aumente por lo que es necesario tomar en cuenta sus necesidades. La captura de datos para generar t\'ecnicas de detecci\'on de ansiedad en situaciones fuera del laboratorio representa un reto. En este estudio se mostrar\'a un estudio de usuario para obtener datos mas cercanos a los que se podr\'ian obtener en situaciones reales. Se har\'a uso de dispositivos vestibles, que permiten llevar instrumentos de medici\'on de datos fisiol\'ogicos sobre el cuerpo del usuario. De esta manera, la detecci\'on de ansiedad por medio de c\'omputo vestible se vuelve una opci\'on para mejorar la calidad de vida de los cuidadores.
+	Se encuentra documentada a la ansiedad como un problema que enfrentan los cuidadores de personas con demencia. Con la tendencia en el aumento de la poblaci\'on de adultos mayores, se espera que la demanda de cuidadores aumente por lo que es necesario tomar en cuenta sus necesidades. La captura de datos para generar t\'ecnicas de detecci\'on de ansiedad en situaciones fuera del laboratorio representa un reto. En este estudio se mostrar\'a un experimento para obtener datos mas cercanos a los que se podr\'ian obtener en situaciones reales. Se har\'a uso de dispositivos vestibles, que permiten llevar instrumentos de medici\'on de datos fisiol\'ogicos sobre el cuerpo del usuario. De esta manera, la detecci\'on de ansiedad por medio de c\'omputo vestible se vuelve una opci\'on para mejorar la calidad de vida de los cuidadores.
 \newpage
 %%=====================================================
